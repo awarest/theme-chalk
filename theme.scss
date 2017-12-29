@@ -1,0 +1,85 @@
+/*prettier-ignore-file*/
+@charset "utf-8";
+
+// basic colors - black is slightly transparent to blend better
+$white: #ffffff;
+$black: rgba(0, 0, 0, 0.9);
+
+// special backgrounds for the skeleton
+$navy:     #002d4d;
+$midnight: #001e33;
+
+// shades of gray
+$smoke:  #f2f2f2; // background
+$silver: #cccccc; // borders / lines
+$slate:  #999999; // placeholders / highlighted borders
+
+// status/state colors
+$artic:    #d9efff; $blue:   #0070bf; // primary
+$beige:    #ffffd9; $yellow: #e6bf00; // notice
+$peach:    #ffecd9; $orange: #ff7f00; // warning
+$pink:     #ffd9d9; $red:    #e60000; // danger
+$mint:     #ecffd9; $green:  #60bf00; // success
+$lavender: #ecd9ff; $purple: #e670bf; // info
+
+
+// definition of our rem value
+$rem: 16px;
+
+// line heights
+$line-hg: 40px;
+$line-xl: 32px;
+$line-lg: 24px;
+$line-md: 20px;
+$line-sm: 20px;
+$line-xs: 16px;
+
+// font sizes
+$font-hg: 24px;
+$font-xl: 20px;
+$font-lg: 16px;
+$font-md: 13px;
+$font-sm: 11px;
+$font-xs: 9px;
+
+// reusable sizes/spacing
+$no:  0px; // 0.000rem;
+$xs:  2px; // 0.125rem;
+$sm:  4px; // 0.250rem;
+$md:  8px; // 0.500rem;
+$lg: 16px; // 1.000rem;
+$xl: 32px; // 2.000rem;
+
+// font weights
+$weight-light:  300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-bold:   700;
+
+// fixed widths/heights of our skeleton - including the 1px borders
+$width:   400px; // 25.0rem //   25rem; // 400px;
+$drawer:  241px; // 15.0rem //   19rem; // 304px;
+$sidebar: 177px; // 11.0rem //   13rem; // 208px;
+$header:   41px; //  2.5rem //  2.5rem; // 40px;
+$footer:   33px; //  2.0rem // 1.25rem; // 20px;
+
+// z indexes
+$z-drawer:  3000;
+$z-header:  4000;
+$z-sidebar: 5000;
+$z-footer:  6000;
+$z-notice:  7000;
+$z-modal:   8000;
+
+// skeleton backgrounds
+$background-root: $smoke;
+$background-header: $midnight;
+$background-footer: $midnight;
+$background-sidebar: $navy;
+
+// global font definitions
+$font-family: 'Roboto', sans-serif;
+$code-family: 'Roboto Mono', monospace;
+
+
+$border: 1px solid $silver;
