@@ -1,6 +1,6 @@
 @import "mixins/mixins";
 @import "mixins/utils";
-@import "common/var";
+@import "variables";
 
 @include b(progress) {
   position: relative;

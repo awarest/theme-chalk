@@ -1,5 +1,5 @@
 @import "mixins/mixins";
-@import "common/var";
+@import "variables";
 @import "input";
 
 @include b(input-number) {

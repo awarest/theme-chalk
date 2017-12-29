@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "all": "npm run clear; npm run build; npm run build-index",
-    "clear": "cd lib; rm *.css",
+    "clear": "cd lib; touch _.css; rm *.css",
     "compile": "gulp compile",
     "prettier": "./node_modules/.bin/prettier --write lib/*.css",
     "build": "npm run compile; npm run prettier",
