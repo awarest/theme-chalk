@@ -1,6 +1,6 @@
 @import "mixins/mixins";
 @import "variables";
-@import "button";
+@import "./button";
 @import "./popper";
 
 @include b(dropdown) {
