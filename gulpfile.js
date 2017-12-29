@@ -9,7 +9,8 @@ gulp.task('compile', function() {
   return gulp.src('./src/*.scss')
     .pipe(sass.sync())
     .pipe(autoprefixer({
-      browsers: ['ie > 9', 'last 2 versions'],
+      // let the browserlist come from the package.json file
+      // browsers: ['ie > 9', 'last 2 versions'],
       cascade: false
     }))
     .pipe(cssmin())
