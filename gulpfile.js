@@ -17,6 +17,18 @@ gulp.task('compile', function() {
     .pipe(gulp.dest('./lib'));
 });
 
+gulp.task('index', function() {
+  return gulp.src('./index.scss')
+    .pipe(sass.sync())
+    .pipe(autoprefixer({
+      // let the browserlist come from the package.json file
+      // browsers: ['ie > 9', 'last 2 versions'],
+      cascade: false
+    }))
+    .pipe(cssmin())
+    .pipe(gulp.dest('./'));
+});
+
 gulp.task('copyfont', function() {
   return gulp.src('./src/fonts/**')
     .pipe(cssmin())

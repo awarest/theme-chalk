@@ -9,9 +9,14 @@
     "src"
   ],
   "scripts": {
-    "build": "npm run compile; npm run prettier",
+    "all": "npm run build; npm run build-index",
     "compile": "gulp compile",
-    "prettier": "./node_modules/.bin/prettier --write lib/*.css"
+    "prettier": "./node_modules/.bin/prettier --write lib/*.css",
+    "build": "npm run compile; npm run prettier",
+    "make-index": "ls -1 lib/*.css | sed \"s/.*/@import '.\\/&';/\" > index.scss",
+    "compile-index": "gulp index",
+    "prettier-index": "./node_modules/.bin/prettier --write index.css",
+    "build-index": "npm run make-index; npm run compile-index; npm run prettier-index"
   },
   "repository": {
     "type": "git",
