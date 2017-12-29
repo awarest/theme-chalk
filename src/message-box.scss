@@ -1,8 +1,8 @@
 @import "mixins/mixins";
 @import "variables";
 // @import "common/popup";
-@import "./button";
-@import "./input";
+// @import "./button";
+// @import "./input";
 
 // replaces the import of "popup"
 .v-modal-enter { animation: v-modal-in  .2s ease;          }

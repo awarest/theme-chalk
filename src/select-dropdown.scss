@@ -1,6 +1,6 @@
 @import "mixins/mixins";
 @import "variables";
-@import "./popper";
+// @import "./popper";
 
 @include b(select-dropdown) {
   position: absolute;
