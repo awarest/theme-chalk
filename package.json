@@ -9,7 +9,8 @@
     "src"
   ],
   "scripts": {
-    "all": "npm run build; npm run build-index",
+    "all": "npm run clear; npm run build; npm run build-index",
+    "clear": "rm -rdf lib",
     "compile": "gulp compile",
     "prettier": "./node_modules/.bin/prettier --write lib/*.css",
     "build": "npm run compile; npm run prettier",
