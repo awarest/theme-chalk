@@ -230,7 +230,6 @@
   content: "\e645";
 }
 .el-icon-loading {
-  -webkit-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
 }
 .el-icon--right {
@@ -239,23 +238,11 @@
 .el-icon--left {
   margin-right: 5px;
 }
-@-webkit-keyframes rotating {
-  0% {
-    -webkit-transform: rotateZ(0);
-    transform: rotateZ(0);
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg);
-    transform: rotateZ(360deg);
-  }
-}
 @keyframes rotating {
   0% {
-    -webkit-transform: rotateZ(0);
     transform: rotateZ(0);
   }
   100% {
-    -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
   }
 }

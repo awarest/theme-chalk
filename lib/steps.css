@@ -1,6 +1,4 @@
 .el-steps {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .el-steps--simple {
@@ -13,8 +11,5 @@
 }
 .el-steps--vertical {
   height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column;
   flex-flow: column;
 }

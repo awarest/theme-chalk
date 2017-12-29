@@ -1,3 +1,9 @@
+.el-fade-in-linear-enter-active,
+.el-fade-in-linear-leave-active,
+.fade-in-linear-enter-active,
+.fade-in-linear-leave-active {
+  transition: opacity 0.2s linear;
+}
 .el-fade-in-enter,
 .el-fade-in-leave-active,
 .el-fade-in-linear-enter,
@@ -8,126 +14,77 @@
 .fade-in-linear-leave-active {
   opacity: 0;
 }
-.fade-in-linear-enter-active,
-.fade-in-linear-leave-active {
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
-.el-fade-in-linear-enter-active,
-.el-fade-in-linear-leave-active {
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
 .el-fade-in-enter-active,
-.el-fade-in-leave-active {
-  -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-}
+.el-fade-in-leave-active,
 .el-zoom-in-center-enter-active,
 .el-zoom-in-center-leave-active {
-  -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
   transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.el-zoom-in-bottom-enter-active,
+.el-zoom-in-bottom-leave-active,
+.el-zoom-in-left-enter-active,
+.el-zoom-in-left-leave-active,
+.el-zoom-in-top-enter-active,
+.el-zoom-in-top-leave-active {
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
+    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
 }
 .el-zoom-in-center-enter,
 .el-zoom-in-center-leave-active {
   opacity: 0;
-  -webkit-transform: scaleX(0);
   transform: scaleX(0);
 }
 .el-zoom-in-top-enter-active,
 .el-zoom-in-top-leave-active {
   opacity: 1;
-  -webkit-transform: scaleY(1);
   transform: scaleY(1);
-  -webkit-transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  -webkit-transform-origin: center top;
   transform-origin: center top;
 }
 .el-zoom-in-top-enter,
 .el-zoom-in-top-leave-active {
   opacity: 0;
-  -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
 .el-zoom-in-bottom-enter-active,
 .el-zoom-in-bottom-leave-active {
   opacity: 1;
-  -webkit-transform: scaleY(1);
   transform: scaleY(1);
-  -webkit-transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
 .el-zoom-in-bottom-enter,
 .el-zoom-in-bottom-leave-active {
   opacity: 0;
-  -webkit-transform: scaleY(0);
   transform: scaleY(0);
 }
 .el-zoom-in-left-enter-active,
 .el-zoom-in-left-leave-active {
   opacity: 1;
-  -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
-  -webkit-transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    opacity 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s,
-    -webkit-transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
-  -webkit-transform-origin: top left;
   transform-origin: top left;
 }
 .el-zoom-in-left-enter,
 .el-zoom-in-left-leave-active {
   opacity: 0;
-  -webkit-transform: scale(0.45, 0.45);
   transform: scale(0.45, 0.45);
 }
 .collapse-transition {
-  -webkit-transition: 0.3s height ease-in-out, 0.3s padding-top ease-in-out,
-    0.3s padding-bottom ease-in-out;
   transition: 0.3s height ease-in-out, 0.3s padding-top ease-in-out,
     0.3s padding-bottom ease-in-out;
 }
 .horizontal-collapse-transition {
-  -webkit-transition: 0.3s width ease-in-out, 0.3s padding-left ease-in-out,
-    0.3s padding-right ease-in-out;
   transition: 0.3s width ease-in-out, 0.3s padding-left ease-in-out,
     0.3s padding-right ease-in-out;
 }
 .el-list-enter-active,
 .el-list-leave-active {
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
 .el-list-enter,
 .el-list-leave-active {
   opacity: 0;
-  -webkit-transform: translateY(-30px);
   transform: translateY(-30px);
 }
 .el-opacity-transition {
-  -webkit-transition: opacity 0.3s cubic-bezier(0.55, 0, 0.1, 1);
   transition: opacity 0.3s cubic-bezier(0.55, 0, 0.1, 1);
 }
 .el-date-editor {
@@ -177,10 +134,7 @@
   width: 39%;
   color: #606266;
 }
-.el-date-editor .el-range-input::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-date-editor .el-range-input:-ms-input-placeholder {
+.el-date-editor .el-range-input::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-date-editor .el-range-input::placeholder {
@@ -264,10 +218,7 @@
   color: #c0c4cc;
   cursor: not-allowed;
 }
-.el-range-editor.is-disabled input::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-range-editor.is-disabled input:-ms-input-placeholder {
+.el-range-editor.is-disabled input::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-range-editor.is-disabled input::placeholder {
@@ -279,7 +230,6 @@
 .el-picker-panel {
   color: #606266;
   border: 1px solid #e4e7ed;
-  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   background: #fff;
   border-radius: 4px;
@@ -361,7 +311,6 @@
   vertical-align: middle;
 }
 .el-picker-panel .popper__arrow {
-  -webkit-transform: translateX(-400%);
   transform: translateX(-400%);
 }
 .el-picker-panel [slot="sidebar"],
@@ -371,7 +320,6 @@
   bottom: 0;
   width: 110px;
   border-right: 1px solid #e4e4e4;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 6px;
   background-color: #fff;
@@ -412,7 +360,6 @@
   padding: 8px 5px 5px;
   display: table;
   width: 100%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .el-date-picker__header {
@@ -464,7 +411,6 @@
 .el-scrollbar:focus > .el-scrollbar__bar,
 .el-scrollbar:hover > .el-scrollbar__bar {
   opacity: 1;
-  -webkit-transition: opacity 340ms ease-out;
   transition: opacity 340ms ease-out;
 }
 .el-scrollbar__wrap {
@@ -483,7 +429,6 @@
   cursor: pointer;
   border-radius: inherit;
   background-color: rgba(144, 147, 153, 0.3);
-  -webkit-transition: 0.3s background-color;
   transition: 0.3s background-color;
 }
 .el-scrollbar__thumb:hover {
@@ -496,7 +441,6 @@
   z-index: 1;
   border-radius: 4px;
   opacity: 0;
-  -webkit-transition: opacity 120ms ease-out;
   transition: opacity 120ms ease-out;
 }
 .el-scrollbar__bar.is-vertical {
@@ -524,7 +468,6 @@
 }
 .el-popper .popper__arrow {
   border-width: 6px;
-  -webkit-filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.03));
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.03));
 }
 .el-popper .popper__arrow::after {

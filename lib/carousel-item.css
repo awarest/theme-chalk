@@ -1,3 +1,7 @@
+.el-carousel__item--card,
+.el-carousel__item.is-animating {
+  transition: transform 0.4s ease-in-out;
+}
 .el-carousel__item,
 .el-carousel__mask {
   position: absolute;
@@ -14,18 +18,8 @@
 .el-carousel__item.is-active {
   z-index: 2;
 }
-.el-carousel__item.is-animating {
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-}
 .el-carousel__item--card {
   width: 50%;
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
 }
 .el-carousel__item--card.is-in-stage {
   cursor: pointer;
@@ -42,6 +36,5 @@
   width: 100%;
   background-color: #fff;
   opacity: 0.24;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }

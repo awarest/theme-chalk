@@ -18,7 +18,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #6f7180;
 }
@@ -27,11 +26,7 @@
   outline: 0;
 }
 .el-tree-node__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   height: 26px;
   cursor: pointer;
@@ -46,15 +41,10 @@
   cursor: pointer;
   color: #c0c4cc;
   font-size: 12px;
-  -webkit-transform: rotate(0);
   transform: rotate(0);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 .el-tree-node__expand-icon.expanded {
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .el-tree-node__expand-icon.is-leaf {

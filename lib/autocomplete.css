@@ -1,3 +1,9 @@
+.el-input__prefix,
+.el-input__suffix {
+  top: 0;
+  position: absolute;
+  color: #c0c4cc;
+}
 .el-input {
   position: relative;
   font-size: 14px;
@@ -26,17 +32,11 @@
   background: #fff;
   width: 6px;
 }
-.el-input__inner,
-.el-textarea__inner {
-  -webkit-box-sizing: border-box;
-  background-image: none;
-}
 .el-input .el-input__clear {
   color: #c0c4cc;
   font-size: 14px;
   line-height: 16px;
   cursor: pointer;
-  -webkit-transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .el-input .el-input__clear:hover {
@@ -45,6 +45,7 @@
 .el-input__inner {
   -webkit-appearance: none;
   background-color: #fff;
+  background-image: none;
   border-radius: 4px;
   border: 1px solid #dcdfe6;
   box-sizing: border-box;
@@ -55,23 +56,17 @@
   line-height: 1;
   outline: 0;
   padding: 0 15px;
-  -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 100%;
 }
+.el-input__icon,
 .el-input__prefix,
 .el-input__suffix {
-  position: absolute;
-  top: 0;
-  -webkit-transition: all 0.3s;
-  color: #c0c4cc;
+  transition: all 0.3s;
   height: 100%;
   text-align: center;
 }
-.el-input__inner::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-input__inner:-ms-input-placeholder {
+.el-input__inner::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-input__inner::placeholder {
@@ -87,7 +82,6 @@
 }
 .el-input__suffix {
   right: 5px;
-  transition: all 0.3s;
   pointer-events: none;
 }
 .el-input__suffix-inner {
@@ -95,14 +89,9 @@
 }
 .el-input__prefix {
   left: 5px;
-  transition: all 0.3s;
 }
 .el-input__icon {
-  height: 100%;
   width: 25px;
-  text-align: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
   line-height: 40px;
 }
 .el-input__icon:after {
@@ -121,10 +110,7 @@
   color: #c0c4cc;
   cursor: not-allowed;
 }
-.el-input.is-disabled .el-input__inner::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-input.is-disabled .el-input__inner:-ms-input-placeholder {
+.el-input.is-disabled .el-input__inner::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-input.is-disabled .el-input__inner::placeholder {
@@ -250,15 +236,12 @@
   font-size: inherit;
   color: #606266;
   background-color: #fff;
+  background-image: none;
   border: 1px solid #dcdfe6;
   border-radius: 4px;
-  -webkit-transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.el-textarea__inner::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-textarea__inner:-ms-input-placeholder {
+.el-textarea__inner::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-textarea__inner::placeholder {
@@ -277,10 +260,7 @@
   color: #c0c4cc;
   cursor: not-allowed;
 }
-.el-textarea.is-disabled .el-textarea__inner::-webkit-input-placeholder {
-  color: #c0c4cc;
-}
-.el-textarea.is-disabled .el-textarea__inner:-ms-input-placeholder {
+.el-textarea.is-disabled .el-textarea__inner::-ms-input-placeholder {
   color: #c0c4cc;
 }
 .el-textarea.is-disabled .el-textarea__inner::placeholder {
@@ -294,7 +274,6 @@
 .el-scrollbar:focus > .el-scrollbar__bar,
 .el-scrollbar:hover > .el-scrollbar__bar {
   opacity: 1;
-  -webkit-transition: opacity 340ms ease-out;
   transition: opacity 340ms ease-out;
 }
 .el-scrollbar__wrap {
@@ -313,7 +292,6 @@
   cursor: pointer;
   border-radius: inherit;
   background-color: rgba(144, 147, 153, 0.3);
-  -webkit-transition: 0.3s background-color;
   transition: 0.3s background-color;
 }
 .el-scrollbar__thumb:hover {
@@ -326,7 +304,6 @@
   z-index: 1;
   border-radius: 4px;
   opacity: 0;
-  -webkit-transition: opacity 120ms ease-out;
   transition: opacity 120ms ease-out;
 }
 .el-scrollbar__bar.is-vertical {
@@ -354,7 +331,6 @@
 }
 .el-popper .popper__arrow {
   border-width: 6px;
-  -webkit-filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.03));
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.03));
 }
 .el-popper .popper__arrow::after {
@@ -432,7 +408,6 @@
 }
 .el-autocomplete-suggestion {
   margin: 5px 0;
-  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
@@ -442,7 +417,6 @@
 .el-autocomplete-suggestion__wrap {
   max-height: 280px;
   padding: 10px 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: auto;
   background-color: #fff;

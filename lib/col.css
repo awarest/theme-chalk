@@ -49,7 +49,6 @@
 }
 [class*="el-col-"] {
   float: left;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .el-col-0 {

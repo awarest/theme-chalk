@@ -19,7 +19,6 @@
   font-size: 18px;
   margin-right: 6px;
   color: #c0c4cc;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .el-rate__decimal,
@@ -29,7 +28,6 @@
   left: 0;
 }
 .el-rate__icon.hover {
-  -webkit-transform: scale(1.15);
   transform: scale(1.15);
 }
 .el-rate__decimal {

@@ -31,7 +31,6 @@
   padding: 9px 20px 9px 10px;
   border-radius: 4px;
   border: 1px solid #dcdfe6;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   line-height: normal;
   height: 40px;
@@ -137,7 +136,6 @@
   cursor: not-allowed;
 }
 .el-checkbox__input.is-checked .el-checkbox__inner::after {
-  -webkit-transform: rotate(45deg) scaleY(1);
   transform: rotate(45deg) scaleY(1);
 }
 .el-checkbox__input.is-checked + .el-checkbox__label {
@@ -152,7 +150,6 @@
   display: block;
   background-color: #fff;
   height: 2px;
-  -webkit-transform: scale(0.5);
   transform: scale(0.5);
   left: 0;
   right: 0;
@@ -166,14 +163,11 @@
   position: relative;
   border: 1px solid #dcdfe6;
   border-radius: 2px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 14px;
   height: 14px;
   background-color: #fff;
   z-index: 1;
-  -webkit-transition: border-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46),
-    background-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46);
   transition: border-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46),
     background-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46);
 }
@@ -181,7 +175,6 @@
   border-color: #409eff;
 }
 .el-checkbox__inner::after {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   content: "";
   border: 1px solid #fff;
@@ -191,17 +184,20 @@
   left: 4px;
   position: absolute;
   top: 1px;
-  -webkit-transform: rotate(45deg) scaleY(0);
   transform: rotate(45deg) scaleY(0);
   width: 3px;
-  -webkit-transition: -webkit-transform 0.15s
-    cubic-bezier(0.71, -0.46, 0.88, 0.6) 50ms;
-  transition: -webkit-transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 50ms;
   transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 50ms;
-  transition: transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 50ms,
-    -webkit-transform 0.15s cubic-bezier(0.71, -0.46, 0.88, 0.6) 50ms;
-  -webkit-transform-origin: center;
   transform-origin: center;
+}
+.el-table,
+.el-table td,
+.el-table th,
+.el-tag {
+  box-sizing: border-box;
+}
+.el-tag--medium .el-icon-close,
+.el-tag--small .el-icon-close {
+  transform: scale(0.8);
 }
 .el-checkbox__original {
   opacity: 0;
@@ -237,19 +233,13 @@
   color: #606266;
   -webkit-appearance: none;
   text-align: center;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: 0;
   margin: 0;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 12px 20px;
   font-size: 14px;
   border-radius: 0;
-}
-.el-table,
-.el-tag {
-  -webkit-box-sizing: border-box;
 }
 .el-checkbox-button__inner.is-round {
   padding: 12px 20px;
@@ -274,7 +264,6 @@
   color: #fff;
   background-color: #409eff;
   border-color: #409eff;
-  -webkit-box-shadow: -1px 0 0 0 #8cc5ff;
   box-shadow: -1px 0 0 0 #8cc5ff;
 }
 .el-checkbox-button.is-disabled .el-checkbox-button__inner {
@@ -283,13 +272,11 @@
   background-image: none;
   background-color: #fff;
   border-color: #ebeef5;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .el-checkbox-button:first-child .el-checkbox-button__inner {
   border-left: 1px solid #dcdfe6;
   border-radius: 4px 0 0 4px;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 .el-checkbox-button.is-focus .el-checkbox-button__inner {
@@ -334,7 +321,6 @@
   font-size: 12px;
   color: #409eff;
   border-radius: 4px;
-  box-sizing: border-box;
   border: 1px solid rgba(64, 158, 255, 0.2);
   white-space: nowrap;
 }
@@ -427,18 +413,10 @@
   height: 28px;
   line-height: 26px;
 }
-.el-tag--medium .el-icon-close {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-}
 .el-tag--small {
   height: 24px;
   padding: 0 8px;
   line-height: 22px;
-}
-.el-tag--small .el-icon-close {
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
 }
 .el-tag--mini {
   height: 20px;
@@ -447,15 +425,11 @@
 }
 .el-tag--mini .el-icon-close {
   margin-left: -3px;
-  -webkit-transform: scale(0.7);
   transform: scale(0.7);
 }
 .el-table {
   position: relative;
   overflow: hidden;
-  box-sizing: border-box;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   width: 100%;
   max-width: 100%;
@@ -478,7 +452,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   color: #909399;
 }
@@ -490,14 +463,10 @@
   position: relative;
   cursor: pointer;
   color: #666;
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
   height: 20px;
 }
 .el-table__expand-icon--expanded {
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .el-table__expand-icon > .el-icon {
@@ -536,8 +505,6 @@
 .el-table th {
   padding: 12px 0;
   min-width: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   text-overflow: ellipsis;
   vertical-align: middle;
   position: relative;
@@ -575,6 +542,7 @@
 }
 .el-table .cell,
 .el-table th div {
+  box-sizing: border-box;
   text-overflow: ellipsis;
   padding-right: 10px;
   overflow: hidden;
@@ -603,8 +571,6 @@
 .el-table th div {
   display: inline-block;
   line-height: 40px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   white-space: nowrap;
 }
 .el-table th > .cell {
@@ -614,7 +580,6 @@
   display: inline-block;
   vertical-align: middle;
   width: 100%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .el-table th > .cell.highlight {
@@ -631,15 +596,12 @@
   vertical-align: middle;
 }
 .el-table td div {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .el-table td.gutter {
   width: 0;
 }
 .el-table .cell {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   white-space: normal;
   word-break: break-all;
   line-height: 23px;
@@ -699,7 +661,6 @@
   top: 0;
   left: 0;
   overflow-x: hidden;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
 }
 .el-table__fixed-right::before,
@@ -787,7 +748,6 @@
 .el-table__body-wrapper.is-scroll-none ~ .el-table__fixed,
 .el-table__body-wrapper.is-scroll-none ~ .el-table__fixed-right,
 .el-table__body-wrapper.is-scroll-right ~ .el-table__fixed-right {
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .el-table__body-wrapper
@@ -799,18 +759,9 @@
   border-right: 1px solid #ebeef5;
 }
 .el-table .caret-wrapper {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   height: 34px;
   width: 24px;
@@ -872,11 +823,9 @@
 .el-table__column-filter-trigger i {
   color: #909399;
   font-size: 12px;
-  -webkit-transform: scale(0.75);
   transform: scale(0.75);
 }
 .el-table--enable-row-transition .el-table__body td {
-  -webkit-transition: background-color 0.25s ease;
   transition: background-color 0.25s ease;
 }
 .el-table--enable-row-hover .el-table__body tr:hover > td {
