@@ -1,10 +1,4 @@
-// @import "config";
-
-// replaces the import of "config"
-$namespace: 'el';
-$element-separator: '__';
-$modifier-separator: '--';
-$state-prefix: 'is-';
+@import "config";
 
 /* BEM support Func
  -------------------------- */
