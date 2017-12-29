@@ -9,7 +9,8 @@
     "src"
   ],
   "scripts": {
-    "build": "gulp build",
+    "build": "npm run compile; npm run prettier",
+    "compile": "gulp compile",
     "prettier": "./node_modules/.bin/prettier --write lib/*.css"
   },
   "repository": {
