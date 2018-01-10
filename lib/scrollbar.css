@@ -6,7 +6,6 @@
 .el-scrollbar:focus > .el-scrollbar__bar,
 .el-scrollbar:hover > .el-scrollbar__bar {
   opacity: 1;
-  -webkit-transition: opacity 340ms ease-out;
   transition: opacity 340ms ease-out;
 }
 .el-scrollbar__wrap {
@@ -25,7 +24,6 @@
   cursor: pointer;
   border-radius: inherit;
   background-color: rgba(144, 147, 153, 0.3);
-  -webkit-transition: 0.3s background-color;
   transition: 0.3s background-color;
 }
 .el-scrollbar__thumb:hover {
@@ -38,7 +36,6 @@
   z-index: 1;
   border-radius: 4px;
   opacity: 0;
-  -webkit-transition: opacity 120ms ease-out;
   transition: opacity 120ms ease-out;
 }
 .el-scrollbar__bar.is-vertical {

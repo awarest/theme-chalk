@@ -18,16 +18,12 @@
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
-  -webkit-transition: border-bottom-color 0.3s;
   transition: border-bottom-color 0.3s;
   outline: 0;
 }
 .el-collapse-item__arrow {
   margin-right: 8px;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
   float: right;
   line-height: 48px;
   font-weight: 300;
@@ -38,7 +34,6 @@
 .el-collapse-item__wrap {
   will-change: height;
   overflow: hidden;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .el-collapse-item__content {
@@ -51,7 +46,6 @@
   border-bottom-color: transparent;
 }
 .el-collapse-item.is-active .el-collapse-item__header .el-collapse-item__arrow {
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .el-collapse-item:last-child {
