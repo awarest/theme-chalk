@@ -1,0 +1,344 @@
+
+/* Colors -------------------------- */
+
+// $--color-white:   $white;
+// $--color-black:   $black;
+
+// $--color-primary: $blue;
+// $--color-success: $green;
+// $--color-warning: $orange;
+// $--color-danger:  $red;
+// $--color-info:    $purple;
+
+$--color-white: #fff;
+$--color-black: #000;
+
+$--color-primary: #409EFF;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger:  #f56c6c;
+$--color-info:    #909399;
+
+$--color-primary-light-2: #66b1ff; // only used for $--link-color
+$--color-primary-light-4: #8cc5ff; // only used in checkbox
+$--color-primary-light-7: #c6e2ff; // only used in button
+$--color-primary-light-9: #ecf5ff; // only used in button
+
+$--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
+$--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
+$--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
+$--color-info-lighter:    #f4f4f5;
+
+$--color-text-primary:     #303133;
+$--color-text-regular:     #606266;
+$--color-text-secondary:   #909399;
+$--color-text-placeholder: #c0c4cc;
+
+
+/* Link -------------------------- */
+$--link-color:       $--color-primary-light-2;
+$--link-hover-color: $--color-primary;
+
+/* Background -------------------------- */
+$--background-color-base: #f5f7fa;
+
+/* Border -------------------------- */
+$--border-color-lighter:     #ebeef5; $--border-color-light: #e4e7ed;
+$--border-color-base:        #dcdfe6;
+$--border-color-extra-light: #f2f6fc;
+$--border-color-other:       #e4e4e4;
+
+$--border-color-hover: $--color-text-placeholder;
+
+/* Fill -------------------------- */
+$--fill-base: $--color-white;
+
+/* Font -------------------------- */
+$--font-color-disabled-base: #bbb;
+
+/* Disable base -------------------------- */
+$--disabled-fill-base:   $--background-color-base;
+$--disabled-color-base:  $--color-text-placeholder;
+$--disabled-border-base: $--border-color-light;
+
+/* Icon -------------------------- */
+$--icon-color:      #666;
+$--icon-color-base: $--color-info;
+
+/* Checkbox -------------------------- */
+$--checkbox-disabled-input-fill: #edf2fc;
+$--checkbox-color:               $--color-text-regular;
+$--checkbox-input-fill:          $--color-white;
+$--checkbox-input-border-color:  $--border-color-base;
+$--checkbox-icon-color:          $--color-white;
+
+$--checkbox-disabled-input-border-color: $--border-color-base;
+$--checkbox-disabled-icon-color:         $--color-text-placeholder;
+
+$--checkbox-disabled-checked-input-fill:         $--border-color-extra-light;
+$--checkbox-disabled-checked-input-border-color: $--border-color-base;
+$--checkbox-disabled-checked-icon-color:         $--color-text-placeholder;
+
+$--checkbox-checked-text-color:         $--color-primary;
+$--checkbox-checked-input-border-color: $--color-primary;
+$--checkbox-checked-input-fill:         $--color-primary;
+$--checkbox-checked-icon-color:         $--fill-base;
+
+$--checkbox-input-border-color-hover: $--color-primary;
+
+$--checkbox-button-checked-fill:         $--color-primary;
+$--checkbox-button-checked-color:        $--color-white;
+$--checkbox-button-checked-border-color: $--color-primary;
+
+/* Radio -------------------------- */
+$--radio-color:               $--color-text-regular;
+$--radio-input-fill:          $--color-white;
+$--radio-input-border-color:  $--border-color-base;
+$--radio-icon-color:          $--color-white;
+
+$--radio-disabled-input-border-color: $--disabled-border-base;
+$--radio-disabled-input-fill:         $--disabled-fill-base;
+$--radio-disabled-icon-color:         $--disabled-fill-base;
+
+$--radio-disabled-checked-input-border-color: $--disabled-border-base;
+$--radio-disabled-checked-input-fill:         $--disabled-fill-base;
+$--radio-disabled-checked-icon-color:         $--color-text-placeholder;
+
+$--radio-checked-text-color:         $--color-primary;
+$--radio-checked-input-border-color: $--color-primary;
+$--radio-checked-input-fill:         $--color-white;
+$--radio-checked-icon-color:         $--color-primary;
+
+$--radio-input-border-color-hover: $--color-primary;
+
+$--radio-button-checked-fill:          $--color-primary;
+$--radio-button-checked-color:         $--color-white;
+$--radio-button-checked-border-color:  $--color-primary;
+$--radio-button-disabled-checked-fill: $--border-color-extra-light;
+
+/* Select -------------------------- */
+$--select-dropdown-empty-color: #999;
+
+$--select-border-color-hover: $--border-color-hover;
+$--select-disabled-border:    $--disabled-border-base;
+$--select-close-hover-color:  $--color-text-secondary;
+
+$--select-input-color:            $--color-text-placeholder;
+$--select-multiple-input-color:   #666;
+$--select-input-focus-background: $--color-primary;
+
+$--select-option-color:               $--color-text-regular;
+$--select-option-disabled-color:      $--color-text-placeholder;
+$--select-option-disabled-background: $--color-white;
+$--select-option-hover-background:    $--background-color-base;
+$--select-option-selected:            $--color-primary;
+$--select-option-selected-hover:      $--background-color-base;
+
+$--select-group-color:     $--color-info;
+
+$--select-dropdown-background:    $--color-white;
+
+/* Alert -------------------------- */
+$--alert-success-color: $--color-success-lighter;
+$--alert-info-color:    $--color-info-lighter;
+$--alert-warning-color: $--color-warning-lighter;
+$--alert-danger-color:  $--color-danger-lighter;
+
+/* Message Box
+-------------------------- */
+$--msgbox-content-color:     $--color-text-regular;
+
+$--msgbox-success-color: $--color-success;
+$--msgbox-info-color:    $--color-info;
+$--msgbox-warning-color: $--color-warning;
+$--msgbox-danger-color:  $--color-danger;
+
+/* Message -------------------------- */
+$--message-background-color: #edf2fc;
+
+$--message-content-color:     $--color-text-regular;
+$--message-close-color:       $--color-text-placeholder;
+$--message-close-hover-color: $--color-text-secondary;
+
+$--message-success-color: $--color-success;
+$--message-info-color:    $--color-info;
+$--message-warning-color: $--color-warning;
+$--message-danger-color:  $--color-danger;
+
+/* Notification -------------------------- */
+$--notification-border-color:    $--border-color-lighter;
+$--notification-color:           $--color-text-regular;
+$--notification-title-color:     $--color-text-primary;
+
+$--notification-close-color:       $--color-text-secondary;
+$--notification-close-hover-color: $--color-text-regular;
+
+$--notification-success-color: $--color-success;
+$--notification-info-color:    $--color-info;
+$--notification-warning-color: $--color-warning;
+$--notification-danger-color:  $--color-danger;
+
+/* Input -------------------------- */
+$--input-color:              $--color-text-regular;
+$--input-border-color:       $--border-color-base;
+$--input-border-color-hover: $--border-color-hover;
+$--input-fill:               $--color-white;
+$--input-fill-disabled:      $--disabled-fill-base;
+$--input-color-disabled:     $--font-color-disabled-base;
+$--input-icon-color:         $--color-text-placeholder;
+$--input-placeholder-color:  $--color-text-placeholder;
+
+$--input-hover-border:      $--border-color-hover;
+$--input-clear-hover-color: $--color-text-secondary;
+
+$--input-focus-border: $--color-primary;
+$--input-focus-fill:   $--color-white;
+
+$--input-disabled-fill:              $--disabled-fill-base;
+$--input-disabled-border:            $--disabled-border-base;
+$--input-disabled-color:             $--disabled-color-base;
+$--input-disabled-placeholder-color: $--color-text-placeholder;
+
+/* Group -------------------------- */
+$--group-option-fill-hover:    rgba($--color-black, 0.06);
+$--group-title-color:          $--color-black;
+
+/* Tab -------------------------- */
+$--tab-header-fill-active: rgba($--color-black, 0.06);
+$--tab-header-fill-hover:  rgba($--color-black, 0.06);
+
+$--tab-header-color-active:         $--color-text-secondary;
+$--tab-header-color-hover:          $--color-text-regular;
+$--tab-header-color:                $--color-text-regular;
+$--tab-vertical-header-count-color: $--color-white;
+$--tab-vertical-header-count-fill:  $--color-text-secondary;
+
+/* Button -------------------------- */
+$--button-default-color:   $--color-text-regular;
+$--button-default-fill:    $--color-white;
+$--button-default-border:  $--border-color-base;
+
+$--button-disabled-color:  $--color-text-placeholder;
+$--button-disabled-fill:   $--color-white;
+$--button-disabled-border: $--border-color-lighter;
+
+$--button-primary-border:  $--color-primary;
+$--button-primary-color:   $--color-white;
+$--button-primary-fill:    $--color-primary;
+
+$--button-success-border:  $--color-success;
+$--button-success-color:   $--color-white;
+$--button-success-fill:    $--color-success;
+
+$--button-warning-border:  $--color-warning;
+$--button-warning-color:   $--color-white;
+$--button-warning-fill:    $--color-warning;
+
+$--button-danger-border:   $--color-danger;
+$--button-danger-color:    $--color-white;
+$--button-danger-fill:     $--color-danger;
+
+$--button-info-border:     $--color-info;
+$--button-info-color:      $--color-white;
+$--button-info-fill:       $--color-info;
+
+$--button-hover-tint-percent:   20%;
+$--button-active-shade-percent: 10%;
+
+/* Switch -------------------------- */
+$--switch-on-color:            $--color-primary;
+$--switch-off-color:           $--border-color-base;
+$--switch-disabled-color:      $--border-color-lighter;
+$--switch-disabled-text-color: $--color-text-placeholder;
+
+/* Dialog -------------------------- */
+$--dialog-background-color:  $--color-primary-light-4;
+$--dialog-close-hover-color: $--color-primary;
+
+/* Table -------------------------- */
+$--table-text-color:             $--color-text-regular;
+$--table-header-color:           $--color-text-secondary;
+$--table-row-hover-background:   $--background-color-base;
+$--table-current-row-background: $--color-primary-light-9;
+$--table-header-background:      $--color-white;
+$--table-footer-background:      $--color-text-placeholder;
+
+/* Pagination -------------------------- */
+$--pagination-fill:                  $--color-white;
+$--pagination-color:                 $--color-text-primary;
+$--pagination-button-color:          $--color-text-primary;
+$--pagination-button-disabled-color: $--color-text-placeholder;
+$--pagination-button-disabled-fill:  $--color-white;
+$--pagination-hover-fill:            $--color-primary;
+$--pagination-hover-color:           $--color-white;
+
+/* Popover -------------------------- */
+$--popover-fill:            $--color-white;
+$--popover-border-color:    $--border-color-lighter;
+$--popover-title-color:     $--color-text-primary;
+
+/* Tooltip -------------------------- */
+$--tooltip-fill:         $--color-text-primary;
+$--tooltip-color:        $--color-white;
+$--tooltip-border-color: $--color-text-primary;
+
+/* Tag -------------------------- */
+$--tag-fill:           rgba($--color-primary, 0.10);
+$--tag-border:         rgba($--color-primary, 0.20);
+$--tag-color:          $--color-primary;
+
+$--tag-info-fill:      rgba($--color-info,    0.10);
+$--tag-info-border:    rgba($--color-info,    0.20);
+$--tag-info-color:     $--color-info;
+
+$--tag-primary-fill:   rgba($--color-primary, 0.10);
+$--tag-primary-border: rgba($--color-primary, 0.20);
+$--tag-primary-color:  $--color-primary;
+
+$--tag-success-fill:   rgba($--color-success, 0.10);
+$--tag-success-border: rgba($--color-success, 0.20);
+$--tag-success-color:  $--color-success;
+
+$--tag-warning-fill:   rgba($--color-warning, 0.10);
+$--tag-warning-border: rgba($--color-warning, 0.20);
+$--tag-warning-color:  $--color-warning;
+
+$--tag-danger-fill:    rgba($--color-danger,  0.10);
+$--tag-danger-border:  rgba($--color-danger,  0.20);
+$--tag-danger-color:   $--color-danger;
+
+/* Dropdown -------------------------- */
+$--dropdown-menuItem-hover-fill:  $--color-primary-light-9;
+$--dropdown-menuItem-hover-color: $--link-color;
+
+/* Badge -------------------------- */
+$--badge-fill: $--color-danger;
+
+/* Card --------------------------*/
+$--card-border-color: $--border-color-lighter;
+
+/* Slider --------------------------*/
+$--slider-button-hover-color: mix($--color-primary, black, 97%);
+
+$--slider-main-background-color:   $--color-primary;
+$--slider-runway-background-color: $--border-color-light;
+$--slider-stop-background-color:   $--color-white;
+$--slider-disable-color:           $--color-text-placeholder;
+
+/* Steps --------------------------*/
+$--steps-border-color: $--disabled-border-base;
+
+/* Rate --------------------------*/
+$--rate-icon-color: $--color-text-placeholder;
+
+/* Scrollbar --------------------------*/
+$--scrollbar-background-color:       rgba($--color-text-secondary, .3);
+$--scrollbar-hover-background-color: rgba($--color-text-secondary, .5);
+
+/* Collapse --------------------------*/
+$--collapse-border-color:  $--border-color-lighter;
+$--collapse-header-fill:   $--color-white;
+$--collapse-header-color:  $--color-text-primary;
+$--collapse-content-fill:  $--color-white;
+$--collapse-content-color: $--color-text-primary;
+

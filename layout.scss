@@ -1,0 +1,242 @@
+
+/* Border -------------------------- */
+$--border-radius-base:   4px;
+$--border-radius-small:  2px;
+$--border-radius-circle: 100%;
+
+/* Font -------------------------- */
+$--font-path:                'fonts';
+$--font-size-base:           14px;
+$--font-size-small:          13px;
+$--font-size-large:          18px;
+$--font-weight-primary:      500;
+$--font-line-height-primary: 24px;
+
+/* Size -------------------------- */
+$--size-base: 14px;
+
+/* z-index -------------------------- */
+$--index-normal: 1;
+$--index-top:    1000;
+$--index-popper: 2000;
+
+/* Checkbox -------------------------- */
+$--checkbox-font-size:           14px;
+$--checkbox-font-weight:         $--font-weight-primary;
+$--checkbox-input-height:        14px;
+$--checkbox-input-width:         14px;
+$--checkbox-input-border-radius: $--border-radius-small;
+
+$--checkbox-bordered-height:              40px;
+$--checkbox-bordered-padding:             9px 20px 9px 10px;
+$--checkbox-bordered-medium-padding:      7px 20px 7px 10px;
+$--checkbox-bordered-small-padding:       5px 15px 5px 10px;
+$--checkbox-bordered-mini-padding:        3px 15px 3px 10px;
+$--checkbox-bordered-medium-input-height: 14px;
+$--checkbox-bordered-medium-input-width:  14px;
+$--checkbox-bordered-medium-height:       36px;
+$--checkbox-bordered-small-input-height:  12px;
+$--checkbox-bordered-small-input-width:   12px;
+$--checkbox-bordered-small-height:        32px;
+$--checkbox-bordered-mini-input-height:   12px;
+$--checkbox-bordered-mini-input-width:    12px;
+$--checkbox-bordered-mini-height:         28px;
+
+$--checkbox-button-font-size:            $--font-size-base;
+
+/* Radio -------------------------- */
+$--radio-font-size:           14px;
+$--radio-font-weight:         $--font-weight-primary;
+$--radio-input-height:        14px;
+$--radio-input-width:         14px;
+$--radio-input-border-radius: $--border-radius-circle;
+
+$--radio-bordered-height:              40px;
+$--radio-bordered-padding:             12px 20px 0 10px;
+$--radio-bordered-medium-padding:      10px 20px 0 10px;
+$--radio-bordered-small-padding:       8px  15px 0 10px;
+$--radio-bordered-mini-padding:        6px  15px 0 10px;
+$--radio-bordered-medium-input-height: 14px;
+$--radio-bordered-medium-input-width:  14px;
+$--radio-bordered-medium-height:       36px;
+$--radio-bordered-small-input-height:  12px;
+$--radio-bordered-small-input-width:   12px;
+$--radio-bordered-small-height:        32px;
+$--radio-bordered-mini-input-height:   12px;
+$--radio-bordered-mini-input-width:    12px;
+$--radio-bordered-mini-height:         28px;
+
+$--radio-button-font-size:             $--font-size-base;
+
+/* Select -------------------------- */
+$--select-font-size:          $--font-size-base;
+
+$--select-input-font-size:        14px;
+
+$--select-option-height:              34px;
+
+$--select-group-height:    30px;
+$--select-group-font-size: 12px;
+
+$--select-dropdown-max-height:    274px;
+$--select-dropdown-padding:       6px 0;
+$--select-dropdown-empty-padding: 10px 0;
+
+/* Alert
+-------------------------- */
+$--alert-padding:                  8px 16px;
+$--alert-border-radius:            $--border-radius-base;
+$--alert-title-font-size:          13px;
+$--alert-description-font-size:    12px;
+$--alert-close-font-size:          12px;
+$--alert-close-customed-font-size: 13px;
+
+$--alert-icon-size:       16px;
+$--alert-icon-large-size: 28px;
+
+/* Message Box -------------------------- */
+$--msgbox-width:             420px;
+$--msgbox-border-radius:     4px;
+$--msgbox-font-size:         $--font-size-large;
+$--msgbox-content-font-size: $--font-size-base;
+$--msgbox-error-font-size:   12px;
+$--msgbox-padding-primary:   15px;
+
+/* Message -------------------------- */
+$--message-min-width:         380px;
+$--message-padding:           15px 15px 15px 20px;
+$--message-close-size:        16px;
+
+/* Notification
+-------------------------- */
+$--notification-width:           330px;
+$--notification-padding:         14px 26px 14px 13px;
+$--notification-radius:          8px;
+$--notification-icon-size:       24px;
+$--notification-close-font-size: $--message-close-size;
+$--notification-group-margin:    13px;
+$--notification-font-size:       $--font-size-base;
+$--notification-title-font-size: 16px;
+
+/* Input
+-------------------------- */
+$--input-font-size:          $--font-size-base;
+$--input-width:              140px;
+$--input-height:             40px;
+$--input-border-radius:      $--border-radius-base;
+$--input-max-width:          314px;
+
+$--input-medium-font-size: 14px;
+$--input-medium-height:    36px;
+
+$--input-small-font-size: 13px;
+$--input-small-height:    32px;
+
+$--input-mini-font-size: 12px;
+$--input-mini-height:    28px;
+
+/* Group -------------------------- */
+$--group-option-flex:          0 0 (1/5) * 100%;
+$--group-option-offset-bottom: 12px;
+$--group-title-font-size:      $--font-size-base;
+$--group-title-width:          66px;
+
+/* Tab -------------------------- */
+$--tab-font-size:                   $--font-size-base;
+$--tab-vertical-header-width:       90px;
+
+/* Button -------------------------- */
+$--button-font-size:          14px;
+$--button-font-weight:        $--font-weight-primary;
+$--button-border-radius:      $--border-radius-base;
+$--button-padding-vertical:   12px;
+$--button-padding-horizontal: 20px;
+
+$--button-medium-font-size:          14px;
+$--button-medium-border-radius:      $--border-radius-base;
+$--button-medium-padding-vertical:   10px;
+$--button-medium-padding-horizontal: 20px;
+
+$--button-small-font-size:          12px;
+$--button-small-border-radius:      #{$--border-radius-base - 1};
+$--button-small-padding-vertical:   9px;
+$--button-small-padding-horizontal: 15px;
+
+$--button-mini-font-size:          12px;
+$--button-mini-border-radius:      #{$--border-radius-base - 1};
+$--button-mini-padding-vertical:   7px;
+$--button-mini-padding-horizontal: 15px;
+
+/* Switch -------------------------- */
+$--switch-font-size:          $--font-size-base;
+$--switch-core-border-radius: 10px;
+$--switch-width:              40px;
+$--switch-height:             20px;
+$--switch-button-size:        16px;
+
+/* Dialog -------------------------- */
+$--dialog-title-font-size:   $--font-size-large;
+$--dialog-font-size:         14px;
+$--dialog-line-height:       $--font-line-height-primary;
+$--dialog-padding-primary:   15px;
+
+/* Pagination -------------------------- */
+$--pagination-font-size:             13px;
+$--pagination-border-radius:         3px;
+$--pagination-button-width:          35.5px;
+$--pagination-button-height:         28px;
+
+/* Popover -------------------------- */
+$--popover-font-size:       $--font-size-base;
+$--popover-arrow-size:      6px;
+$--popover-padding:         12px;
+$--popover-padding-large:   18px 20px;
+$--popover-title-font-size: 16px;
+
+/* Tooltip -------------------------- */
+$--tooltip-font-size:    12px;
+$--tooltip-arrow-size:   6px;
+$--tooltip-padding:      10px;
+
+/* Tag -------------------------- */
+$--tag-padding:       0 10px;
+$--tag-font-size:     12px;
+$--tag-border-radius: 4px;
+
+/* Badge -------------------------- */
+$--badge-radius:    10px;
+$--badge-font-size: 12px;
+$--badge-padding:   6px;
+$--badge-size:      18px;
+
+/* Card --------------------------*/
+$--card-border-radius: 4px;
+$--card-padding:       20px;
+
+/* Slider --------------------------*/
+$--slider-margin:                16px 0;
+$--slider-border-radius:         3px;
+$--slider-height:                6px;
+$--slider-button-size:           16px;
+$--slider-button-wrapper-size:   36px;
+$--slider-button-wrapper-offset: -15px;
+
+/* Steps --------------------------*/
+$--steps-border-radius: 4px;
+$--steps-padding:       20px;
+
+/* Rate --------------------------*/
+$--rate-height:      20px;
+$--rate-font-size:   $--font-size-base;
+$--rate-icon-size:   18px;
+$--rate-icon-margin: 6px;
+
+/* Loading --------------------------*/
+$--loading-spinner-size:            42px;
+$--loading-fullscreen-spinner-size: 50px;
+
+/* Collapse --------------------------*/
+$--collapse-header-height:  48px;
+$--collapse-header-padding: 20px;
+$--collapse-header-size:    13px;
+$--collapse-content-size:   13px;
