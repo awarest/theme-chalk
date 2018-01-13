@@ -38,6 +38,8 @@ $--color-text-regular:     #606266;
 $--color-text-secondary:   #909399;
 $--color-text-placeholder: #c0c4cc;
 
+
+
 /* Background -------------------------- */
 $--background-color-base: #f5f7fa;
 
@@ -65,9 +67,9 @@ $--disabled-border-base: $--border-color-light;
 /* Checkbox -------------------------- */
 $--checkbox-disabled-input-fill: $--color-primary-lighter;
 $--checkbox-color:               $--color-text-regular;
-$--checkbox-input-fill:          $--color-white;
+$--checkbox-input-fill:          $H;
 $--checkbox-input-border-color:  $--border-color-base;
-$--checkbox-icon-color:          $--color-white;
+$--checkbox-icon-color:          $H;
 
 $--checkbox-disabled-input-border-color: $--border-color-base;
 $--checkbox-disabled-icon-color:         $--color-text-placeholder;
@@ -76,16 +78,16 @@ $--checkbox-disabled-checked-input-fill:         $--color-info-lighter;
 $--checkbox-disabled-checked-input-border-color: $--border-color-base;
 $--checkbox-disabled-checked-icon-color:         $--color-text-placeholder;
 
-$--checkbox-checked-text-color:         $--color-primary;
-$--checkbox-checked-input-border-color: $--color-primary;
-$--checkbox-checked-input-fill:         $--color-primary;
-$--checkbox-checked-icon-color:         $--color-white;
+$--checkbox-checked-text-color:         $P;
+$--checkbox-checked-input-border-color: $P;
+$--checkbox-checked-input-fill:         $P;
+$--checkbox-checked-icon-color:         $H;
 
-$--checkbox-input-border-color-hover: $--color-primary;
+$--checkbox-input-border-color-hover: $P;
 
-$--checkbox-button-checked-fill:         $--color-primary;
-$--checkbox-button-checked-color:        $--color-white;
-$--checkbox-button-checked-border-color: $--color-primary;
+$--checkbox-button-checked-fill:         $P;
+$--checkbox-button-checked-color:        $H;
+$--checkbox-button-checked-border-color: $P;
 
 // preserving functionality, only used in checkbox when treated as buttons and when not the
 // first child, it creates a psuedo left border/separator between a group of check buttons
@@ -94,9 +96,9 @@ $--color-primary-light-4: $--color-primary-light;
 
 /* Radio -------------------------- */
 $--radio-color:               $--color-text-regular;
-$--radio-input-fill:          $--color-white;
+$--radio-input-fill:          $H;
 $--radio-input-border-color:  $--border-color-base;
-$--radio-icon-color:          $--color-white;
+$--radio-icon-color:          $H;
 
 $--radio-disabled-input-border-color: $--disabled-border-base;
 $--radio-disabled-input-fill:         $--background-color-base;
@@ -106,16 +108,16 @@ $--radio-disabled-checked-input-border-color: $--disabled-border-base;
 $--radio-disabled-checked-input-fill:         $--background-color-base;
 $--radio-disabled-checked-icon-color:         $--color-text-placeholder;
 
-$--radio-checked-text-color:         $--color-primary;
-$--radio-checked-input-border-color: $--color-primary;
-$--radio-checked-input-fill:         $--color-white;
-$--radio-checked-icon-color:         $--color-primary;
+$--radio-checked-text-color:         $P;
+$--radio-checked-input-border-color: $P;
+$--radio-checked-input-fill:         $H;
+$--radio-checked-icon-color:         $P;
 
-$--radio-input-border-color-hover: $--color-primary;
+$--radio-input-border-color-hover: $P;
 
-$--radio-button-checked-fill:          $--color-primary;
-$--radio-button-checked-color:         $--color-white;
-$--radio-button-checked-border-color:  $--color-primary;
+$--radio-button-checked-fill:          $P;
+$--radio-button-checked-color:         $H;
+$--radio-button-checked-border-color:  $P;
 $--radio-button-disabled-checked-fill: $--color-info-lighter;
 
 
@@ -128,17 +130,17 @@ $--select-close-hover-color:  $--color-text-secondary;
 
 $--select-input-color:            $--color-text-placeholder;
 $--select-multiple-input-color:   $--color-text-regular;
-$--select-input-focus-background: $--color-primary;
+$--select-input-focus-background: $P;
 
 $--select-option-color:               $--color-text-regular;
 $--select-option-disabled-color:      $--color-text-placeholder;
-$--select-option-disabled-background: $--color-white;
+$--select-option-disabled-background: $H;
 $--select-option-hover-background:    $--background-color-base;
-$--select-option-selected:            $--color-primary;
+$--select-option-selected:            $P;
 $--select-option-selected-hover:      $--background-color-base;
 
 $--select-group-color:         $--color-info;
-$--select-dropdown-background: $--color-white;
+$--select-dropdown-background: $H;
 
 
 /* Alert / Message / Message Box / Notification --- Variants */
@@ -153,15 +155,8 @@ $--message-warning-color: $W; $--msgbox-warning-color: $W; $--notification-warni
 $--message-danger-color:  $D; $--msgbox-danger-color:  $D; $--notification-danger-color:  $D;
 
 
-
-
-
-
-
-
 /* Message Box -------------------------- */
 $--msgbox-content-color: $--color-text-regular;
-
 
 /* Message -------------------------- */
 $--message-background-color: $--color-primary-lighter;
@@ -170,11 +165,10 @@ $--message-content-color:     $--color-text-regular;
 $--message-close-color:       $--color-text-placeholder;
 $--message-close-hover-color: $--color-text-secondary;
 
-
 /* Notification -------------------------- */
-$--notification-border-color:    $--border-color-lighter;
-$--notification-color:           $--color-text-regular;
-$--notification-title-color:     $--color-text-primary;
+$--notification-border-color: $--border-color-lighter;
+$--notification-color:        $--color-text-regular;
+$--notification-title-color:  $--color-text-primary;
 
 $--notification-close-color:       $--color-text-secondary;
 $--notification-close-hover-color: $--color-text-regular;
@@ -184,7 +178,7 @@ $--notification-close-hover-color: $--color-text-regular;
 $--input-color:              $--color-text-regular;
 $--input-border-color:       $--border-color-base;
 $--input-border-color-hover: $--color-text-placeholder;
-$--input-fill:               $--color-white;
+$--input-fill:               $H;
 $--input-fill-disabled:      $--background-color-base;
 $--input-color-disabled:     $--font-color-disabled-base;
 $--input-icon-color:         $--color-text-placeholder;
@@ -193,27 +187,22 @@ $--input-placeholder-color:  $--color-text-placeholder;
 $--input-hover-border:      $--color-text-placeholder;
 $--input-clear-hover-color: $--color-text-secondary;
 
-$--input-focus-border: $--color-primary;
-$--input-focus-fill:   $--color-white;
+$--input-focus-border: $P;
+$--input-focus-fill:   $H;
 
 $--input-disabled-fill:              $--background-color-base;
 $--input-disabled-border:            $--disabled-border-base;
 $--input-disabled-color:             $--disabled-color-base;
 $--input-disabled-placeholder-color: $--color-text-placeholder;
 
-/* Group -------------------------- */
-$--group-option-fill-hover:    rgba($--color-black, 0.06);
-$--group-title-color:          $--color-black;
 
 /* Tab -------------------------- */
-$--tab-header-fill-active: rgba($--color-black, 0.06);
-$--tab-header-fill-hover:  rgba($--color-black, 0.06);
-
 $--tab-header-color-active:         $--color-text-secondary;
 $--tab-header-color-hover:          $--color-text-regular;
 $--tab-header-color:                $--color-text-regular;
-$--tab-vertical-header-count-color: $--color-white;
+$--tab-vertical-header-count-color: $H;
 $--tab-vertical-header-count-fill:  $--color-text-secondary;
+
 
 /* Button -------------------------- */
 $--button-primary-border: $P; $--button-primary-fill: $P; $--button-primary-color: $H;
@@ -237,7 +226,7 @@ $--color-primary-light-9: $--color-primary-lighter; // ends up being the backgro
 
 
 /* Switch -------------------------- */
-$--switch-on-color:            $--color-primary;
+$--switch-on-color:            $P;
 $--switch-off-color:           $--border-color-base;
 $--switch-disabled-color:      $--border-color-lighter;
 $--switch-disabled-text-color: $--color-text-placeholder;
@@ -248,29 +237,29 @@ $--table-text-color:             $--color-text-regular;
 $--table-header-color:           $--color-text-secondary;
 $--table-row-hover-background:   $--background-color-base;
 $--table-current-row-background: $--color-primary-lighter;
-$--table-header-background:      $--color-white;
+$--table-header-background:      $H;
 $--table-footer-background:      $--color-text-placeholder;
 
 
 /* Pagination -------------------------- */
-$--pagination-fill:                  $--color-white;
+$--pagination-fill:                  $H;
 $--pagination-color:                 $--color-text-primary;
 $--pagination-button-color:          $--color-text-primary;
 $--pagination-button-disabled-color: $--color-text-placeholder;
-$--pagination-button-disabled-fill:  $--color-white;
-$--pagination-hover-fill:            $--color-primary;
-$--pagination-hover-color:           $--color-white;
+$--pagination-button-disabled-fill:  $H;
+$--pagination-hover-fill:            $P;
+$--pagination-hover-color:           $H;
 
 
 /* Popover -------------------------- */
-$--popover-fill:         $--color-white;
+$--popover-fill:         $H;
 $--popover-border-color: $--border-color-lighter;
 $--popover-title-color:  $--color-text-primary;
 
 
 /* Tooltip -------------------------- */
 $--tooltip-fill:         $--color-text-primary;
-$--tooltip-color:        $--color-white;
+$--tooltip-color:        $H;
 $--tooltip-border-color: $--color-text-primary;
 
 
@@ -292,36 +281,38 @@ $--tag-info-fill:    $--color-info-light;    $--tag-info-border:    $--color-inf
 
 /* Dropdown -------------------------- */
 $--dropdown-menuItem-hover-fill:  $--color-primary-lighter;
-$--dropdown-menuItem-hover-color: $--color-primary;
+$--dropdown-menuItem-hover-color: $P;
 
 /* Badge -------------------------- */
-$--badge-fill: $--color-danger;
+$--badge-fill: $D;
 
 /* Card --------------------------*/
 $--card-border-color: $--border-color-lighter;
 
 /* Slider --------------------------*/
-$--slider-button-hover-color: mix($--color-primary, black, 97%);
-
-$--slider-main-background-color:   $--color-primary;
+$--slider-main-background-color:   $P;
 $--slider-runway-background-color: $--border-color-light;
-$--slider-stop-background-color:   $--color-white;
+$--slider-stop-background-color:   $H;
 $--slider-disable-color:           $--color-text-placeholder;
+
 
 /* Steps --------------------------*/
 $--steps-border-color: $--disabled-border-base;
 
+
 /* Rate --------------------------*/
 $--rate-icon-color: $--color-text-placeholder;
 
+
 /* Scrollbar --------------------------*/
-$--scrollbar-background-color:       rgba($--color-text-secondary, .3);
-$--scrollbar-hover-background-color: rgba($--color-text-secondary, .5);
+$--scrollbar-background-color:       $--color-info-light;
+$--scrollbar-hover-background-color: $--color-text-placeholder;
+
 
 /* Collapse --------------------------*/
 $--collapse-border-color:  $--border-color-lighter;
-$--collapse-header-fill:   $--color-white;
+$--collapse-header-fill:   $H;
 $--collapse-header-color:  $--color-text-primary;
-$--collapse-content-fill:  $--color-white;
+$--collapse-content-fill:  $H;
 $--collapse-content-color: $--color-text-primary;
 
