@@ -96,7 +96,7 @@ $--radio-button-checked-border-color:  $--color-primary;
 $--radio-button-disabled-checked-fill: $--color-info-lighter;
 
 /* Select -------------------------- */
-$--select-dropdown-empty-color: #999;
+$--select-dropdown-empty-color: $--font-color-disabled-base;
 
 $--select-border-color-hover: $--color-text-placeholder;
 $--select-disabled-border:    $--disabled-border-base;
