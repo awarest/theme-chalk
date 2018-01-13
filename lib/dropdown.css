@@ -66,7 +66,7 @@
 .el-dropdown-menu__item:focus,
 .el-dropdown-menu__item:not(.is-disabled):hover {
   background-color: #ecf5ff;
-  color: #66b1ff;
+  color: #409eff;
 }
 .el-dropdown-menu__item--divided {
   position: relative;

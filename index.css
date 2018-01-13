@@ -1281,7 +1281,7 @@
 .el-dropdown-menu__item:focus,
 .el-dropdown-menu__item:not(.is-disabled):hover {
   background-color: #ecf5ff;
-  color: #66b1ff;
+  color: #409eff;
 }
 .el-dropdown-menu__item--divided {
   position: relative;
@@ -3965,7 +3965,7 @@
 }
 .el-table-filter__list-item:hover {
   background-color: #ecf5ff;
-  color: #66b1ff;
+  color: #409eff;
 }
 .el-table-filter__list-item.is-active {
   background-color: #409eff;
