@@ -12,11 +12,26 @@
 $--color-white: #fff;
 $--color-black: #000;
 
-$--color-primary: #409EFF; $--color-primary-lighter: #ecf5ff; $--color-primary-light: #c6e2ff;
-$--color-success: #67c23a; $--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
-$--color-warning: #e6a23c; $--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
-$--color-danger:  #f56c6c; $--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
-$--color-info:    #909399; $--color-info-lighter:    #f4f4f5;
+$--color-primary: #409EFF;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger:  #f56c6c;
+$--color-info:    #909399;
+
+$P: #409EFF;
+$S: #67c23a;
+$W: #e6a23c;
+$D: #f56c6c;
+$I: #909399;
+
+$H: #fff;
+$L: #000;
+
+$--color-primary-lighter: #ecf5ff; $--color-primary-light: #c6e2ff;
+$--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
+$--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
+$--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
+$--color-info-lighter:    #f4f4f5; $--color-info-light:    #dcdfe6;
 
 $--color-text-primary:     #303133;
 $--color-text-regular:     #606266;
@@ -27,8 +42,9 @@ $--color-text-placeholder: #c0c4cc;
 $--background-color-base: #f5f7fa;
 
 /* Border -------------------------- */
-$--border-color-lighter:     #ebeef5; $--border-color-light: #e4e7ed;
-$--border-color-base:        #dcdfe6;
+$--border-color-lighter: #ebeef5; $--border-color-light: #e4e7ed;
+
+$--border-color-base: $--color-info-light; // info light is new, just moved this value up there
 
 /* Font -------------------------- */
 $--font-color-disabled-base: #bbb;
@@ -36,6 +52,13 @@ $--font-color-disabled-base: #bbb;
 /* Disable base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
+
+
+/* --- Simplify --- */
+
+
+
+
 
 
 
@@ -118,19 +141,27 @@ $--select-group-color:         $--color-info;
 $--select-dropdown-background: $--color-white;
 
 
-/* Alert -------------------------- */
+/* Alert / Message / Message Box / Notification --- Variants */
 $--alert-success-color: $--color-success-lighter;
 $--alert-info-color:    $--color-info-lighter;
 $--alert-warning-color: $--color-warning-lighter;
 $--alert-danger-color:  $--color-danger-lighter;
 
+$--message-success-color: $S; $--msgbox-success-color: $S; $--notification-success-color: $S;
+$--message-info-color:    $I; $--msgbox-info-color:    $I; $--notification-info-color:    $I;
+$--message-warning-color: $W; $--msgbox-warning-color: $W; $--notification-warning-color: $W;
+$--message-danger-color:  $D; $--msgbox-danger-color:  $D; $--notification-danger-color:  $D;
+
+
+
+
+
+
+
+
 /* Message Box -------------------------- */
 $--msgbox-content-color: $--color-text-regular;
 
-$--msgbox-success-color: $--color-success;
-$--msgbox-info-color:    $--color-info;
-$--msgbox-warning-color: $--color-warning;
-$--msgbox-danger-color:  $--color-danger;
 
 /* Message -------------------------- */
 $--message-background-color: $--color-primary-lighter;
@@ -139,10 +170,6 @@ $--message-content-color:     $--color-text-regular;
 $--message-close-color:       $--color-text-placeholder;
 $--message-close-hover-color: $--color-text-secondary;
 
-$--message-success-color: $--color-success;
-$--message-info-color:    $--color-info;
-$--message-warning-color: $--color-warning;
-$--message-danger-color:  $--color-danger;
 
 /* Notification -------------------------- */
 $--notification-border-color:    $--border-color-lighter;
@@ -152,10 +179,6 @@ $--notification-title-color:     $--color-text-primary;
 $--notification-close-color:       $--color-text-secondary;
 $--notification-close-hover-color: $--color-text-regular;
 
-$--notification-success-color: $--color-success;
-$--notification-info-color:    $--color-info;
-$--notification-warning-color: $--color-warning;
-$--notification-danger-color:  $--color-danger;
 
 /* Input -------------------------- */
 $--input-color:              $--color-text-regular;
@@ -193,29 +216,17 @@ $--tab-vertical-header-count-color: $--color-white;
 $--tab-vertical-header-count-fill:  $--color-text-secondary;
 
 /* Button -------------------------- */
+$--button-primary-border: $P; $--button-primary-fill: $P; $--button-primary-color: $H;
+$--button-success-border: $S; $--button-success-fill: $S; $--button-success-color: $H;
+$--button-warning-border: $W; $--button-warning-fill: $W; $--button-warning-color: $H;
+$--button-danger-border:  $D; $--button-danger-fill:  $D; $--button-danger-color:  $H;
+$--button-info-border:    $I; $--button-info-fill:    $I; $--button-info-color:    $H;
+
 $--button-default-color:  $--color-text-regular;
 $--button-disabled-color: $--color-text-placeholder;
-$--button-primary-color:  $--color-white;
-$--button-success-color:  $--color-white;
-$--button-warning-color:  $--color-white;
-$--button-danger-color:   $--color-white;
-$--button-info-color:     $--color-white;
 
-$--button-default-border:  $--border-color-base;
-$--button-disabled-border: $--border-color-lighter;
-$--button-primary-border:  $--color-primary;
-$--button-success-border:  $--color-success;
-$--button-warning-border:  $--color-warning;
-$--button-danger-border:   $--color-danger;
-$--button-info-border:     $--color-info;
-
-$--button-default-fill:  $--color-white;
-$--button-disabled-fill: $--color-white;
-$--button-primary-fill:  $--color-primary;
-$--button-success-fill:  $--color-success;
-$--button-warning-fill:  $--color-warning;
-$--button-danger-fill:   $--color-danger;
-$--button-info-fill:     $--color-info;
+$--button-default-border:  $--border-color-base;    $--button-default-fill:  $H;
+$--button-disabled-border: $--border-color-lighter; $--button-disabled-fill: $H;
 
 $--button-hover-tint-percent:   20%;
 $--button-active-shade-percent: 10%;
@@ -231,6 +242,7 @@ $--switch-off-color:           $--border-color-base;
 $--switch-disabled-color:      $--border-color-lighter;
 $--switch-disabled-text-color: $--color-text-placeholder;
 
+
 /* Table -------------------------- */
 $--table-text-color:             $--color-text-regular;
 $--table-header-color:           $--color-text-secondary;
@@ -238,6 +250,7 @@ $--table-row-hover-background:   $--background-color-base;
 $--table-current-row-background: $--color-primary-lighter;
 $--table-header-background:      $--color-white;
 $--table-footer-background:      $--color-text-placeholder;
+
 
 /* Pagination -------------------------- */
 $--pagination-fill:                  $--color-white;
@@ -248,37 +261,33 @@ $--pagination-button-disabled-fill:  $--color-white;
 $--pagination-hover-fill:            $--color-primary;
 $--pagination-hover-color:           $--color-white;
 
+
 /* Popover -------------------------- */
-$--popover-fill:            $--color-white;
-$--popover-border-color:    $--border-color-lighter;
-$--popover-title-color:     $--color-text-primary;
+$--popover-fill:         $--color-white;
+$--popover-border-color: $--border-color-lighter;
+$--popover-title-color:  $--color-text-primary;
+
 
 /* Tooltip -------------------------- */
 $--tooltip-fill:         $--color-text-primary;
 $--tooltip-color:        $--color-white;
 $--tooltip-border-color: $--color-text-primary;
 
+
 /* Tag -------------------------- */
-$--tag-color:         $--color-primary;
-$--tag-info-color:    $--color-info;
-$--tag-primary-color: $--color-primary;
-$--tag-success-color: $--color-success;
-$--tag-warning-color: $--color-warning;
-$--tag-danger-color:  $--color-danger;
+$--tag-color:         $P;
+$--tag-info-color:    $I;
+$--tag-primary-color: $P;
+$--tag-success-color: $S;
+$--tag-warning-color: $W;
+$--tag-danger-color:  $D;
 
-$--tag-fill:         rgba($--tag-color,         0.10);
-$--tag-info-fill:    rgba($--tag-info-color,    0.10);
-$--tag-primary-fill: rgba($--tag-primary-color, 0.10);
-$--tag-success-fill: rgba($--tag-success-color, 0.10);
-$--tag-warning-fill: rgba($--tag-warning-color, 0.10);
-$--tag-danger-fill:  rgba($--tag-danger-color,  0.10);
-
-$--tag-border:         rgba($--tag-color,         0.20);
-$--tag-info-border:    rgba($--tag-info-color,    0.20);
-$--tag-primary-border: rgba($--tag-primary-color, 0.20);
-$--tag-success-border: rgba($--tag-success-color, 0.20);
-$--tag-warning-border: rgba($--tag-warning-color, 0.20);
-$--tag-danger-border:  rgba($--tag-danger-color,  0.20);
+$--tag-fill:         $--color-primary-light; $--tag-border:         $--color-primary-lighter;
+$--tag-primary-fill: $--color-primary-light; $--tag-primary-border: $--color-primary-lighter;
+$--tag-success-fill: $--color-success-light; $--tag-success-border: $--color-success-lighter;
+$--tag-warning-fill: $--color-warning-light; $--tag-warning-border: $--color-warning-lighter;
+$--tag-danger-fill:  $--color-danger-light;  $--tag-danger-border:  $--color-danger-lighter;
+$--tag-info-fill:    $--color-info-light;    $--tag-info-border:    $--color-info-lighter;
 
 
 /* Dropdown -------------------------- */

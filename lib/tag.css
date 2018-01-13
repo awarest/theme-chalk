@@ -3,7 +3,7 @@
   transform: scale(0.8);
 }
 .el-tag {
-  background-color: rgba(64, 158, 255, 0.1);
+  background-color: #c6e2ff;
   display: inline-block;
   padding: 0 10px;
   height: 32px;
@@ -12,7 +12,7 @@
   color: #409eff;
   border-radius: 4px;
   box-sizing: border-box;
-  border: 1px solid rgba(64, 158, 255, 0.2);
+  border: 1px solid #ecf5ff;
   white-space: nowrap;
 }
 .el-tag .el-icon-close {
@@ -41,8 +41,8 @@
   color: #909399;
 }
 .el-tag--info {
-  background-color: rgba(144, 147, 153, 0.1);
-  border-color: rgba(144, 147, 153, 0.2);
+  background-color: #dcdfe6;
+  border-color: #f4f4f5;
 }
 .el-tag--info.is-hit {
   border-color: #909399;
@@ -52,8 +52,8 @@
   color: #fff;
 }
 .el-tag--success {
-  background-color: rgba(103, 194, 58, 0.1);
-  border-color: rgba(103, 194, 58, 0.2);
+  background-color: #e1f3d8;
+  border-color: #f0f9eb;
   color: #67c23a;
 }
 .el-tag--success.is-hit {
@@ -67,8 +67,8 @@
   color: #fff;
 }
 .el-tag--warning {
-  background-color: rgba(230, 162, 60, 0.1);
-  border-color: rgba(230, 162, 60, 0.2);
+  background-color: #faecd8;
+  border-color: #fdf6ec;
   color: #e6a23c;
 }
 .el-tag--warning.is-hit {
@@ -82,8 +82,8 @@
   color: #fff;
 }
 .el-tag--danger {
-  background-color: rgba(245, 108, 108, 0.1);
-  border-color: rgba(245, 108, 108, 0.2);
+  background-color: #fde2e2;
+  border-color: #fef0f0;
   color: #f56c6c;
 }
 .el-tag--danger.is-hit {
