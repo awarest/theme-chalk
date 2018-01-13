@@ -32,25 +32,15 @@ $--border-color-base:        #dcdfe6;
 $--border-color-extra-light: #f2f6fc;
 $--border-color-other:       #e4e4e4;
 
-$--border-color-hover: $--color-text-placeholder;
-
-/* Fill -------------------------- */
-$--fill-base: $--color-white;
-
 /* Font -------------------------- */
 $--font-color-disabled-base: #bbb;
 
 /* Disable base -------------------------- */
-$--disabled-fill-base:   $--background-color-base;
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
 
-/* Icon -------------------------- */
-$--icon-color:      #666;
-$--icon-color-base: $--color-info;
-
 /* Checkbox -------------------------- */
-$--checkbox-disabled-input-fill: #edf2fc;
+$--checkbox-disabled-input-fill: $--color-primary-lighter;
 $--checkbox-color:               $--color-text-regular;
 $--checkbox-input-fill:          $--color-white;
 $--checkbox-input-border-color:  $--border-color-base;
@@ -66,7 +56,7 @@ $--checkbox-disabled-checked-icon-color:         $--color-text-placeholder;
 $--checkbox-checked-text-color:         $--color-primary;
 $--checkbox-checked-input-border-color: $--color-primary;
 $--checkbox-checked-input-fill:         $--color-primary;
-$--checkbox-checked-icon-color:         $--fill-base;
+$--checkbox-checked-icon-color:         $--color-white;
 
 $--checkbox-input-border-color-hover: $--color-primary;
 
@@ -86,11 +76,11 @@ $--radio-input-border-color:  $--border-color-base;
 $--radio-icon-color:          $--color-white;
 
 $--radio-disabled-input-border-color: $--disabled-border-base;
-$--radio-disabled-input-fill:         $--disabled-fill-base;
-$--radio-disabled-icon-color:         $--disabled-fill-base;
+$--radio-disabled-input-fill:         $--background-color-base;
+$--radio-disabled-icon-color:         $--background-color-base;
 
 $--radio-disabled-checked-input-border-color: $--disabled-border-base;
-$--radio-disabled-checked-input-fill:         $--disabled-fill-base;
+$--radio-disabled-checked-input-fill:         $--background-color-base;
 $--radio-disabled-checked-icon-color:         $--color-text-placeholder;
 
 $--radio-checked-text-color:         $--color-primary;
@@ -108,7 +98,7 @@ $--radio-button-disabled-checked-fill: $--border-color-extra-light;
 /* Select -------------------------- */
 $--select-dropdown-empty-color: #999;
 
-$--select-border-color-hover: $--border-color-hover;
+$--select-border-color-hover: $--color-text-placeholder;
 $--select-disabled-border:    $--disabled-border-base;
 $--select-close-hover-color:  $--color-text-secondary;
 
@@ -169,20 +159,20 @@ $--notification-danger-color:  $--color-danger;
 /* Input -------------------------- */
 $--input-color:              $--color-text-regular;
 $--input-border-color:       $--border-color-base;
-$--input-border-color-hover: $--border-color-hover;
+$--input-border-color-hover: $--color-text-placeholder;
 $--input-fill:               $--color-white;
-$--input-fill-disabled:      $--disabled-fill-base;
+$--input-fill-disabled:      $--background-color-base;
 $--input-color-disabled:     $--font-color-disabled-base;
 $--input-icon-color:         $--color-text-placeholder;
 $--input-placeholder-color:  $--color-text-placeholder;
 
-$--input-hover-border:      $--border-color-hover;
+$--input-hover-border:      $--color-text-placeholder;
 $--input-clear-hover-color: $--color-text-secondary;
 
 $--input-focus-border: $--color-primary;
 $--input-focus-fill:   $--color-white;
 
-$--input-disabled-fill:              $--disabled-fill-base;
+$--input-disabled-fill:              $--background-color-base;
 $--input-disabled-border:            $--disabled-border-base;
 $--input-disabled-color:             $--disabled-color-base;
 $--input-disabled-placeholder-color: $--color-text-placeholder;

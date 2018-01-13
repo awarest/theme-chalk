@@ -858,7 +858,7 @@
   line-height: 1;
 }
 .el-checkbox__input.is-disabled .el-checkbox__inner {
-  background-color: #edf2fc;
+  background-color: #ecf5ff;
   border-color: #dcdfe6;
   cursor: not-allowed;
 }
