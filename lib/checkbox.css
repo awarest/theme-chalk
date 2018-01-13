@@ -103,14 +103,14 @@
   cursor: not-allowed;
 }
 .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
-  background-color: #f2f6fc;
+  background-color: #f4f4f5;
   border-color: #dcdfe6;
 }
 .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
   border-color: #c0c4cc;
 }
 .el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner {
-  background-color: #f2f6fc;
+  background-color: #f4f4f5;
   border-color: #dcdfe6;
 }
 .el-checkbox__input.is-disabled.is-indeterminate .el-checkbox__inner::before {
