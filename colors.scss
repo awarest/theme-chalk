@@ -12,29 +12,16 @@
 $--color-white: #fff;
 $--color-black: #000;
 
-$--color-primary: #409EFF;
-$--color-success: #67c23a;
-$--color-warning: #e6a23c;
-$--color-danger:  #f56c6c;
-$--color-info:    #909399;
-
-// $--color-primary-light-2: #66b1ff; // only used for $--link-color
-$--color-primary-light-4: #8cc5ff; // only used in checkbox
-$--color-primary-light-7: #c6e2ff; // only used in button
-$--color-primary-light-9: #ecf5ff; // only used in button
-
-$--color-primary-lighter: #f0f9eb; $--color-primary-light: #e1f3d8;
-
-$--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
-$--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
-$--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
-$--color-info-lighter:    #f4f4f5;
+$--color-primary: #409EFF; $--color-primary-lighter: #ecf5ff; $--color-primary-light: #c6e2ff;
+$--color-success: #67c23a; $--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
+$--color-warning: #e6a23c; $--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
+$--color-danger:  #f56c6c; $--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
+$--color-info:    #909399; $--color-info-lighter:    #f4f4f5;
 
 $--color-text-primary:     #303133;
 $--color-text-regular:     #606266;
 $--color-text-secondary:   #909399;
 $--color-text-placeholder: #c0c4cc;
-
 
 /* Background -------------------------- */
 $--background-color-base: #f5f7fa;
@@ -86,6 +73,11 @@ $--checkbox-input-border-color-hover: $--color-primary;
 $--checkbox-button-checked-fill:         $--color-primary;
 $--checkbox-button-checked-color:        $--color-white;
 $--checkbox-button-checked-border-color: $--color-primary;
+
+// preserving functionality, only used in checkbox when treated as buttons and when not the
+// first child, it creates a psuedo left border/separator between a group of check buttons
+$--color-primary-light-4: $--color-primary-light;
+
 
 /* Radio -------------------------- */
 $--radio-color:               $--color-text-regular;
@@ -237,21 +229,22 @@ $--button-info-fill:     $--color-info;
 $--button-hover-tint-percent:   20%;
 $--button-active-shade-percent: 10%;
 
+// preserving functionality, only used in buttons for the "default" variant on hover/active
+$--color-primary-light-7: $--color-primary-light;   // ends up being the border color
+$--color-primary-light-9: $--color-primary-lighter; // ends up being the background color
+
+
 /* Switch -------------------------- */
 $--switch-on-color:            $--color-primary;
 $--switch-off-color:           $--border-color-base;
 $--switch-disabled-color:      $--border-color-lighter;
 $--switch-disabled-text-color: $--color-text-placeholder;
 
-/* Dialog -------------------------- */
-$--dialog-background-color:  $--color-primary-light-4;
-$--dialog-close-hover-color: $--color-primary;
-
 /* Table -------------------------- */
 $--table-text-color:             $--color-text-regular;
 $--table-header-color:           $--color-text-secondary;
 $--table-row-hover-background:   $--background-color-base;
-$--table-current-row-background: $--color-primary-light-9;
+$--table-current-row-background: $--color-primary-lighter;
 $--table-header-background:      $--color-white;
 $--table-footer-background:      $--color-text-placeholder;
 
@@ -298,7 +291,7 @@ $--tag-danger-border:  rgba($--tag-danger-color,  0.20);
 
 
 /* Dropdown -------------------------- */
-$--dropdown-menuItem-hover-fill:  $--color-primary-light-9;
+$--dropdown-menuItem-hover-fill:  $--color-primary-lighter;
 $--dropdown-menuItem-hover-color: $--color-primary;
 
 /* Badge -------------------------- */
