@@ -33,11 +33,11 @@ $--border-color-base:        #dcdfe6;
 /* Font -------------------------- */
 $--font-color-disabled-base: #bbb;
 
-
-
 /* Disable base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
+
+
 
 /* Checkbox -------------------------- */
 $--checkbox-disabled-input-fill: $--color-primary-lighter;
@@ -95,6 +95,7 @@ $--radio-button-checked-color:         $--color-white;
 $--radio-button-checked-border-color:  $--color-primary;
 $--radio-button-disabled-checked-fill: $--color-info-lighter;
 
+
 /* Select -------------------------- */
 $--select-dropdown-empty-color: $--font-color-disabled-base;
 
@@ -103,7 +104,7 @@ $--select-disabled-border:    $--disabled-border-base;
 $--select-close-hover-color:  $--color-text-secondary;
 
 $--select-input-color:            $--color-text-placeholder;
-$--select-multiple-input-color:   #666;
+$--select-multiple-input-color:   $--color-text-regular;
 $--select-input-focus-background: $--color-primary;
 
 $--select-option-color:               $--color-text-regular;
@@ -113,9 +114,9 @@ $--select-option-hover-background:    $--background-color-base;
 $--select-option-selected:            $--color-primary;
 $--select-option-selected-hover:      $--background-color-base;
 
-$--select-group-color:     $--color-info;
+$--select-group-color:         $--color-info;
+$--select-dropdown-background: $--color-white;
 
-$--select-dropdown-background:    $--color-white;
 
 /* Alert -------------------------- */
 $--alert-success-color: $--color-success-lighter;
