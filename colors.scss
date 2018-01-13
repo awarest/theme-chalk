@@ -125,7 +125,7 @@ $--alert-warning-color: $--color-warning-lighter;
 $--alert-danger-color:  $--color-danger-lighter;
 
 /* Message Box -------------------------- */
-$--msgbox-content-color:     $--color-text-regular;
+$--msgbox-content-color: $--color-text-regular;
 
 $--msgbox-success-color: $--color-success;
 $--msgbox-info-color:    $--color-info;
@@ -133,7 +133,7 @@ $--msgbox-warning-color: $--color-warning;
 $--msgbox-danger-color:  $--color-danger;
 
 /* Message -------------------------- */
-$--message-background-color: #edf2fc;
+$--message-background-color: $--color-primary-lighter;
 
 $--message-content-color:     $--color-text-regular;
 $--message-close-color:       $--color-text-placeholder;
