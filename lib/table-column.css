@@ -40,7 +40,7 @@
 .el-table-filter__bottom button {
   background: 0 0;
   border: none;
-  color: #606266;
+  color: #909399;
   cursor: pointer;
   font-size: 13px;
   padding: 0 3px;
@@ -52,7 +52,7 @@
   outline: 0;
 }
 .el-table-filter__bottom button.is-disabled {
-  color: #c0c4cc;
+  color: #909399;
   cursor: not-allowed;
 }
 .el-table-filter__checkbox-group {

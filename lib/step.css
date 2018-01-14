@@ -28,8 +28,8 @@
   border-color: #303133;
 }
 .el-step__head.is-wait {
-  color: #c0c4cc;
-  border-color: #c0c4cc;
+  color: #909399;
+  border-color: #909399;
 }
 .el-step__head.is-success {
   color: #67c23a;
@@ -83,7 +83,7 @@
 .el-step__line {
   position: absolute;
   border-color: inherit;
-  background-color: #c0c4cc;
+  background-color: #909399;
 }
 .el-step__line-inner {
   display: block;
@@ -106,7 +106,7 @@
   color: #303133;
 }
 .el-step__title.is-wait {
-  color: #c0c4cc;
+  color: #909399;
 }
 .el-step__title.is-success {
   color: #67c23a;
@@ -128,7 +128,7 @@
   color: #303133;
 }
 .el-step__description.is-wait {
-  color: #c0c4cc;
+  color: #909399;
 }
 .el-step__description.is-success {
   color: #67c23a;
@@ -232,7 +232,7 @@
   position: absolute;
   height: 15px;
   width: 1px;
-  background: #c0c4cc;
+  background: #909399;
 }
 .el-step.is-simple .el-step__arrow::before {
   transform: rotate(-45deg) translateY(-4px);

@@ -5,7 +5,7 @@
   cursor: pointer;
   background: #fff;
   border: 1px solid #dcdfe6;
-  color: #606266;
+  color: #909399;
   -webkit-appearance: none;
   text-align: center;
   box-sizing: border-box;
@@ -58,7 +58,7 @@
 .el-button.is-disabled,
 .el-button.is-disabled:focus,
 .el-button.is-disabled:hover {
-  color: #c0c4cc;
+  color: #909399;
   cursor: not-allowed;
   background-image: none;
   background-color: #fff;
@@ -72,7 +72,7 @@
 .el-button.is-disabled.is-plain:hover {
   background-color: #fff;
   border-color: #dcdfe6;
-  color: #c0c4cc;
+  color: #909399;
 }
 .el-button.is-loading {
   position: relative;

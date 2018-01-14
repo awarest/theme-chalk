@@ -29,10 +29,10 @@
   cursor: default;
 }
 .el-slider__runway.disabled .el-slider__bar {
-  background-color: #c0c4cc;
+  background-color: #909399;
 }
 .el-slider__runway.disabled .el-slider__button {
-  border-color: #c0c4cc;
+  border-color: #909399;
 }
 .el-slider__runway.disabled .el-slider__button-wrapper.dragging,
 .el-slider__runway.disabled .el-slider__button-wrapper.hover,
@@ -196,7 +196,7 @@
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input:hover
   .el-input-number__increase {
-  border-color: #c0c4cc;
+  border-color: #909399;
 }
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input:active

@@ -22,7 +22,7 @@
   height: auto;
   text-align: center;
   background: #f5f7fa;
-  color: #606266;
+  color: #909399;
   cursor: pointer;
   font-size: 13px;
 }
@@ -40,7 +40,7 @@
 }
 .el-input-number__decrease.is-disabled,
 .el-input-number__increase.is-disabled {
-  color: #c0c4cc;
+  color: #909399;
   cursor: not-allowed;
 }
 .el-input-number__increase {

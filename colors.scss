@@ -44,17 +44,15 @@ $--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $l
 $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
-
-$--color-text-placeholder:   #c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
-$--color-text-regular:       #606266; // 10
-// $--border-color-lighter:     #ebeef5; // 9 - checkbox / dropdown / message-box / message / progress / radio / table-column / table / variables
 $--color-text-primary:       #303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
 $--background-color-base:    #f5f7fa; // 4 - input-number / input / steps / table
 
-
+// $--color-text-placeholder:   #c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
+// $--color-text-regular:       #606266; // 10
+// $--border-color-lighter:     #ebeef5; // 9 - checkbox / dropdown / message-box / message / progress / radio / table-column / table / variables
 // $--border-color-light:       #e4e7ed; // 7 - option-group / autocomplete
-$--color-text-secondary:     #909399; // 4 - select / table - same as info
-$--font-color-disabled-base: #bbbbbb; // 3 - dropdown
+// $--color-text-secondary:     #909399; // 4 - select / table - same as info
+// $--font-color-disabled-base: #bbbbbb; // 3 - dropdown
 
 
 /* Preserving Functionality -------------------------- */
@@ -64,16 +62,19 @@ $--color-primary-light-4: $--color-primary-light;   // ends up being psuedo left
 $--color-primary-light-7: $--color-primary-light;   // ends up being the border color
 $--color-primary-light-9: $--color-primary-lighter; // ends up being the background color
 
+$--color-text-secondary:     $I; // 909399 // 4 - select / table - same as info
+$--font-color-disabled-base: $I; // bbbbbb // 3 - dropdown
+$--color-text-placeholder:   $I; // c0c4cc // 7 - alert / breadcrumb / pagination / radio / select / step / table
+$--color-text-regular:       $I; // 606266 // 10
 
 
 /* Border -------------------------- */
-// info light is new, just moved this value up there
 $--border-color-base:    $lI; // dcdfe6
 $--border-color-light:   $lI; // e4e7ed
 $--border-color-lighter: $lI; // ebeef5
 
 
-/* Disable base -------------------------- */
+/* Disabled Base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
 

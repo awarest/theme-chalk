@@ -27,7 +27,7 @@
   transition: 0.3s background-color;
 }
 .el-scrollbar__thumb:hover {
-  background-color: #c0c4cc;
+  background-color: #909399;
 }
 .el-scrollbar__bar {
   position: absolute;
