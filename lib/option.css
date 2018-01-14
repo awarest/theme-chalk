@@ -20,7 +20,7 @@
 }
 .el-select-dropdown__item.hover,
 .el-select-dropdown__item:hover {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
 }
 .el-select-dropdown__item.selected {
   color: #409eff;

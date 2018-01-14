@@ -108,7 +108,7 @@
   pointer-events: none;
 }
 .el-input.is-disabled .el-input__inner {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   border-color: #dcdfe6;
   color: #909399;
   cursor: not-allowed;
@@ -167,7 +167,7 @@
 }
 .el-input-group__append,
 .el-input-group__prepend {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   color: #909399;
   vertical-align: middle;
   display: table-cell;
@@ -260,7 +260,7 @@
   border-color: #409eff;
 }
 .el-textarea.is-disabled .el-textarea__inner {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   border-color: #dcdfe6;
   color: #909399;
   cursor: not-allowed;

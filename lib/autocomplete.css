@@ -37,7 +37,7 @@
 }
 .el-autocomplete-suggestion li.highlighted,
 .el-autocomplete-suggestion li:hover {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
 }
 .el-autocomplete-suggestion li.divider {
   margin-top: 6px;

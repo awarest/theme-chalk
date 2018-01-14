@@ -61,7 +61,7 @@
   padding: 20px 50px;
 }
 .el-table__expanded-cell:hover {
-  background-color: #f5f7fa !important;
+  background-color: #f4f4f5 !important;
 }
 .el-table--fit {
   border-right: 0;
@@ -76,7 +76,7 @@
   font-weight: 500;
 }
 .el-table thead.is-group th {
-  background: #f5f7fa;
+  background: #f4f4f5;
 }
 .el-table th,
 .el-table tr {
@@ -291,7 +291,7 @@
 }
 .el-table__fixed-footer-wrapper tbody td {
   border-top: 1px solid #dcdfe6;
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   color: #909399;
 }
 .el-table__fixed-body-wrapper {
@@ -323,7 +323,7 @@
 }
 .el-table__footer-wrapper tbody td,
 .el-table__header-wrapper tbody td {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   color: #909399;
 }
 .el-table__body-wrapper {
@@ -415,7 +415,7 @@
   transition: background-color 0.25s ease;
 }
 .el-table--enable-row-hover .el-table__body tr:hover > td {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
 }
 .el-table--fluid-height .el-table__fixed,
 .el-table--fluid-height .el-table__fixed-right {

@@ -11,7 +11,7 @@
 }
 .el-radio__input.is-disabled .el-radio__inner,
 .el-radio__input.is-disabled.is-checked .el-radio__inner {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
   border-color: #dcdfe6;
 }
 .el-radio,
@@ -88,7 +88,7 @@
 }
 .el-radio__input.is-disabled .el-radio__inner::after {
   cursor: not-allowed;
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
 }
 .el-radio__input.is-disabled .el-radio__inner + .el-radio__label {
   cursor: not-allowed;

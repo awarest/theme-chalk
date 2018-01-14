@@ -13,7 +13,7 @@
   background-color: #fff;
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover {
-  background-color: #f5f7fa;
+  background-color: #f4f4f5;
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected::after {
   position: absolute;
