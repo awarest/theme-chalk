@@ -9,8 +9,8 @@
 // $--color-danger:  $red;
 // $--color-info:    $purple;
 
-$--color-white: #fff;
-$--color-black: #000;
+$--color-white: #ffffff;
+$--color-black: #000000;
 
 $--color-primary: #409EFF;
 $--color-success: #67c23a;
@@ -24,8 +24,8 @@ $W: #e6a23c;
 $D: #f56c6c;
 $I: #909399;
 
-$H: #fff;
-$L: #000;
+$H: #ffffff;
+$L: #000000;
 
 $--color-primary-lighter: #ecf5ff; $--color-primary-light: #c6e2ff;
 $--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
@@ -37,31 +37,23 @@ $--color-text-primary:     #303133;
 $--color-text-regular:     #606266;
 $--color-text-secondary:   #909399;
 $--color-text-placeholder: #c0c4cc;
+$--color-text-disabled:    #bbbbbb;
 
-
-
-/* Background -------------------------- */
 $--background-color-base: #f5f7fa;
 
-/* Border -------------------------- */
 $--border-color-lighter: #ebeef5; $--border-color-light: #e4e7ed;
 
-$--border-color-base: $--color-info-light; // info light is new, just moved this value up there
 
 /* Font -------------------------- */
-$--font-color-disabled-base: #bbb;
+$--font-color-disabled-base: $--color-text-disabled;
+
+/* Border -------------------------- */
+$--border-color-base: $--color-info-light; // info light is new, just moved this value up there
+
 
 /* Disable base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
-
-
-/* --- Simplify --- */
-
-
-
-
-
 
 
 /* Checkbox -------------------------- */
@@ -231,7 +223,6 @@ $--switch-off-color:           $--border-color-base;
 $--switch-disabled-color:      $--border-color-lighter;
 $--switch-disabled-text-color: $--color-text-placeholder;
 
-
 /* Table -------------------------- */
 $--table-text-color:             $--color-text-regular;
 $--table-header-color:           $--color-text-secondary;
@@ -239,7 +230,6 @@ $--table-row-hover-background:   $--background-color-base;
 $--table-current-row-background: $--color-primary-lighter;
 $--table-header-background:      $H;
 $--table-footer-background:      $--color-text-placeholder;
-
 
 /* Pagination -------------------------- */
 $--pagination-fill:                  $H;
@@ -250,18 +240,15 @@ $--pagination-button-disabled-fill:  $H;
 $--pagination-hover-fill:            $P;
 $--pagination-hover-color:           $H;
 
-
 /* Popover -------------------------- */
 $--popover-fill:         $H;
 $--popover-border-color: $--border-color-lighter;
 $--popover-title-color:  $--color-text-primary;
 
-
 /* Tooltip -------------------------- */
 $--tooltip-fill:         $--color-text-primary;
 $--tooltip-color:        $H;
 $--tooltip-border-color: $--color-text-primary;
-
 
 /* Tag -------------------------- */
 $--tag-color:         $P;
@@ -277,7 +264,6 @@ $--tag-success-fill: $--color-success-light; $--tag-success-border: $--color-suc
 $--tag-warning-fill: $--color-warning-light; $--tag-warning-border: $--color-warning-lighter;
 $--tag-danger-fill:  $--color-danger-light;  $--tag-danger-border:  $--color-danger-lighter;
 $--tag-info-fill:    $--color-info-light;    $--tag-info-border:    $--color-info-lighter;
-
 
 /* Dropdown -------------------------- */
 $--dropdown-menuItem-hover-fill:  $--color-primary-lighter;
@@ -295,19 +281,12 @@ $--slider-runway-background-color: $--border-color-light;
 $--slider-stop-background-color:   $H;
 $--slider-disable-color:           $--color-text-placeholder;
 
-
-/* Steps --------------------------*/
-$--steps-border-color: $--disabled-border-base;
-
-
 /* Rate --------------------------*/
 $--rate-icon-color: $--color-text-placeholder;
-
 
 /* Scrollbar --------------------------*/
 $--scrollbar-background-color:       $--color-info-light;
 $--scrollbar-hover-background-color: $--color-text-placeholder;
-
 
 /* Collapse --------------------------*/
 $--collapse-border-color:  $--border-color-lighter;
@@ -315,4 +294,3 @@ $--collapse-header-fill:   $H;
 $--collapse-header-color:  $--color-text-primary;
 $--collapse-content-fill:  $H;
 $--collapse-content-color: $--color-text-primary;
-
