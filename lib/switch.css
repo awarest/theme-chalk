@@ -22,7 +22,7 @@
   height: 20px;
   font-size: 14px;
   font-weight: 500;
-  color: #303133;
+  color: #000;
 }
 .el-switch__label.is-active {
   color: #409eff;

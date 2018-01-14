@@ -252,7 +252,7 @@
 .el-breadcrumb__inner a {
   font-weight: 700;
   transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-  color: #303133;
+  color: #000;
 }
 .el-breadcrumb__inner a:hover,
 .el-breadcrumb__inner:hover {
@@ -757,7 +757,7 @@
   border: 1px solid #dcdfe6;
   background-color: #fff;
   overflow: hidden;
-  color: #303133;
+  color: #000;
 }
 .el-card__header {
   padding: 18px 20px;
@@ -1073,7 +1073,7 @@
 .el-collapse-item__header {
   height: 48px;
   line-height: 48px;
-  color: #303133;
+  color: #000;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
@@ -1098,7 +1098,7 @@
 .el-collapse-item__content {
   padding-bottom: 25px;
   font-size: 13px;
-  color: #303133;
+  color: #000;
   line-height: 1.769230769230769;
 }
 .el-collapse-item.is-active .el-collapse-item__header {
@@ -1165,7 +1165,7 @@
 .el-dialog__title {
   line-height: 24px;
   font-size: 18px;
-  color: #303133;
+  color: #000;
 }
 .el-dialog__body {
   padding: 30px 20px;
@@ -2052,7 +2052,7 @@
   margin-bottom: 0;
   font-size: 18px;
   line-height: 1;
-  color: #303133;
+  color: #000;
 }
 .el-message-box__headerbtn {
   position: absolute;
@@ -2302,7 +2302,7 @@
 .el-notification__title {
   font-weight: 700;
   font-size: 16px;
-  color: #303133;
+  color: #000;
   margin: 0;
 }
 .el-notification__content {
@@ -2423,7 +2423,7 @@
 .el-pagination {
   white-space: nowrap;
   padding: 2px 5px;
-  color: #303133;
+  color: #000;
   font-weight: 700;
 }
 .el-pagination::after,
@@ -2485,7 +2485,7 @@
   background-size: 16px;
   cursor: pointer;
   margin: 0;
-  color: #303133;
+  color: #000;
 }
 .el-pagination .btn-next .el-icon,
 .el-pagination .btn-prev .el-icon {
@@ -2615,7 +2615,7 @@
 .el-pager li.btn-quicknext,
 .el-pager li.btn-quickprev {
   line-height: 28px;
-  color: #303133;
+  color: #000;
 }
 .el-pager li.active + li {
   border-left: 0;
@@ -2644,7 +2644,7 @@
   padding: 18px 20px;
 }
 .el-popover__title {
-  color: #303133;
+  color: #000;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 12px;
@@ -3608,8 +3608,8 @@
   width: 100%;
 }
 .el-step__head.is-process {
-  color: #303133;
-  border-color: #303133;
+  color: #000;
+  border-color: #000;
 }
 .el-step__head.is-wait {
   color: #909399;
@@ -3696,7 +3696,7 @@
 }
 .el-step__title.is-process {
   font-weight: 700;
-  color: #303133;
+  color: #000;
 }
 .el-step__title.is-wait {
   color: #909399;
@@ -3718,7 +3718,7 @@
   font-weight: 400;
 }
 .el-step__description.is-process {
-  color: #303133;
+  color: #000;
 }
 .el-step__description.is-wait {
   color: #909399;
@@ -3870,7 +3870,7 @@
   height: 20px;
   font-size: 14px;
   font-weight: 500;
-  color: #303133;
+  color: #000;
 }
 .el-switch__label.is-active {
   color: #409eff;
@@ -4570,13 +4570,13 @@
 }
 .el-tooltip__popper[x-placement^="top"] .popper__arrow {
   bottom: -6px;
-  border-top-color: #303133;
+  border-top-color: #000;
   border-bottom-width: 0;
 }
 .el-tooltip__popper[x-placement^="top"] .popper__arrow::after {
   bottom: 1px;
   margin-left: -5px;
-  border-top-color: #303133;
+  border-top-color: #000;
   border-bottom-width: 0;
 }
 .el-tooltip__popper[x-placement^="bottom"] {
@@ -4585,26 +4585,26 @@
 .el-tooltip__popper[x-placement^="bottom"] .popper__arrow {
   top: -6px;
   border-top-width: 0;
-  border-bottom-color: #303133;
+  border-bottom-color: #000;
 }
 .el-tooltip__popper[x-placement^="bottom"] .popper__arrow::after {
   top: 1px;
   margin-left: -5px;
   border-top-width: 0;
-  border-bottom-color: #303133;
+  border-bottom-color: #000;
 }
 .el-tooltip__popper[x-placement^="right"] {
   margin-left: 12px;
 }
 .el-tooltip__popper[x-placement^="right"] .popper__arrow {
   left: -6px;
-  border-right-color: #303133;
+  border-right-color: #000;
   border-left-width: 0;
 }
 .el-tooltip__popper[x-placement^="right"] .popper__arrow::after {
   bottom: -5px;
   left: 1px;
-  border-right-color: #303133;
+  border-right-color: #000;
   border-left-width: 0;
 }
 .el-tooltip__popper[x-placement^="left"] {
@@ -4613,43 +4613,43 @@
 .el-tooltip__popper[x-placement^="left"] .popper__arrow {
   right: -6px;
   border-right-width: 0;
-  border-left-color: #303133;
+  border-left-color: #000;
 }
 .el-tooltip__popper[x-placement^="left"] .popper__arrow::after {
   right: 1px;
   bottom: -5px;
   margin-left: -5px;
   border-right-width: 0;
-  border-left-color: #303133;
+  border-left-color: #000;
 }
 .el-tooltip__popper.is-dark {
-  background: #303133;
+  background: #000;
   color: #fff;
 }
 .el-tooltip__popper.is-light {
   background: #fff;
-  border: 1px solid #303133;
+  border: 1px solid #000;
 }
 .el-tooltip__popper.is-light[x-placement^="top"] .popper__arrow {
-  border-top-color: #303133;
+  border-top-color: #000;
 }
 .el-tooltip__popper.is-light[x-placement^="top"] .popper__arrow::after {
   border-top-color: #fff;
 }
 .el-tooltip__popper.is-light[x-placement^="bottom"] .popper__arrow {
-  border-bottom-color: #303133;
+  border-bottom-color: #000;
 }
 .el-tooltip__popper.is-light[x-placement^="bottom"] .popper__arrow::after {
   border-bottom-color: #fff;
 }
 .el-tooltip__popper.is-light[x-placement^="left"] .popper__arrow {
-  border-left-color: #303133;
+  border-left-color: #000;
 }
 .el-tooltip__popper.is-light[x-placement^="left"] .popper__arrow::after {
   border-left-color: #fff;
 }
 .el-tooltip__popper.is-light[x-placement^="right"] .popper__arrow {
-  border-right-color: #303133;
+  border-right-color: #000;
 }
 .el-tooltip__popper.is-light[x-placement^="right"] .popper__arrow::after {
   border-right-color: #fff;

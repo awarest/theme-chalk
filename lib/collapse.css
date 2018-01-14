@@ -14,7 +14,7 @@
 .el-collapse-item__header {
   height: 48px;
   line-height: 48px;
-  color: #303133;
+  color: #000;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
@@ -39,7 +39,7 @@
 .el-collapse-item__content {
   padding-bottom: 25px;
   font-size: 13px;
-  color: #303133;
+  color: #000;
   line-height: 1.769230769230769;
 }
 .el-collapse-item.is-active .el-collapse-item__header {

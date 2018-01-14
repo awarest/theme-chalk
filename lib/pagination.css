@@ -7,7 +7,7 @@
 .el-pagination {
   white-space: nowrap;
   padding: 2px 5px;
-  color: #303133;
+  color: #000;
   font-weight: 700;
 }
 .el-pagination::after,
@@ -72,7 +72,7 @@
   background-size: 16px;
   cursor: pointer;
   margin: 0;
-  color: #303133;
+  color: #000;
 }
 .el-pagination .btn-next .el-icon,
 .el-pagination .btn-prev .el-icon {
@@ -202,7 +202,7 @@
 .el-pager li.btn-quicknext,
 .el-pager li.btn-quickprev {
   line-height: 28px;
-  color: #303133;
+  color: #000;
 }
 .el-pager li.active + li {
   border-left: 0;

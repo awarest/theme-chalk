@@ -41,7 +41,7 @@ $--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $l
 $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
-$--color-text-primary:       #303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
+$--color-text-primary:    $L;   // 303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
 $--background-color-base: $llI; // f5f7fa; // 4 - input-number / input / steps / table
 
 // $--color-text-placeholder:   #c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
