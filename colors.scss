@@ -1,35 +1,26 @@
 
 /* Colors -------------------------- */
 
-// $--color-white:   $white;
-// $--color-black:   $black;
-// $--color-primary: $blue;
-// $--color-success: $green;
-// $--color-warning: $orange;
-// $--color-danger:  $red;
-// $--color-info:    $purple;
+$P: $blue;   // 409EFF; // primary
+$S: $green;  // 67c23a; // success
+$W: $orange; // e6a23c; // warning
+$D: $red;    // f56c6c; // danger
+$I: $slate;  // 909399; // info
 
+$llP: $artic; // ecf5ff; // lighter primary
+$llS: $mint;  // f0f9eb; // lighter success
+$llW: $peach; // fdf6ec; // lighter warning
+$llD: $pink;  // fef0f0; // lighter danger
+$llI: $smoke; // f4f4f5; // lighter info
 
-$P: #409EFF; // primary
-$S: #67c23a; // success
-$W: #e6a23c; // warning
-$D: #f56c6c; // danger
-$I: #909399; // info
+$lP: darken($artic, 10%); // c6e2ff; // light primary
+$lS: darken($mint,  10%); // e1f3d8; // light success
+$lW: darken($peach, 10%); // faecd8; // light warning
+$lD: darken($pink,  10%); // fde2e2; // light danger
+$lI: $silver;             // dcdfe6; // light info
 
-$llP: #ecf5ff; // lighter primary
-$llS: #f0f9eb; // lighter success
-$llW: #fdf6ec; // lighter warning
-$llD: #fef0f0; // lighter danger
-$llI: #f4f4f5; // lighter info
-
-$lP: #c6e2ff; // light primary
-$lS: #e1f3d8; // light success
-$lW: #faecd8; // light warning
-$lD: #fde2e2; // light danger
-$lI: #dcdfe6; // light info
-
-$H: #ffffff; // white
-$L: #000000; // black
+$H: $white; // ffffff; // white
+$L: $black; // 000000; // black
 
 
 
@@ -42,15 +33,15 @@ $--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $l
 $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
-$--color-text-primary:       $L;   // 303133 // 6 - breadcrumb / card / dialog / message-box / step / switch
-$--background-color-base:    $llI; // f5f7fa // 4 - input-number / input / steps / table
-$--color-text-secondary:     $I;   // 909399 // 4 - select / table - same as info
-$--font-color-disabled-base: $I;   // bbbbbb // 3 - dropdown
-$--color-text-placeholder:   $I;   // c0c4cc // 7 - alert / breadcrumb / pagination / radio / select / step / table
-$--color-text-regular:       $I;   // 606266 // 10
-$--border-color-base:        $lI;  // dcdfe6
-$--border-color-light:       $lI;  // e4e7ed
-$--border-color-lighter:     $lI;  // ebeef5
+$--color-text-primary:       $L;   // 303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
+$--background-color-base:    $llI; // f5f7fa; // 4 - input-number / input / steps / table
+$--color-text-secondary:     $I;   // 909399; // 4 - select / table - same as info
+$--font-color-disabled-base: $I;   // bbbbbb; // 3 - dropdown
+$--color-text-placeholder:   $I;   // c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
+$--color-text-regular:       $I;   // 606266; // 10
+$--border-color-base:        $lI;  // dcdfe6;
+$--border-color-light:       $lI;  // e4e7ed;
+$--border-color-lighter:     $lI;  // ebeef5;
 
 
 /* Preserving Functionality -------------------------- */

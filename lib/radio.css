@@ -9,11 +9,6 @@
   line-height: 1;
   outline: 0;
 }
-.el-radio__input.is-disabled .el-radio__inner,
-.el-radio__input.is-disabled.is-checked .el-radio__inner {
-  background-color: #f4f4f5;
-  border-color: #dcdfe6;
-}
 .el-radio,
 .el-radio__inner,
 .el-radio__input {
@@ -21,7 +16,7 @@
   display: inline-block;
 }
 .el-radio {
-  color: #909399;
+  color: #999;
   font-weight: 500;
   cursor: pointer;
   -moz-user-select: none;
@@ -31,16 +26,16 @@
 .el-radio.is-bordered {
   padding: 12px 20px 0 10px;
   border-radius: 4px;
-  border: 1px solid #dcdfe6;
+  border: 1px solid #ccc;
   box-sizing: border-box;
   height: 40px;
 }
 .el-radio.is-bordered.is-checked {
-  border-color: #409eff;
+  border-color: #0070bf;
 }
 .el-radio.is-bordered.is-disabled {
   cursor: not-allowed;
-  border-color: #dcdfe6;
+  border-color: #ccc;
 }
 .el-radio.is-bordered + .el-radio.is-bordered {
   margin-left: 10px;
@@ -84,37 +79,43 @@
   vertical-align: middle;
 }
 .el-radio__input.is-disabled .el-radio__inner {
+  background-color: #f2f2f2;
+  border-color: #ccc;
   cursor: not-allowed;
 }
 .el-radio__input.is-disabled .el-radio__inner::after {
   cursor: not-allowed;
-  background-color: #f4f4f5;
+  background-color: #f2f2f2;
 }
 .el-radio__input.is-disabled .el-radio__inner + .el-radio__label {
   cursor: not-allowed;
 }
+.el-radio__input.is-disabled.is-checked .el-radio__inner {
+  background-color: #f2f2f2;
+  border-color: #ccc;
+}
 .el-radio__input.is-disabled.is-checked .el-radio__inner::after {
-  background-color: #909399;
+  background-color: #999;
 }
 .el-radio__input.is-disabled + span.el-radio__label {
-  color: #909399;
+  color: #999;
   cursor: not-allowed;
 }
 .el-radio__input.is-checked .el-radio__inner {
-  border-color: #409eff;
-  background: #409eff;
+  border-color: #0070bf;
+  background: #0070bf;
 }
 .el-radio__input.is-checked .el-radio__inner::after {
   transform: translate(-50%, -50%) scale(1);
 }
 .el-radio__input.is-checked + .el-radio__label {
-  color: #409eff;
+  color: #0070bf;
 }
 .el-radio__input.is-focus .el-radio__inner {
-  border-color: #409eff;
+  border-color: #0070bf;
 }
 .el-radio__inner {
-  border: 1px solid #dcdfe6;
+  border: 1px solid #ccc;
   border-radius: 100%;
   width: 14px;
   height: 14px;
@@ -123,7 +124,7 @@
   box-sizing: border-box;
 }
 .el-radio__inner:hover {
-  border-color: #409eff;
+  border-color: #0070bf;
 }
 .el-radio__inner::after {
   width: 4px;
@@ -149,7 +150,7 @@
   margin: 0;
 }
 .el-radio:focus:not(.is-focus):not(:active) .el-radio__inner {
-  box-shadow: 0 0 2px 2px #409eff;
+  box-shadow: 0 0 2px 2px #0070bf;
 }
 .el-radio__label {
   font-size: 14px;

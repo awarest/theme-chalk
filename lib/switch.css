@@ -25,7 +25,7 @@
   color: #000;
 }
 .el-switch__label.is-active {
-  color: #409eff;
+  color: #0070bf;
 }
 .el-switch__label--left {
   margin-right: 10px;
@@ -46,18 +46,18 @@
   margin: 0;
 }
 .el-switch__input:focus ~ .el-switch__core {
-  outline: #409eff solid 1px;
+  outline: #0070bf solid 1px;
 }
 .el-switch__core {
   margin: 0;
   position: relative;
   width: 40px;
   height: 20px;
-  border: 1px solid #dcdfe6;
+  border: 1px solid #ccc;
   outline: 0;
   border-radius: 10px;
   box-sizing: border-box;
-  background: #dcdfe6;
+  background: #ccc;
   transition: border-color 0.3s, background-color 0.3s;
 }
 .el-switch__core .el-switch__button {
@@ -71,8 +71,8 @@
   background-color: #fff;
 }
 .el-switch.is-checked .el-switch__core {
-  border-color: #409eff;
-  background-color: #409eff;
+  border-color: #0070bf;
+  background-color: #0070bf;
 }
 .el-switch.is-disabled {
   opacity: 0.6;

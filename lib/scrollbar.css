@@ -23,11 +23,11 @@
   height: 0;
   cursor: pointer;
   border-radius: inherit;
-  background-color: #dcdfe6;
+  background-color: #ccc;
   transition: 0.3s background-color;
 }
 .el-scrollbar__thumb:hover {
-  background-color: #909399;
+  background-color: #999;
 }
 .el-scrollbar__bar {
   position: absolute;

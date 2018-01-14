@@ -4,7 +4,7 @@
 }
 .el-progress__text {
   font-size: 14px;
-  color: #909399;
+  color: #999;
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -49,16 +49,16 @@
   margin-right: 0;
 }
 .el-progress.is-success .el-progress-bar__inner {
-  background-color: #67c23a;
+  background-color: #60bf00;
 }
 .el-progress.is-success .el-progress__text {
-  color: #67c23a;
+  color: #60bf00;
 }
 .el-progress.is-exception .el-progress-bar__inner {
-  background-color: #f56c6c;
+  background-color: #e60000;
 }
 .el-progress.is-exception .el-progress__text {
-  color: #f56c6c;
+  color: #e60000;
 }
 .el-progress-bar {
   padding-right: 50px;
@@ -69,7 +69,7 @@
 .el-progress-bar__outer {
   height: 6px;
   border-radius: 100px;
-  background-color: #dcdfe6;
+  background-color: #ccc;
   overflow: hidden;
   position: relative;
   vertical-align: middle;
@@ -79,7 +79,7 @@
   left: 0;
   top: 0;
   height: 100%;
-  background-color: #409eff;
+  background-color: #0070bf;
   text-align: right;
   border-radius: 100px;
   line-height: 1;

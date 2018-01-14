@@ -30,7 +30,7 @@
   vertical-align: middle;
   background-color: #fff;
   border-radius: 4px;
-  border: 1px solid #dcdfe6;
+  border: 1px solid #ccc;
   font-size: 18px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -76,16 +76,16 @@
   cursor: pointer;
 }
 .el-message-box__headerbtn .el-message-box__close {
-  color: #909399;
+  color: #999;
 }
 .el-message-box__headerbtn:focus .el-message-box__close,
 .el-message-box__headerbtn:hover .el-message-box__close {
-  color: #409eff;
+  color: #0070bf;
 }
 .el-message-box__content {
   position: relative;
   padding: 10px 15px;
-  color: #909399;
+  color: #999;
   font-size: 14px;
 }
 .el-message-box__input {
@@ -93,7 +93,7 @@
 }
 .el-message-box__input input.invalid,
 .el-message-box__input input.invalid:focus {
-  border-color: #f56c6c;
+  border-color: #e60000;
 }
 .el-message-box__status {
   position: absolute;
@@ -109,16 +109,16 @@
   padding-right: 12px;
 }
 .el-message-box__status.el-icon-success {
-  color: #67c23a;
+  color: #60bf00;
 }
 .el-message-box__status.el-icon-info {
-  color: #909399;
+  color: #999;
 }
 .el-message-box__status.el-icon-warning {
-  color: #e6a23c;
+  color: #ff7f00;
 }
 .el-message-box__status.el-icon-error {
-  color: #f56c6c;
+  color: #e60000;
 }
 .el-message-box__message {
   margin: 0;
@@ -128,7 +128,7 @@
   line-height: 24px;
 }
 .el-message-box__errormsg {
-  color: #f56c6c;
+  color: #e60000;
   font-size: 12px;
   min-height: 18px;
   margin-top: 2px;

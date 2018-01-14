@@ -22,7 +22,7 @@
   bottom: -6px;
   left: 50%;
   margin-right: 3px;
-  border-top-color: #dcdfe6;
+  border-top-color: #ccc;
   border-bottom-width: 0;
 }
 .el-popper[x-placement^="top"] .popper__arrow::after {
@@ -39,7 +39,7 @@
   left: 50%;
   margin-right: 3px;
   border-top-width: 0;
-  border-bottom-color: #dcdfe6;
+  border-bottom-color: #ccc;
 }
 .el-popper[x-placement^="bottom"] .popper__arrow::after {
   top: 1px;
@@ -54,7 +54,7 @@
   top: 50%;
   left: -6px;
   margin-bottom: 3px;
-  border-right-color: #dcdfe6;
+  border-right-color: #ccc;
   border-left-width: 0;
 }
 .el-popper[x-placement^="right"] .popper__arrow::after {
@@ -71,7 +71,7 @@
   right: -6px;
   margin-bottom: 3px;
   border-right-width: 0;
-  border-left-color: #dcdfe6;
+  border-left-color: #ccc;
 }
 .el-popper[x-placement^="left"] .popper__arrow::after {
   right: 1px;

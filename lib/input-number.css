@@ -21,14 +21,14 @@
   width: 40px;
   height: auto;
   text-align: center;
-  background: #f4f4f5;
-  color: #909399;
+  background: #f2f2f2;
+  color: #999;
   cursor: pointer;
   font-size: 13px;
 }
 .el-input-number__decrease:hover,
 .el-input-number__increase:hover {
-  color: #409eff;
+  color: #0070bf;
 }
 .el-input-number__decrease:hover:not(.is-disabled)
   ~ .el-input
@@ -36,31 +36,31 @@
 .el-input-number__increase:hover:not(.is-disabled)
   ~ .el-input
   .el-input__inner:not(.is-disabled) {
-  border-color: #409eff;
+  border-color: #0070bf;
 }
 .el-input-number__decrease.is-disabled,
 .el-input-number__increase.is-disabled {
-  color: #909399;
+  color: #999;
   cursor: not-allowed;
 }
 .el-input-number__increase {
   right: 1px;
   border-radius: 0 4px 4px 0;
-  border-left: 1px solid #dcdfe6;
+  border-left: 1px solid #ccc;
 }
 .el-input-number__decrease {
   left: 1px;
   border-radius: 4px 0 0 4px;
-  border-right: 1px solid #dcdfe6;
+  border-right: 1px solid #ccc;
 }
 .el-input-number.is-disabled .el-input-number__decrease,
 .el-input-number.is-disabled .el-input-number__increase {
-  border-color: #dcdfe6;
-  color: #dcdfe6;
+  border-color: #ccc;
+  color: #ccc;
 }
 .el-input-number.is-disabled .el-input-number__decrease:hover,
 .el-input-number.is-disabled .el-input-number__increase:hover {
-  color: #dcdfe6;
+  color: #ccc;
   cursor: not-allowed;
 }
 .el-input-number--medium {
@@ -131,7 +131,7 @@
 }
 .el-input-number.is-controls-right .el-input-number__increase {
   border-radius: 0 4px 0 0;
-  border-bottom: 1px solid #dcdfe6;
+  border-bottom: 1px solid #ccc;
 }
 .el-input-number.is-controls-right .el-input-number__decrease {
   right: 1px;
@@ -139,7 +139,7 @@
   top: auto;
   left: auto;
   border-right: none;
-  border-left: 1px solid #dcdfe6;
+  border-left: 1px solid #ccc;
   border-radius: 0 0 4px;
 }
 .el-input-number.is-controls-right[class*="medium"] [class*="decrease"],
