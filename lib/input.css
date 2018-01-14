@@ -109,7 +109,7 @@
 }
 .el-input.is-disabled .el-input__inner {
   background-color: #f5f7fa;
-  border-color: #e4e7ed;
+  border-color: #dcdfe6;
   color: #c0c4cc;
   cursor: not-allowed;
 }
@@ -261,7 +261,7 @@
 }
 .el-textarea.is-disabled .el-textarea__inner {
   background-color: #f5f7fa;
-  border-color: #e4e7ed;
+  border-color: #dcdfe6;
   color: #c0c4cc;
   cursor: not-allowed;
 }

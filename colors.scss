@@ -10,26 +10,30 @@
 // $--color-info:    $purple;
 
 
-$P: #409EFF;
-$S: #67c23a;
-$W: #e6a23c;
-$D: #f56c6c;
-$I: #909399;
+$P: #409EFF; // primary
+$S: #67c23a; // success
+$W: #e6a23c; // warning
+$D: #f56c6c; // danger
+$I: #909399; // info
 
-$llP: #ecf5ff;
-$llS: #f0f9eb;
-$llW: #fdf6ec;
-$llD: #fef0f0;
-$llI: #f4f4f5;
+$llP: #ecf5ff; // lighter primary
+$llS: #f0f9eb; // lighter success
+$llW: #fdf6ec; // lighter warning
+$llD: #fef0f0; // lighter danger
+$llI: #f4f4f5; // lighter info
 
-$lP: #c6e2ff;
-$lS: #e1f3d8;
-$lW: #faecd8;
-$lD: #fde2e2;
-$lI: #dcdfe6;
+$lP: #c6e2ff; // light primary
+$lS: #e1f3d8; // light success
+$lW: #faecd8; // light warning
+$lD: #fde2e2; // light danger
+$lI: #dcdfe6; // light info
 
-$H: #ffffff;
-$L: #000000;
+$H: #ffffff; // white
+$L: #000000; // black
+
+// $border: #ebeef5; // border
+// $disabled:
+
 
 $--color-white: $H;
 $--color-black: $L;
@@ -40,15 +44,17 @@ $--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $l
 $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
-$--border-color-lighter: #ebeef5; $--border-color-light: #e4e7ed;
 
-$--color-text-primary:     #303133;
-$--color-text-regular:     #606266;
-$--color-text-secondary:   #909399; // same as info
-$--color-text-placeholder: #c0c4cc;
-$--color-text-disabled:    #bbbbbb;
+$--color-text-placeholder:   #c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
+$--color-text-regular:       #606266; // 10
+// $--border-color-lighter:     #ebeef5; // 9 - checkbox / dropdown / message-box / message / progress / radio / table-column / table / variables
+$--color-text-primary:       #303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
+$--background-color-base:    #f5f7fa; // 4 - input-number / input / steps / table
 
-$--background-color-base: #f5f7fa;
+
+// $--border-color-light:       #e4e7ed; // 7 - option-group / autocomplete
+$--color-text-secondary:     #909399; // 4 - select / table - same as info
+$--font-color-disabled-base: #bbbbbb; // 3 - dropdown
 
 
 /* Preserving Functionality -------------------------- */
@@ -60,13 +66,12 @@ $--color-primary-light-9: $--color-primary-lighter; // ends up being the backgro
 
 
 
-
-/* Font -------------------------- */
-$--font-color-disabled-base: $--color-text-disabled;
-
 /* Border -------------------------- */
 // info light is new, just moved this value up there
-$--border-color-base: $lI;
+$--border-color-base:    $lI; // dcdfe6
+$--border-color-light:   $lI; // e4e7ed
+$--border-color-lighter: $lI; // ebeef5
+
 
 /* Disable base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;

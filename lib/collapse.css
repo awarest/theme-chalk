@@ -1,15 +1,15 @@
 .el-collapse-item__header,
 .el-collapse-item__wrap {
   background-color: #fff;
-  border-bottom: 1px solid #ebeef5;
+  border-bottom: 1px solid #dcdfe6;
 }
 .el-collapse,
 .el-collapse-item__header,
 .el-collapse-item__wrap {
-  border-bottom: 1px solid #ebeef5;
+  border-bottom: 1px solid #dcdfe6;
 }
 .el-collapse {
-  border-top: 1px solid #ebeef5;
+  border-top: 1px solid #dcdfe6;
 }
 .el-collapse-item__header {
   height: 48px;

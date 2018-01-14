@@ -33,7 +33,7 @@
   border-color: #409eff;
 }
 .el-checkbox.is-bordered.is-disabled {
-  border-color: #ebeef5;
+  border-color: #dcdfe6;
   cursor: not-allowed;
 }
 .el-checkbox.is-bordered + .el-checkbox.is-bordered {
@@ -253,7 +253,7 @@
   cursor: not-allowed;
   background-image: none;
   background-color: #fff;
-  border-color: #ebeef5;
+  border-color: #dcdfe6;
   box-shadow: none;
 }
 .el-checkbox-button:first-child .el-checkbox-button__inner {

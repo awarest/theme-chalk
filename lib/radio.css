@@ -9,6 +9,11 @@
   line-height: 1;
   outline: 0;
 }
+.el-radio__input.is-disabled .el-radio__inner,
+.el-radio__input.is-disabled.is-checked .el-radio__inner {
+  background-color: #f5f7fa;
+  border-color: #dcdfe6;
+}
 .el-radio,
 .el-radio__inner,
 .el-radio__input {
@@ -35,12 +40,7 @@
 }
 .el-radio.is-bordered.is-disabled {
   cursor: not-allowed;
-  border-color: #ebeef5;
-}
-.el-radio__input.is-disabled .el-radio__inner,
-.el-radio__input.is-disabled.is-checked .el-radio__inner {
-  background-color: #f5f7fa;
-  border-color: #e4e7ed;
+  border-color: #dcdfe6;
 }
 .el-radio.is-bordered + .el-radio.is-bordered {
   margin-left: 10px;

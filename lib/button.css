@@ -62,7 +62,7 @@
   cursor: not-allowed;
   background-image: none;
   background-color: #fff;
-  border-color: #ebeef5;
+  border-color: #dcdfe6;
 }
 .el-button.is-disabled.el-button--text {
   background-color: transparent;
@@ -71,7 +71,7 @@
 .el-button.is-disabled.is-plain:focus,
 .el-button.is-disabled.is-plain:hover {
   background-color: #fff;
-  border-color: #ebeef5;
+  border-color: #dcdfe6;
   color: #c0c4cc;
 }
 .el-button.is-loading {
