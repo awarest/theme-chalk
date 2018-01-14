@@ -163,7 +163,7 @@
   margin: 0;
   line-height: 34px;
   cursor: pointer;
-  color: #999;
+  color: #000;
   font-size: 14px;
   list-style: none;
   white-space: nowrap;
@@ -264,7 +264,7 @@
 .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
 .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover {
   font-weight: 400;
-  color: #999;
+  color: #000;
   cursor: text;
 }
 .el-breadcrumb__item:last-child .el-breadcrumb__separator {
@@ -275,7 +275,7 @@
   cursor: pointer;
   background: #fff;
   border: 1px solid #ccc;
-  color: #999;
+  color: #000;
   -webkit-appearance: none;
   text-align: center;
   outline: 0;
@@ -777,7 +777,7 @@
   outline: 0;
 }
 .el-checkbox {
-  color: #999;
+  color: #000;
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
@@ -976,7 +976,7 @@
   background: #fff;
   border: 1px solid #ccc;
   border-left: 0;
-  color: #999;
+  color: #000;
   -webkit-appearance: none;
   text-align: center;
   box-sizing: border-box;
@@ -1165,7 +1165,7 @@
 }
 .el-dialog__body {
   padding: 30px 20px;
-  color: #999;
+  color: #000;
   line-height: 24px;
   font-size: 14px;
 }
@@ -1217,7 +1217,7 @@
 .el-dropdown {
   display: inline-block;
   position: relative;
-  color: #999;
+  color: #000;
   font-size: 14px;
 }
 .el-dropdown .el-button-group {
@@ -1270,7 +1270,7 @@
   padding: 0 20px;
   margin: 0;
   font-size: 14px;
-  color: #999;
+  color: #000;
   cursor: pointer;
   outline: 0;
 }
@@ -1412,7 +1412,7 @@
   vertical-align: middle;
   float: left;
   font-size: 14px;
-  color: #999;
+  color: #000;
   line-height: 40px;
   padding: 0 12px 0 0;
   box-sizing: border-box;
@@ -1528,7 +1528,6 @@
 .el-input__inner,
 .el-textarea__inner {
   transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-  color: #999;
 }
 .el-input .el-input__clear:hover {
   color: #999;
@@ -1538,6 +1537,7 @@
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #ccc;
+  color: #000;
   display: inline-block;
   height: 40px;
   line-height: 1;
@@ -1723,6 +1723,7 @@
   line-height: 1.5;
   width: 100%;
   font-size: inherit;
+  color: #000;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -1776,7 +1777,7 @@
   height: auto;
   text-align: center;
   background: #f2f2f2;
-  color: #999;
+  color: #000;
   cursor: pointer;
   font-size: 13px;
 }
@@ -2072,7 +2073,7 @@
 .el-message-box__content {
   position: relative;
   padding: 10px 15px;
-  color: #999;
+  color: #000;
   font-size: 14px;
 }
 .el-message-box__input {
@@ -2306,7 +2307,7 @@
   font-size: 14px;
   line-height: 21px;
   margin: 6px 0 0;
-  color: #999;
+  color: #000;
   text-align: justify;
 }
 .el-notification__content p {
@@ -2326,7 +2327,7 @@
   font-size: 16px;
 }
 .el-notification__closeBtn:hover {
-  color: #999;
+  color: #000;
 }
 .el-notification .el-icon-success {
   color: #60bf00;
@@ -2358,7 +2359,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #999;
+  color: #000;
   height: 34px;
   line-height: 34px;
   box-sizing: border-box;
@@ -2509,7 +2510,7 @@
 .el-pagination__sizes {
   margin: 0 10px 0 0;
   font-weight: 400;
-  color: #999;
+  color: #000;
 }
 .el-pagination__sizes .el-input .el-input__inner {
   font-size: 13px;
@@ -2521,12 +2522,12 @@
 .el-pagination__total {
   margin-right: 10px;
   font-weight: 400;
-  color: #999;
+  color: #000;
 }
 .el-pagination__jump {
   margin-left: 24px;
   font-weight: 400;
-  color: #999;
+  color: #000;
 }
 .el-pagination__jump .el-input__inner {
   padding: 0 3px;
@@ -2561,7 +2562,7 @@
 .el-pagination.is-background .el-pager li {
   margin: 0 5px;
   background-color: #f2f2f2;
-  color: #999;
+  color: #000;
   min-width: 30px;
   border-radius: 2px;
 }
@@ -2587,6 +2588,10 @@
   vertical-align: top;
   display: inline-block;
   margin: 0;
+}
+.el-popover__title,
+.el-popper[x-placement^="top"] {
+  margin-bottom: 12px;
 }
 .el-pager {
   user-select: none;
@@ -2632,7 +2637,7 @@
   border: 1px solid #ccc;
   padding: 12px;
   z-index: 2000;
-  color: #999;
+  color: #000;
   line-height: 1.4;
   text-align: justify;
   font-size: 14px;
@@ -2644,7 +2649,6 @@
   color: #000;
   font-size: 16px;
   line-height: 1;
-  margin-bottom: 12px;
 }
 .el-popper .popper__arrow,
 .el-popper .popper__arrow::after {
@@ -2662,9 +2666,6 @@
 .el-popper .popper__arrow::after {
   content: " ";
   border-width: 6px;
-}
-.el-popper[x-placement^="top"] {
-  margin-bottom: 12px;
 }
 .el-popper[x-placement^="top"] .popper__arrow {
   bottom: -6px;
@@ -2734,7 +2735,7 @@
 }
 .el-progress__text {
   font-size: 14px;
-  color: #999;
+  color: #000;
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
@@ -2846,7 +2847,7 @@
   border: 1px solid #ccc;
   font-weight: 500;
   border-left: 0;
-  color: #999;
+  color: #000;
   -webkit-appearance: none;
   text-align: center;
   box-sizing: border-box;
@@ -2949,7 +2950,7 @@
   display: inline-block;
 }
 .el-radio {
-  color: #999;
+  color: #000;
   font-weight: 500;
   cursor: pointer;
 }
@@ -3236,7 +3237,7 @@
   outline: 0;
   padding: 0;
   margin-left: 15px;
-  color: #999;
+  color: #000;
   font-size: 14px;
   vertical-align: middle;
   -webkit-appearance: none;
@@ -3981,7 +3982,7 @@
 .el-table-filter__bottom button {
   background: 0 0;
   border: none;
-  color: #999;
+  color: #000;
   cursor: pointer;
   font-size: 13px;
   padding: 0 3px;
@@ -4019,7 +4020,7 @@
   width: 100%;
   max-width: 100%;
   font-size: 14px;
-  color: #999;
+  color: #000;
 }
 .el-table--mini,
 .el-table--small,
@@ -4289,7 +4290,7 @@
 .el-table__fixed-footer-wrapper tbody td {
   border-top: 1px solid #ccc;
   background-color: #f2f2f2;
-  color: #999;
+  color: #000;
 }
 .el-table__fixed-body-wrapper {
   position: absolute;
@@ -4321,7 +4322,7 @@
 .el-table__footer-wrapper tbody td,
 .el-table__header-wrapper tbody td {
   background-color: #f2f2f2;
-  color: #999;
+  color: #000;
 }
 .el-table__body-wrapper {
   overflow: auto;

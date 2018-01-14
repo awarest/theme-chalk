@@ -34,11 +34,11 @@ $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $l
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
 $--color-text-primary:       $L;   // 303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
+$--color-text-regular:       $L;   // 606266; // 10
 $--background-color-base:    $llI; // f5f7fa; // 4 - input-number / input / steps / table
 $--color-text-secondary:     $I;   // 909399; // 4 - select / table - same as info
 $--font-color-disabled-base: $I;   // bbbbbb; // 3 - dropdown
 $--color-text-placeholder:   $I;   // c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
-$--color-text-regular:       $I;   // 606266; // 10
 $--border-color-base:        $lI;  // dcdfe6;
 $--border-color-light:       $lI;  // e4e7ed;
 $--border-color-lighter:     $lI;  // ebeef5;
