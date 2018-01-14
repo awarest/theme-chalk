@@ -9,14 +9,6 @@
 // $--color-danger:  $red;
 // $--color-info:    $purple;
 
-$--color-white: #ffffff;
-$--color-black: #000000;
-
-$--color-primary: #409EFF;
-$--color-success: #67c23a;
-$--color-warning: #e6a23c;
-$--color-danger:  #f56c6c;
-$--color-info:    #909399;
 
 $P: #409EFF;
 $S: #67c23a;
@@ -24,106 +16,113 @@ $W: #e6a23c;
 $D: #f56c6c;
 $I: #909399;
 
+$llP: #ecf5ff;
+$llS: #f0f9eb;
+$llW: #fdf6ec;
+$llD: #fef0f0;
+$llI: #f4f4f5;
+
+$lP: #c6e2ff;
+$lS: #e1f3d8;
+$lW: #faecd8;
+$lD: #fde2e2;
+$lI: #dcdfe6;
+
 $H: #ffffff;
 $L: #000000;
 
-$--color-primary-lighter: #ecf5ff; $--color-primary-light: #c6e2ff;
-$--color-success-lighter: #f0f9eb; $--color-success-light: #e1f3d8;
-$--color-warning-lighter: #fdf6ec; $--color-warning-light: #faecd8;
-$--color-danger-lighter:  #fef0f0; $--color-danger-light:  #fde2e2;
-$--color-info-lighter:    #f4f4f5; $--color-info-light:    #dcdfe6;
+$--color-white: $H;
+$--color-black: $L;
+
+$--color-primary: $P; $--color-primary-lighter: $llP; $--color-primary-light: $lP;
+$--color-success: $S; $--color-success-lighter: $llS; $--color-success-light: $lS;
+$--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $lW;
+$--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
+$--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
+
+$--border-color-lighter: #ebeef5; $--border-color-light: #e4e7ed;
 
 $--color-text-primary:     #303133;
 $--color-text-regular:     #606266;
-$--color-text-secondary:   #909399;
+$--color-text-secondary:   #909399; // same as info
 $--color-text-placeholder: #c0c4cc;
 $--color-text-disabled:    #bbbbbb;
 
 $--background-color-base: #f5f7fa;
 
-$--border-color-lighter: #ebeef5; $--border-color-light: #e4e7ed;
+
+/* Preserving Functionality -------------------------- */
+// only used in checkbox when treated as buttons and when not first child of "check buttons"
+$--color-primary-light-4: $--color-primary-light;   // ends up being psuedo left border
+// only used in buttons for the "default" variant on hover/active
+$--color-primary-light-7: $--color-primary-light;   // ends up being the border color
+$--color-primary-light-9: $--color-primary-lighter; // ends up being the background color
+
+
 
 
 /* Font -------------------------- */
 $--font-color-disabled-base: $--color-text-disabled;
 
 /* Border -------------------------- */
-$--border-color-base: $--color-info-light; // info light is new, just moved this value up there
-
+// info light is new, just moved this value up there
+$--border-color-base: $lI;
 
 /* Disable base -------------------------- */
 $--disabled-color-base:  $--color-text-placeholder;
 $--disabled-border-base: $--border-color-light;
 
-
 /* Checkbox -------------------------- */
-$--checkbox-disabled-input-fill: $--color-primary-lighter;
-$--checkbox-color:               $--color-text-regular;
-$--checkbox-input-fill:          $H;
-$--checkbox-input-border-color:  $--border-color-base;
-$--checkbox-icon-color:          $H;
-
-$--checkbox-disabled-input-border-color: $--border-color-base;
-$--checkbox-disabled-icon-color:         $--color-text-placeholder;
-
-$--checkbox-disabled-checked-input-fill:         $--color-info-lighter;
+$--checkbox-disabled-input-fill:                 $llP;
+$--checkbox-color:                               $--color-text-regular;
+$--checkbox-input-fill:                          $H;
+$--checkbox-input-border-color:                  $--border-color-base;
+$--checkbox-icon-color:                          $H;
+$--checkbox-disabled-input-border-color:         $--border-color-base;
+$--checkbox-disabled-icon-color:                 $--color-text-placeholder;
+$--checkbox-disabled-checked-input-fill:         $llI;
 $--checkbox-disabled-checked-input-border-color: $--border-color-base;
 $--checkbox-disabled-checked-icon-color:         $--color-text-placeholder;
-
-$--checkbox-checked-text-color:         $P;
-$--checkbox-checked-input-border-color: $P;
-$--checkbox-checked-input-fill:         $P;
-$--checkbox-checked-icon-color:         $H;
-
-$--checkbox-input-border-color-hover: $P;
-
-$--checkbox-button-checked-fill:         $P;
-$--checkbox-button-checked-color:        $H;
-$--checkbox-button-checked-border-color: $P;
-
-// preserving functionality, only used in checkbox when treated as buttons and when not the
-// first child, it creates a psuedo left border/separator between a group of check buttons
-$--color-primary-light-4: $--color-primary-light;
-
+$--checkbox-checked-text-color:                  $P;
+$--checkbox-checked-input-border-color:          $P;
+$--checkbox-checked-input-fill:                  $P;
+$--checkbox-checked-icon-color:                  $H;
+$--checkbox-input-border-color-hover:            $P;
+$--checkbox-button-checked-fill:                 $P;
+$--checkbox-button-checked-color:                $H;
+$--checkbox-button-checked-border-color:         $P;
 
 /* Radio -------------------------- */
-$--radio-color:               $--color-text-regular;
-$--radio-input-fill:          $H;
-$--radio-input-border-color:  $--border-color-base;
-$--radio-icon-color:          $H;
-
-$--radio-disabled-input-border-color: $--disabled-border-base;
-$--radio-disabled-input-fill:         $--background-color-base;
-$--radio-disabled-icon-color:         $--background-color-base;
-
+$--radio-color:                               $--color-text-regular;
+$--radio-input-fill:                          $H;
+$--radio-input-border-color:                  $--border-color-base;
+$--radio-icon-color:                          $H;
+$--radio-disabled-input-border-color:         $--disabled-border-base;
+$--radio-disabled-input-fill:                 $--background-color-base;
+$--radio-disabled-icon-color:                 $--background-color-base;
 $--radio-disabled-checked-input-border-color: $--disabled-border-base;
 $--radio-disabled-checked-input-fill:         $--background-color-base;
 $--radio-disabled-checked-icon-color:         $--color-text-placeholder;
-
-$--radio-checked-text-color:         $P;
-$--radio-checked-input-border-color: $P;
-$--radio-checked-input-fill:         $H;
-$--radio-checked-icon-color:         $P;
-
-$--radio-input-border-color-hover: $P;
-
-$--radio-button-checked-fill:          $P;
-$--radio-button-checked-color:         $H;
-$--radio-button-checked-border-color:  $P;
-$--radio-button-disabled-checked-fill: $--color-info-lighter;
-
+$--radio-button-disabled-checked-fill:        $llI;
+$--radio-checked-text-color:                  $P;
+$--radio-checked-input-border-color:          $P;
+$--radio-checked-input-fill:                  $H;
+$--radio-checked-icon-color:                  $P;
+$--radio-input-border-color-hover:            $P;
+$--radio-button-checked-fill:                 $P;
+$--radio-button-checked-color:                $H;
+$--radio-button-checked-border-color:         $P;
 
 /* Select -------------------------- */
-$--select-dropdown-empty-color: $--font-color-disabled-base;
-
-$--select-border-color-hover: $--color-text-placeholder;
-$--select-disabled-border:    $--disabled-border-base;
-$--select-close-hover-color:  $--color-text-secondary;
-
-$--select-input-color:            $--color-text-placeholder;
-$--select-multiple-input-color:   $--color-text-regular;
-$--select-input-focus-background: $P;
-
+$--select-dropdown-empty-color:       $--font-color-disabled-base;
+$--select-border-color-hover:         $--color-text-placeholder;
+$--select-disabled-border:            $--disabled-border-base;
+$--select-close-hover-color:          $--color-text-secondary;
+$--select-group-color:                $I;
+$--select-dropdown-background:        $H;
+$--select-input-color:                $--color-text-placeholder;
+$--select-multiple-input-color:       $--color-text-regular;
+$--select-input-focus-background:     $P;
 $--select-option-color:               $--color-text-regular;
 $--select-option-disabled-color:      $--color-text-placeholder;
 $--select-option-disabled-background: $H;
@@ -131,70 +130,51 @@ $--select-option-hover-background:    $--background-color-base;
 $--select-option-selected:            $P;
 $--select-option-selected-hover:      $--background-color-base;
 
-$--select-group-color:         $--color-info;
-$--select-dropdown-background: $H;
+/* Alert -------------------------- */
+$--alert-success-color: $llS;
+$--alert-info-color:    $llI;
+$--alert-warning-color: $llW;
+$--alert-danger-color:  $llD;
 
-
-/* Alert / Message / Message Box / Notification --- Variants */
-$--alert-success-color: $--color-success-lighter;
-$--alert-info-color:    $--color-info-lighter;
-$--alert-warning-color: $--color-warning-lighter;
-$--alert-danger-color:  $--color-danger-lighter;
-
+/* Message / Message Box / Notification --- Variants */
 $--message-success-color: $S; $--msgbox-success-color: $S; $--notification-success-color: $S;
 $--message-info-color:    $I; $--msgbox-info-color:    $I; $--notification-info-color:    $I;
 $--message-warning-color: $W; $--msgbox-warning-color: $W; $--notification-warning-color: $W;
 $--message-danger-color:  $D; $--msgbox-danger-color:  $D; $--notification-danger-color:  $D;
 
-
 /* Message Box -------------------------- */
 $--msgbox-content-color: $--color-text-regular;
 
 /* Message -------------------------- */
-$--message-background-color: $--color-primary-lighter;
-
+$--message-background-color:  $llP;
 $--message-content-color:     $--color-text-regular;
 $--message-close-color:       $--color-text-placeholder;
 $--message-close-hover-color: $--color-text-secondary;
 
 /* Notification -------------------------- */
-$--notification-border-color: $--border-color-lighter;
-$--notification-color:        $--color-text-regular;
-$--notification-title-color:  $--color-text-primary;
-
+$--notification-border-color:      $--border-color-lighter;
+$--notification-color:             $--color-text-regular;
+$--notification-title-color:       $--color-text-primary;
 $--notification-close-color:       $--color-text-secondary;
 $--notification-close-hover-color: $--color-text-regular;
 
-
 /* Input -------------------------- */
-$--input-color:              $--color-text-regular;
-$--input-border-color:       $--border-color-base;
-$--input-border-color-hover: $--color-text-placeholder;
-$--input-fill:               $H;
-$--input-fill-disabled:      $--background-color-base;
-$--input-color-disabled:     $--font-color-disabled-base;
-$--input-icon-color:         $--color-text-placeholder;
-$--input-placeholder-color:  $--color-text-placeholder;
-
-$--input-hover-border:      $--color-text-placeholder;
-$--input-clear-hover-color: $--color-text-secondary;
-
-$--input-focus-border: $P;
-$--input-focus-fill:   $H;
-
+$--input-color:                      $--color-text-regular;
+$--input-border-color:               $--border-color-base;
+$--input-border-color-hover:         $--color-text-placeholder;
+$--input-fill:                       $H;
+$--input-fill-disabled:              $--background-color-base;
+$--input-color-disabled:             $--font-color-disabled-base;
+$--input-icon-color:                 $--color-text-placeholder;
+$--input-placeholder-color:          $--color-text-placeholder;
+$--input-hover-border:               $--color-text-placeholder;
+$--input-clear-hover-color:          $--color-text-secondary;
+$--input-focus-border:               $P;
+$--input-focus-fill:                 $H;
 $--input-disabled-fill:              $--background-color-base;
 $--input-disabled-border:            $--disabled-border-base;
 $--input-disabled-color:             $--disabled-color-base;
 $--input-disabled-placeholder-color: $--color-text-placeholder;
-
-
-/* Tab -------------------------- */
-$--tab-header-color-active:         $--color-text-secondary;
-$--tab-header-color-hover:          $--color-text-regular;
-$--tab-header-color:                $--color-text-regular;
-$--tab-vertical-header-count-color: $H;
-$--tab-vertical-header-count-fill:  $--color-text-secondary;
-
 
 /* Button -------------------------- */
 $--button-primary-border: $P; $--button-primary-fill: $P; $--button-primary-color: $H;
@@ -203,19 +183,14 @@ $--button-warning-border: $W; $--button-warning-fill: $W; $--button-warning-colo
 $--button-danger-border:  $D; $--button-danger-fill:  $D; $--button-danger-color:  $H;
 $--button-info-border:    $I; $--button-info-fill:    $I; $--button-info-color:    $H;
 
-$--button-default-color:  $--color-text-regular;
-$--button-disabled-color: $--color-text-placeholder;
-
 $--button-default-border:  $--border-color-base;    $--button-default-fill:  $H;
 $--button-disabled-border: $--border-color-lighter; $--button-disabled-fill: $H;
 
+$--button-default-color:  $--color-text-regular;
+$--button-disabled-color: $--color-text-placeholder;
+
 $--button-hover-tint-percent:   20%;
 $--button-active-shade-percent: 10%;
-
-// preserving functionality, only used in buttons for the "default" variant on hover/active
-$--color-primary-light-7: $--color-primary-light;   // ends up being the border color
-$--color-primary-light-9: $--color-primary-lighter; // ends up being the background color
-
 
 /* Switch -------------------------- */
 $--switch-on-color:            $P;
@@ -227,7 +202,7 @@ $--switch-disabled-text-color: $--color-text-placeholder;
 $--table-text-color:             $--color-text-regular;
 $--table-header-color:           $--color-text-secondary;
 $--table-row-hover-background:   $--background-color-base;
-$--table-current-row-background: $--color-primary-lighter;
+$--table-current-row-background: $llP;
 $--table-header-background:      $H;
 $--table-footer-background:      $--color-text-placeholder;
 
@@ -251,22 +226,15 @@ $--tooltip-color:        $H;
 $--tooltip-border-color: $--color-text-primary;
 
 /* Tag -------------------------- */
-$--tag-color:         $P;
-$--tag-info-color:    $I;
-$--tag-primary-color: $P;
-$--tag-success-color: $S;
-$--tag-warning-color: $W;
-$--tag-danger-color:  $D;
-
-$--tag-fill:         $--color-primary-light; $--tag-border:         $--color-primary-lighter;
-$--tag-primary-fill: $--color-primary-light; $--tag-primary-border: $--color-primary-lighter;
-$--tag-success-fill: $--color-success-light; $--tag-success-border: $--color-success-lighter;
-$--tag-warning-fill: $--color-warning-light; $--tag-warning-border: $--color-warning-lighter;
-$--tag-danger-fill:  $--color-danger-light;  $--tag-danger-border:  $--color-danger-lighter;
-$--tag-info-fill:    $--color-info-light;    $--tag-info-border:    $--color-info-lighter;
+$--tag-color:         $P; $--tag-fill:         $lP; $--tag-border:         $llP;
+$--tag-info-color:    $I; $--tag-primary-fill: $lP; $--tag-primary-border: $llP;
+$--tag-primary-color: $P; $--tag-success-fill: $lS; $--tag-success-border: $llS;
+$--tag-success-color: $S; $--tag-warning-fill: $lW; $--tag-warning-border: $llW;
+$--tag-warning-color: $W; $--tag-danger-fill:  $lD; $--tag-danger-border:  $llD;
+$--tag-danger-color:  $D; $--tag-info-fill:    $lI; $--tag-info-border:    $llI;
 
 /* Dropdown -------------------------- */
-$--dropdown-menuItem-hover-fill:  $--color-primary-lighter;
+$--dropdown-menuItem-hover-fill:  $llP;
 $--dropdown-menuItem-hover-color: $P;
 
 /* Badge -------------------------- */
@@ -285,7 +253,7 @@ $--slider-disable-color:           $--color-text-placeholder;
 $--rate-icon-color: $--color-text-placeholder;
 
 /* Scrollbar --------------------------*/
-$--scrollbar-background-color:       $--color-info-light;
+$--scrollbar-background-color:       $lI;
 $--scrollbar-hover-background-color: $--color-text-placeholder;
 
 /* Collapse --------------------------*/
