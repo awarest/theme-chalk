@@ -32,6 +32,7 @@ $H: #ffffff; // white
 $L: #000000; // black
 
 
+
 $--color-white: $H;
 $--color-black: $L;
 
@@ -41,15 +42,15 @@ $--color-warning: $W; $--color-warning-lighter: $llW; $--color-warning-light: $l
 $--color-danger:  $D; $--color-danger-lighter:  $llD; $--color-danger-light:  $lD;
 $--color-info:    $I; $--color-info-lighter:    $llI; $--color-info-light:    $lI;
 
-$--color-text-primary:    $L;   // 303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
-$--background-color-base: $llI; // f5f7fa; // 4 - input-number / input / steps / table
-
-// $--color-text-placeholder:   #c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
-// $--color-text-regular:       #606266; // 10
-// $--border-color-lighter:     #ebeef5; // 9 - checkbox / dropdown / message-box / message / progress / radio / table-column / table / variables
-// $--border-color-light:       #e4e7ed; // 7 - option-group / autocomplete
-// $--color-text-secondary:     #909399; // 4 - select / table - same as info
-// $--font-color-disabled-base: #bbbbbb; // 3 - dropdown
+$--color-text-primary:       $L;   // 303133 // 6 - breadcrumb / card / dialog / message-box / step / switch
+$--background-color-base:    $llI; // f5f7fa // 4 - input-number / input / steps / table
+$--color-text-secondary:     $I;   // 909399 // 4 - select / table - same as info
+$--font-color-disabled-base: $I;   // bbbbbb // 3 - dropdown
+$--color-text-placeholder:   $I;   // c0c4cc // 7 - alert / breadcrumb / pagination / radio / select / step / table
+$--color-text-regular:       $I;   // 606266 // 10
+$--border-color-base:        $lI;  // dcdfe6
+$--border-color-light:       $lI;  // e4e7ed
+$--border-color-lighter:     $lI;  // ebeef5
 
 
 /* Preserving Functionality -------------------------- */
@@ -58,19 +59,6 @@ $--color-primary-light-4: $--color-primary-light;   // ends up being psuedo left
 // only used in buttons for the "default" variant on hover/active
 $--color-primary-light-7: $--color-primary-light;   // ends up being the border color
 $--color-primary-light-9: $--color-primary-lighter; // ends up being the background color
-
-
-/* Alternate Text / Info / Placeholders -------------------------- */
-$--color-text-secondary:     $I; // 909399 // 4 - select / table - same as info
-$--font-color-disabled-base: $I; // bbbbbb // 3 - dropdown
-$--color-text-placeholder:   $I; // c0c4cc // 7 - alert / breadcrumb / pagination / radio / select / step / table
-$--color-text-regular:       $I; // 606266 // 10
-
-
-/* Border -------------------------- */
-$--border-color-base:    $lI; // dcdfe6
-$--border-color-light:   $lI; // e4e7ed
-$--border-color-lighter: $lI; // ebeef5
 
 
 /* Disabled Base -------------------------- */
