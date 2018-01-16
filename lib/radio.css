@@ -16,7 +16,7 @@
   display: inline-block;
 }
 .el-radio {
-  color: #000;
+  color: #222;
   font-weight: 500;
   cursor: pointer;
   -moz-user-select: none;

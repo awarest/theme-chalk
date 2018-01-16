@@ -72,11 +72,11 @@
 .el-dialog__title {
   line-height: 24px;
   font-size: 18px;
-  color: #000;
+  color: #222;
 }
 .el-dialog__body {
   padding: 30px 20px;
-  color: #000;
+  color: #222;
   line-height: 24px;
   font-size: 14px;
 }

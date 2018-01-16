@@ -1,7 +1,7 @@
 .el-dropdown {
   display: inline-block;
   position: relative;
-  color: #000;
+  color: #222;
   font-size: 14px;
 }
 .el-dropdown .el-button-group {
@@ -59,7 +59,7 @@
   padding: 0 20px;
   margin: 0;
   font-size: 14px;
-  color: #000;
+  color: #222;
   cursor: pointer;
   outline: 0;
 }

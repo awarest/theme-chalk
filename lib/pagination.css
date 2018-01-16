@@ -7,7 +7,7 @@
 .el-pagination {
   white-space: nowrap;
   padding: 2px 5px;
-  color: #000;
+  color: #222;
   font-weight: 700;
 }
 .el-pagination::after,
@@ -72,7 +72,7 @@
   background-size: 16px;
   cursor: pointer;
   margin: 0;
-  color: #000;
+  color: #222;
 }
 .el-pagination .btn-next .el-icon,
 .el-pagination .btn-prev .el-icon {
@@ -102,7 +102,7 @@
 .el-pagination__sizes {
   margin: 0 10px 0 0;
   font-weight: 400;
-  color: #000;
+  color: #222;
 }
 .el-pagination__sizes .el-input .el-input__inner {
   font-size: 13px;
@@ -114,12 +114,12 @@
 .el-pagination__total {
   margin-right: 10px;
   font-weight: 400;
-  color: #000;
+  color: #222;
 }
 .el-pagination__jump {
   margin-left: 24px;
   font-weight: 400;
-  color: #000;
+  color: #222;
 }
 .el-pagination__jump .el-input__inner {
   padding: 0 3px;
@@ -154,7 +154,7 @@
 .el-pagination.is-background .el-pager li {
   margin: 0 5px;
   background-color: #f2f2f2;
-  color: #000;
+  color: #222;
   min-width: 30px;
   border-radius: 2px;
 }
@@ -202,7 +202,7 @@
 .el-pager li.btn-quicknext,
 .el-pager li.btn-quickprev {
   line-height: 28px;
-  color: #000;
+  color: #222;
 }
 .el-pager li.active + li {
   border-left: 0;
