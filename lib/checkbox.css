@@ -12,7 +12,7 @@
 }
 .el-checkbox {
   color: #222;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13px;
   cursor: pointer;
   white-space: nowrap;
@@ -205,7 +205,7 @@
 }
 .el-checkbox-button__inner {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   background: #fff;
   border: 1px solid #ccc;

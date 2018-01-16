@@ -281,7 +281,7 @@
   outline: 0;
   margin: 0;
   transition: 0.1s;
-  font-weight: 500;
+  font-weight: 400;
   padding: 12px 20px;
   font-size: 13px;
   border-radius: 4px;
@@ -779,7 +779,7 @@
 }
 .el-checkbox {
   color: #222;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 13px;
   cursor: pointer;
   user-select: none;
@@ -972,7 +972,7 @@
 }
 .el-checkbox-button__inner {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
   background: #fff;
   border: 1px solid #ccc;
@@ -2844,7 +2844,7 @@
   vertical-align: middle;
   background: #fff;
   border: 1px solid #ccc;
-  font-weight: 500;
+  font-weight: 400;
   border-left: 0;
   color: #222;
   -webkit-appearance: none;
@@ -2950,7 +2950,7 @@
 }
 .el-radio {
   color: #222;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
 }
 .el-radio.is-bordered {

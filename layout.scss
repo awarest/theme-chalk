@@ -7,7 +7,7 @@ $--font-size-small: $font-sm; // only used in table-column filters
 
 /* Checkbox -------------------------- */
 $--checkbox-font-size:                    $font-md; // 14px;
-$--checkbox-font-weight:                  500;
+$--checkbox-font-weight:                  $weight-normal; // 500;
 $--checkbox-input-height:                 14px;
 $--checkbox-input-width:                  14px;
 $--checkbox-input-border-radius:          2px;
@@ -29,7 +29,7 @@ $--checkbox-button-font-size:             $font-md; // 14px;
 
 /* Radio -------------------------- */
 $--radio-font-size:                    $font-md; // 14px;
-$--radio-font-weight:                  500;
+$--radio-font-weight:                  $weight-normal; // 500;
 $--radio-input-height:                 14px;
 $--radio-input-width:                  14px;
 $--radio-input-border-radius:          100%;
@@ -113,7 +113,7 @@ $--group-title-width:          66px;
 
 /* Button -------------------------- */
 $--button-font-size:                 $font-md; // 14px;
-$--button-font-weight:               500;
+$--button-font-weight:               $weight-normal; // 500;
 $--button-border-radius:             4px;
 $--button-padding-vertical:          12px;
 $--button-padding-horizontal:        20px;
