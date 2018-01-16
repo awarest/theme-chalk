@@ -33,7 +33,7 @@
 }
 .el-input .el-input__clear {
   color: #999;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 16px;
   cursor: pointer;
   transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -129,7 +129,11 @@
   padding-left: 30px;
 }
 .el-input--medium {
-  font-size: 14px;
+  font-size: 13px;
+}
+.el-input--mini,
+.el-input--small {
+  font-size: 11px;
 }
 .el-input--medium .el-input__inner {
   height: 36px;
@@ -137,17 +141,11 @@
 .el-input--medium .el-input__icon {
   line-height: 36px;
 }
-.el-input--small {
-  font-size: 13px;
-}
 .el-input--small .el-input__inner {
   height: 32px;
 }
 .el-input--small .el-input__icon {
   line-height: 32px;
-}
-.el-input--mini {
-  font-size: 12px;
 }
 .el-input--mini .el-input__inner {
   height: 28px;

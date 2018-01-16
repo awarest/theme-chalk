@@ -2,7 +2,7 @@
   display: inline-flex;
   align-items: center;
   position: relative;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   height: 20px;
   vertical-align: middle;
@@ -20,7 +20,7 @@
 .el-switch__label {
   transition: 0.2s;
   height: 20px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #222;
 }
@@ -35,7 +35,7 @@
 }
 .el-switch__label * {
   line-height: 1;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
 }
 .el-switch__input {

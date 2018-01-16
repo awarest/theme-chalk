@@ -6,7 +6,7 @@ $--font-size-small: $font-sm; // only used in table-column filters
 
 
 /* Checkbox -------------------------- */
-$--checkbox-font-size:                    14px;
+$--checkbox-font-size:                    $font-md; // 14px;
 $--checkbox-font-weight:                  500;
 $--checkbox-input-height:                 14px;
 $--checkbox-input-width:                  14px;
@@ -25,10 +25,10 @@ $--checkbox-bordered-small-height:        32px;
 $--checkbox-bordered-mini-input-height:   12px;
 $--checkbox-bordered-mini-input-width:    12px;
 $--checkbox-bordered-mini-height:         28px;
-$--checkbox-button-font-size:             14px;
+$--checkbox-button-font-size:             $font-md; // 14px;
 
 /* Radio -------------------------- */
-$--radio-font-size:                    14px;
+$--radio-font-size:                    $font-md; // 14px;
 $--radio-font-weight:                  500;
 $--radio-input-height:                 14px;
 $--radio-input-width:                  14px;
@@ -47,14 +47,14 @@ $--radio-bordered-small-height:        32px;
 $--radio-bordered-mini-input-height:   12px;
 $--radio-bordered-mini-input-width:    12px;
 $--radio-bordered-mini-height:         28px;
-$--radio-button-font-size:             14px;
+$--radio-button-font-size:             $font-md; // 14px;
 
 /* Select -------------------------- */
-$--select-font-size:              14px;
-$--select-input-font-size:        14px;
+$--select-font-size:              $font-md; // 14px;
+$--select-input-font-size:        $font-md; // 14px;
 $--select-option-height:          34px;
 $--select-group-height:           30px;
-$--select-group-font-size:        12px;
+$--select-group-font-size:        $font-sm; // 12px;
 $--select-dropdown-max-height:    274px;
 $--select-dropdown-padding:       6px  0;
 $--select-dropdown-empty-padding: 10px 0;
@@ -62,19 +62,19 @@ $--select-dropdown-empty-padding: 10px 0;
 /* Alert -------------------------- */
 $--alert-padding:                  8px 16px;
 $--alert-border-radius:            4px;
-$--alert-title-font-size:          13px;
-$--alert-description-font-size:    12px;
-$--alert-close-font-size:          12px;
-$--alert-close-customed-font-size: 13px;
+$--alert-title-font-size:          $font-md; // 13px;
+$--alert-description-font-size:    $font-md; // 12px;
+$--alert-close-font-size:          $font-md; // 12px;
+$--alert-close-customed-font-size: $font-md; // 13px;
 $--alert-icon-size:                16px;
 $--alert-icon-large-size:          28px;
 
 /* Message Box -------------------------- */
 $--msgbox-width:             420px;
 $--msgbox-border-radius:     4px;
-$--msgbox-font-size:         18px;
-$--msgbox-content-font-size: 14px;
-$--msgbox-error-font-size:   12px;
+$--msgbox-font-size:         $font-lg; // 18px;
+$--msgbox-content-font-size: $font-md; // 14px;
+$--msgbox-error-font-size:   $font-sm; // 12px;
 $--msgbox-padding-primary:   15px;
 
 /* Message -------------------------- */
@@ -87,97 +87,96 @@ $--notification-width:           330px;
 $--notification-padding:         14px 26px 14px 13px;
 $--notification-radius:          8px;
 $--notification-icon-size:       24px;
-$--notification-close-font-size: 16px;
+$--notification-close-font-size: $font-lg; // 16px;
 $--notification-group-margin:    13px;
-$--notification-font-size:       14px;
-$--notification-title-font-size: 16px;
+$--notification-font-size:       $font-md; // 14px;
+$--notification-title-font-size: $font-lg; // 16px;
 
 /* Input -------------------------- */
-$--input-font-size:        14px;
+$--input-font-size:        $font-md; // 14px;
 $--input-width:            140px;
 $--input-height:           40px;
 $--input-border-radius:    4px;
 $--input-max-width:        314px;
-$--input-medium-font-size: 14px;
+$--input-medium-font-size: $font-md; // 14px;
 $--input-medium-height:    36px;
-$--input-small-font-size:  13px;
+$--input-small-font-size:  $font-sm; // 13px;
 $--input-small-height:     32px;
-$--input-mini-font-size:   12px;
+$--input-mini-font-size:   $font-sm; // 12px;
 $--input-mini-height:      28px;
 
 /* Group -------------------------- */
 $--group-option-flex:          0 0 (1/5) * 100%;
 $--group-option-offset-bottom: 12px;
-$--group-title-font-size:      14px;
+$--group-title-font-size:      $font-md; // 14px;
 $--group-title-width:          66px;
 
 /* Button -------------------------- */
-$--button-font-size:                 14px;
+$--button-font-size:                 $font-md; // 14px;
 $--button-font-weight:               500;
 $--button-border-radius:             4px;
 $--button-padding-vertical:          12px;
 $--button-padding-horizontal:        20px;
-
-$--button-medium-font-size:          14px;
+$--button-medium-font-size:          $font-md; // 14px;
 $--button-medium-border-radius:      4px;
 $--button-medium-padding-vertical:   10px;
 $--button-medium-padding-horizontal: 20px;
-$--button-small-font-size:           12px;
+$--button-small-font-size:           $font-sm; // 12px;
 $--button-small-border-radius:       3px;
 $--button-small-padding-vertical:    9px;
 $--button-small-padding-horizontal:  15px;
-$--button-mini-font-size:            12px;
+$--button-mini-font-size:            $font-sm; // 12px;
 $--button-mini-border-radius:        3px;
 $--button-mini-padding-vertical:     7px;
 $--button-mini-padding-horizontal:   15px;
 
 /* Switch -------------------------- */
-$--switch-font-size:          14px;
+$--switch-font-size:          $font-md; // 14px;
 $--switch-core-border-radius: 10px;
 $--switch-width:              40px;
 $--switch-height:             20px;
 $--switch-button-size:        16px;
 
 /* Dialog -------------------------- */
-$--dialog-title-font-size: 18px;
-$--dialog-font-size:       14px;
+$--dialog-title-font-size: $font-lg; // 18px;
+$--dialog-font-size:       $font-md; // 14px;
 $--dialog-line-height:     24px;
 $--dialog-padding-primary: 15px;
 
 /* Pagination -------------------------- */
-$--pagination-font-size:     13px;
+$--pagination-font-size:     $font-sm; // 13px;
 $--pagination-border-radius: 3px;
 $--pagination-button-width:  35.5px;
 $--pagination-button-height: 28px;
 
 /* Popover -------------------------- */
-$--popover-font-size:       14px;
+$--popover-font-size:       $font-md; // 14px;
 $--popover-arrow-size:      6px;
 $--popover-padding:         12px;
 $--popover-padding-large:   18px 20px;
-$--popover-title-font-size: 16px;
+$--popover-title-font-size: $font-lg; // 16px;
 
 /* Tooltip -------------------------- */
-$--tooltip-font-size:  12px;
+$--tooltip-font-size:  $font-sm; // 12px;
 $--tooltip-arrow-size: 6px;
 $--tooltip-padding:    10px;
 
 /* Tag -------------------------- */
 $--tag-padding:       0 10px;
-$--tag-font-size:     12px;
+$--tag-font-size:     $font-sm; // 12px;
 $--tag-border-radius: 4px;
 
 /* Badge -------------------------- */
 $--badge-radius:    10px;
-$--badge-font-size: 12px;
+$--badge-font-size: $font-sm; // 12px;
 $--badge-padding:   6px;
 $--badge-size:      18px;
 
-/* Card --------------------------*/
+/* Card -------------------------- */
 $--card-border-radius: 4px;
 $--card-padding:       20px;
 
-/* Slider --------------------------*/
+/* Slider -------------------------- */
 $--slider-margin:                16px 0;
 $--slider-border-radius:         3px;
 $--slider-height:                6px;
@@ -185,21 +184,21 @@ $--slider-button-size:           16px;
 $--slider-button-wrapper-size:   36px;
 $--slider-button-wrapper-offset: -15px;
 
-/* Steps --------------------------*/
+/* Steps -------------------------- */
 $--steps-border-radius: 4px;
 $--steps-padding:       20px;
 
-/* Rate --------------------------*/
+/* Rate -------------------------- */
 $--rate-height:      20px;
-$--rate-font-size:   14px;
+$--rate-font-size:   $font-md; // 14px;
 $--rate-icon-size:   18px;
 $--rate-icon-margin: 6px;
 
-/* Loading --------------------------*/
+/* Loading -------------------------- */
 $--loading-spinner-size:            42px;
 $--loading-fullscreen-spinner-size: 50px;
 
-/* Collapse --------------------------*/
+/* Collapse -------------------------- */
 $--collapse-header-height:  48px;
 $--collapse-header-padding: 20px;
 $--collapse-header-size:    13px;

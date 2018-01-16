@@ -17,7 +17,7 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   padding: 12px 20px;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 4px;
 }
 .el-button + .el-button {
@@ -367,12 +367,12 @@
 }
 .el-button--medium {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 4px;
 }
 .el-button--mini,
 .el-button--small {
-  font-size: 12px;
+  font-size: 11px;
   border-radius: 3px;
 }
 .el-button--medium.is-round {

@@ -21,7 +21,7 @@
 .el-pagination button,
 .el-pagination span:not([class*="suffix"]) {
   display: inline-block;
-  font-size: 13px;
+  font-size: 11px;
   min-width: 35.5px;
   height: 28px;
   line-height: 28px;
@@ -105,7 +105,7 @@
   color: #222;
 }
 .el-pagination__sizes .el-input .el-input__inner {
-  font-size: 13px;
+  font-size: 11px;
   padding-left: 8px;
 }
 .el-pagination__sizes .el-input .el-input__inner:hover {
@@ -195,7 +195,7 @@
 .el-pager li {
   padding: 0 4px;
   background: #fff;
-  font-size: 13px;
+  font-size: 11px;
   min-width: 35.5px;
   line-height: 28px;
 }

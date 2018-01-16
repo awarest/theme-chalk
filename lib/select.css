@@ -14,7 +14,7 @@
 }
 .el-select .el-input .el-select__caret {
   color: #999;
-  font-size: 14px;
+  font-size: 13px;
   transition: transform 0.3s;
   transform: rotateZ(180deg);
   line-height: 16px;
@@ -24,7 +24,7 @@
   transform: rotateZ(0);
 }
 .el-select .el-input .el-select__caret.is-show-close {
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
   transform: rotateZ(180deg);
   border-radius: 100%;
@@ -52,7 +52,7 @@
   padding: 0;
   margin-left: 15px;
   color: #222;
-  font-size: 14px;
+  font-size: 13px;
   vertical-align: middle;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -71,7 +71,7 @@
   right: 25px;
   color: #999;
   line-height: 18px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-select__close:hover {
   color: #999;

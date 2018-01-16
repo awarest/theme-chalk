@@ -31,7 +31,7 @@
   background-color: #fff;
   border-radius: 4px;
   border: 1px solid #ccc;
-  font-size: 18px;
+  font-size: 16px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   text-align: left;
   overflow: hidden;
@@ -60,7 +60,7 @@
 .el-message-box__title {
   padding-left: 0;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   color: #222;
 }
@@ -86,7 +86,7 @@
   position: relative;
   padding: 10px 15px;
   color: #222;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-message-box__input {
   padding-top: 15px;
@@ -129,7 +129,7 @@
 }
 .el-message-box__errormsg {
   color: #e60000;
-  font-size: 12px;
+  font-size: 11px;
   min-height: 18px;
   margin-top: 2px;
 }

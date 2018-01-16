@@ -70,7 +70,7 @@
 .el-input-number--medium .el-input-number__decrease,
 .el-input-number--medium .el-input-number__increase {
   width: 36px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-input-number--medium .el-input__inner {
   padding-left: 43px;
@@ -83,7 +83,7 @@
 .el-input-number--small .el-input-number__decrease,
 .el-input-number--small .el-input-number__increase {
   width: 32px;
-  font-size: 13px;
+  font-size: 11px;
 }
 .el-input-number--small .el-input-number__decrease [class*="el-icon"],
 .el-input-number--small .el-input-number__increase [class*="el-icon"] {
@@ -110,7 +110,7 @@
 .el-input-number--mini .el-input-number__decrease,
 .el-input-number--mini .el-input-number__increase {
   width: 28px;
-  font-size: 12px;
+  font-size: 11px;
 }
 .el-input-number--mini .el-input__inner {
   padding-left: 35px;
