@@ -4,6 +4,8 @@
 // basic colors
 $white: #ffffff;
 $black: #000000;
+// $coal:  #222222;
+$coal: #000000;
 
 // special backgrounds for the skeleton
 $navy:     #002d4d;
@@ -21,6 +23,11 @@ $peach:    #ffecd9; $orange: #ff7f00; // warning
 $pink:     #ffd9d9; $red:    #e60000; // danger
 $lavender: #ecd9ff; $purple: #e670bf; // info
 $beige:    #ffffd9; $yellow: #e6bf00; // notice
+
+
+// reusable percentages for altering colors
+$shade: 10%;
+$dark:  20%;
 
 
 // definition of our rem value

@@ -4425,7 +4425,7 @@
   transform: scale(0.8);
 }
 .el-tag {
-  background-color: #a6daff;
+  background-color: #d9efff;
   display: inline-block;
   padding: 0 10px;
   height: 32px;
@@ -4434,7 +4434,7 @@
   color: #0070bf;
   border-radius: 4px;
   box-sizing: border-box;
-  border: 1px solid #d9efff;
+  border: 1px solid #a6daff;
   white-space: nowrap;
 }
 .el-tag .el-icon-close {
@@ -4459,8 +4459,8 @@
   color: #fff;
 }
 .el-tag--info {
-  background-color: #ccc;
-  border-color: #f2f2f2;
+  background-color: #f2f2f2;
+  border-color: #ccc;
   color: #999;
 }
 .el-tag--info.is-hit {
@@ -4474,8 +4474,8 @@
   color: #fff;
 }
 .el-tag--success {
-  background-color: #d3ffa6;
-  border-color: #ecffd9;
+  background-color: #ecffd9;
+  border-color: #d3ffa6;
   color: #60bf00;
 }
 .el-tag--success.is-hit {
@@ -4489,8 +4489,8 @@
   color: #fff;
 }
 .el-tag--warning {
-  background-color: #ffd3a6;
-  border-color: #ffecd9;
+  background-color: #ffecd9;
+  border-color: #ffd3a6;
   color: #ff7f00;
 }
 .el-tag--warning.is-hit {
@@ -4504,8 +4504,8 @@
   color: #fff;
 }
 .el-tag--danger {
-  background-color: #ffa6a6;
-  border-color: #ffd9d9;
+  background-color: #ffd9d9;
+  border-color: #ffa6a6;
   color: #e60000;
 }
 .el-tag--danger.is-hit {
