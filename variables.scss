@@ -16,17 +16,16 @@ $--color-transition-base:  color        0.2s  cubic-bezier(0.645, 0.045, 0.355, 
 /* Border -------------------------- */
 $--border-width-base: 1px;
 $--border-style-base: solid;
+$--border-base:       $border; // dcdfe6;
 
-$--border-base: $--border-width-base $--border-style-base $silver; // dcdfe6;
-
-$--checkbox-input-border:  $--border-base;
-$--radio-input-border:     $--border-base;
-$--input-border:           $--border-base;
-$--select-dropdown-border: $--border-base; // e4e7ed;
-$--table-border:           $--border-base; // ebeef5;
+$--checkbox-input-border:  $border;
+$--radio-input-border:     $border;
+$--input-border:           $border;
+$--select-dropdown-border: $border; // e4e7ed;
+$--table-border:           $border; // ebeef5;
 
 
-/* Box-shadow -------------------------- */
+/* Box Shadow -------------------------- */
 $--message-shadow:         0 2px 4px    rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
 $--table-fixed-box-shadow: 0 0   10px   rgba(0, 0, 0, .12);
 $--dialog-box-shadow:      0 1px 3px    rgba(0, 0, 0, 0.3);
@@ -36,3 +35,19 @@ $--select-dropdown-shadow:   $--box-shadow-light;
 $--notification-shadow:      $--box-shadow-light;
 $--dropdown-menu-box-shadow: $--box-shadow-light;
 
+
+/* Border Radius -------------------------- */
+$--border-radius-base:   $radius;
+$--border-radius-small:  $radius; // only used in dialog
+$--border-radius-circle: 100%;    // used in select / slider / switch
+
+
+/* Font -------------------------- */
+$--font-size-base:  14px;
+$--font-size-small: 13px; // only used in table-column
+
+
+/* z-index -------------------------- */
+$--index-normal: 1;
+$--index-top:    1000;
+$--index-popper: 2000;
