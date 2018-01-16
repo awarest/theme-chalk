@@ -1,205 +1,208 @@
 @import "theme";
 
-/* Font -------------------------- */
+/*Font--------------------------*/
 $--font-size-base:  $font-md;
 $--font-size-small: $font-sm; // only used in table-column filters
 
 
-/* Checkbox -------------------------- */
-$--checkbox-font-size:                    $font-md; // 14px;
-$--checkbox-font-weight:                  $weight-normal; // 500;
-$--checkbox-input-height:                 14px;
-$--checkbox-input-width:                  14px;
-$--checkbox-input-border-radius:          2px;
-$--checkbox-bordered-height:              40px;
-$--checkbox-bordered-padding:             9px 20px 9px 10px;
-$--checkbox-bordered-medium-padding:      7px 20px 7px 10px;
-$--checkbox-bordered-small-padding:       5px 15px 5px 10px;
-$--checkbox-bordered-mini-padding:        3px 15px 3px 10px;
-$--checkbox-bordered-medium-input-height: 14px;
-$--checkbox-bordered-medium-input-width:  14px;
-$--checkbox-bordered-medium-height:       36px;
-$--checkbox-bordered-small-input-height:  12px;
-$--checkbox-bordered-small-input-width:   12px;
-$--checkbox-bordered-small-height:        32px;
-$--checkbox-bordered-mini-input-height:   12px;
-$--checkbox-bordered-mini-input-width:    12px;
-$--checkbox-bordered-mini-height:         28px;
-$--checkbox-button-font-size:             $font-md; // 14px;
+/*Checkbox--------------------------*/
+$--checkbox-font-size:                     $font-md;            //14px;
+$--checkbox-font-weight:                   $weight-normal;      //500;
+$--checkbox-input-height:                  14px;
+$--checkbox-input-width:                   14px;
+$--checkbox-input-border-radius:           $radius - 1px;       //2px;
+$--checkbox-bordered-height:               40px;
+$--checkbox-bordered-padding:              9px 20px 9px 10px;
+$--checkbox-bordered-medium-padding:       7px 20px 7px 10px;
+$--checkbox-bordered-small-padding:        5px 15px 5px 10px;
+$--checkbox-bordered-mini-padding:         3px 15px 3px 10px;
+$--checkbox-bordered-medium-input-height:  14px;
+$--checkbox-bordered-medium-input-width:   14px;
+$--checkbox-bordered-medium-height:        36px;
+$--checkbox-bordered-small-input-height:   12px;
+$--checkbox-bordered-small-input-width:    12px;
+$--checkbox-bordered-small-height:         32px;
+$--checkbox-bordered-mini-input-height:    12px;
+$--checkbox-bordered-mini-input-width:     12px;
+$--checkbox-bordered-mini-height:          28px;
+$--checkbox-button-font-size:              $font-md;            //14px;
 
-/* Radio -------------------------- */
-$--radio-font-size:                    $font-md; // 14px;
-$--radio-font-weight:                  $weight-normal; // 500;
-$--radio-input-height:                 14px;
-$--radio-input-width:                  14px;
-$--radio-input-border-radius:          100%;
-$--radio-bordered-height:              40px;
-$--radio-bordered-padding:             12px 20px 0 10px;
-$--radio-bordered-medium-padding:      10px 20px 0 10px;
-$--radio-bordered-small-padding:       8px  15px 0 10px;
-$--radio-bordered-mini-padding:        6px  15px 0 10px;
-$--radio-bordered-medium-input-height: 14px;
-$--radio-bordered-medium-input-width:  14px;
-$--radio-bordered-medium-height:       36px;
-$--radio-bordered-small-input-height:  12px;
-$--radio-bordered-small-input-width:   12px;
-$--radio-bordered-small-height:        32px;
-$--radio-bordered-mini-input-height:   12px;
-$--radio-bordered-mini-input-width:    12px;
-$--radio-bordered-mini-height:         28px;
-$--radio-button-font-size:             $font-md; // 14px;
+/*Radio--------------------------*/
+$--radio-font-size:                        $font-md;            //14px;
+$--radio-font-weight:                      $weight-normal;      //500;
+$--radio-input-height:                     14px;
+$--radio-input-width:                      14px;
+$--radio-input-border-radius:              100%;
+$--radio-bordered-height:                  40px;
+$--radio-bordered-padding:                 12px 20px 0 10px;
+$--radio-bordered-medium-padding:          10px 20px 0 10px;
+$--radio-bordered-small-padding:           8px  15px 0 10px;
+$--radio-bordered-mini-padding:            6px  15px 0 10px;
+$--radio-bordered-medium-input-height:     14px;
+$--radio-bordered-medium-input-width:      14px;
+$--radio-bordered-medium-height:           36px;
+$--radio-bordered-small-input-height:      12px;
+$--radio-bordered-small-input-width:       12px;
+$--radio-bordered-small-height:            32px;
+$--radio-bordered-mini-input-height:       12px;
+$--radio-bordered-mini-input-width:        12px;
+$--radio-bordered-mini-height:             28px;
+$--radio-button-font-size:                 $font-md;            //14px;
 
-/* Select -------------------------- */
-$--select-font-size:              $font-md; // 14px;
-$--select-input-font-size:        $font-md; // 14px;
-$--select-option-height:          34px;
-$--select-group-height:           30px;
-$--select-group-font-size:        $font-sm; // 12px;
-$--select-dropdown-max-height:    274px;
-$--select-dropdown-padding:       6px  0;
-$--select-dropdown-empty-padding: 10px 0;
+/*Select--------------------------*/
+$--select-font-size:                       $font-md;            //14px;
+$--select-input-font-size:                 $font-md;            //14px;
+$--select-option-height:                   34px;
+$--select-group-height:                    30px;
+$--select-group-font-size:                 $font-sm;            //12px;
+$--select-dropdown-max-height:             274px;
+$--select-dropdown-padding:                6px  0;
+$--select-dropdown-empty-padding:          10px 0;
 
-/* Alert -------------------------- */
-$--alert-padding:                  8px 16px;
-$--alert-border-radius:            4px;
-$--alert-title-font-size:          $font-md; // 13px;
-$--alert-description-font-size:    $font-md; // 12px;
-$--alert-close-font-size:          $font-md; // 12px;
-$--alert-close-customed-font-size: $font-md; // 13px;
-$--alert-icon-size:                16px;
-$--alert-icon-large-size:          28px;
+/*Input--------------------------*/
+$--input-font-size:                        $font-md;            //14px;
+$--input-width:                            140px;
+$--input-height:                           40px;
+$--input-border-radius:                    $radius;             //4px;
+$--input-max-width:                        314px;
+$--input-medium-font-size:                 $font-md;            //14px;
+$--input-medium-height:                    36px;
+$--input-small-font-size:                  $font-sm;            //13px;
+$--input-small-height:                     32px;
+$--input-mini-font-size:                   $font-sm;            //12px;
+$--input-mini-height:                      28px;
 
-/* Message Box -------------------------- */
-$--msgbox-width:             420px;
-$--msgbox-border-radius:     4px;
-$--msgbox-font-size:         $font-lg; // 18px;
-$--msgbox-content-font-size: $font-md; // 14px;
-$--msgbox-error-font-size:   $font-sm; // 12px;
-$--msgbox-padding-primary:   15px;
+/*Group--------------------------*/
+$--group-option-flex:                      0 0 (1/5) * 100%;
+$--group-option-offset-bottom:             12px;
+$--group-title-font-size:                  $font-md;            //14px;
+$--group-title-width:                      66px;
 
-/* Message -------------------------- */
-$--message-min-width:  380px;
-$--message-padding:    15px 15px 15px 20px;
-$--message-close-size: 16px;
+/*Button--------------------------*/
+$--button-font-size:                       $font-md;            //14px;
+$--button-font-weight:                     $weight-normal;      //500;
+$--button-border-radius:                   $radius;             //4px;
+$--button-padding-vertical:                12px;
+$--button-padding-horizontal:              20px;
+$--button-medium-font-size:                $font-md;            //14px;
+$--button-medium-border-radius:            $radius;             //4px;
+$--button-medium-padding-vertical:         10px;
+$--button-medium-padding-horizontal:       20px;
+$--button-small-font-size:                 $font-sm;            //12px;
+$--button-small-border-radius:             $radius - 1px;       //3px;
+$--button-small-padding-vertical:          9px;
+$--button-small-padding-horizontal:        15px;
+$--button-mini-font-size:                  $font-sm;            //12px;
+$--button-mini-border-radius:              $radius - 1px;       //3px;
+$--button-mini-padding-vertical:           7px;
+$--button-mini-padding-horizontal:         15px;
 
-/* Notification -------------------------- */
-$--notification-width:           330px;
-$--notification-padding:         14px 26px 14px 13px;
-$--notification-radius:          8px;
-$--notification-icon-size:       24px;
-$--notification-close-font-size: $font-lg; // 16px;
-$--notification-group-margin:    13px;
-$--notification-font-size:       $font-md; // 14px;
-$--notification-title-font-size: $font-lg; // 16px;
+/*Switch--------------------------*/
+$--switch-font-size:                       $font-md;            //14px;
+$--switch-core-border-radius:              50%;                 //10px
+$--switch-width:                           40px;
+$--switch-height:                          20px;
+$--switch-button-size:                     16px;
 
-/* Input -------------------------- */
-$--input-font-size:        $font-md; // 14px;
-$--input-width:            140px;
-$--input-height:           40px;
-$--input-border-radius:    4px;
-$--input-max-width:        314px;
-$--input-medium-font-size: $font-md; // 14px;
-$--input-medium-height:    36px;
-$--input-small-font-size:  $font-sm; // 13px;
-$--input-small-height:     32px;
-$--input-mini-font-size:   $font-sm; // 12px;
-$--input-mini-height:      28px;
+/*Dialog--------------------------*/
+$--dialog-title-font-size:                 $font-lg;            //18px;
+$--dialog-font-size:                       $font-md;            //14px;
+$--dialog-line-height:                     24px;
+$--dialog-padding-primary:                 15px;
 
-/* Group -------------------------- */
-$--group-option-flex:          0 0 (1/5) * 100%;
-$--group-option-offset-bottom: 12px;
-$--group-title-font-size:      $font-md; // 14px;
-$--group-title-width:          66px;
+/*Pagination--------------------------*/
+$--pagination-font-size:                   $font-sm;            //13px;
+$--pagination-border-radius:               $radius - 1px;       //3px;
+$--pagination-button-width:                35.5px;
+$--pagination-button-height:               28px;
 
-/* Button -------------------------- */
-$--button-font-size:                 $font-md; // 14px;
-$--button-font-weight:               $weight-normal; // 500;
-$--button-border-radius:             4px;
-$--button-padding-vertical:          12px;
-$--button-padding-horizontal:        20px;
-$--button-medium-font-size:          $font-md; // 14px;
-$--button-medium-border-radius:      4px;
-$--button-medium-padding-vertical:   10px;
-$--button-medium-padding-horizontal: 20px;
-$--button-small-font-size:           $font-sm; // 12px;
-$--button-small-border-radius:       3px;
-$--button-small-padding-vertical:    9px;
-$--button-small-padding-horizontal:  15px;
-$--button-mini-font-size:            $font-sm; // 12px;
-$--button-mini-border-radius:        3px;
-$--button-mini-padding-vertical:     7px;
-$--button-mini-padding-horizontal:   15px;
+/*Popover--------------------------*/
+$--popover-font-size:                      $font-md;            //14px;
+$--popover-arrow-size:                     6px;
+$--popover-padding:                        12px;
+$--popover-padding-large:                  18px 20px;
+$--popover-title-font-size:                $font-lg;            //16px;
 
-/* Switch -------------------------- */
-$--switch-font-size:          $font-md; // 14px;
-$--switch-core-border-radius: 10px;
-$--switch-width:              40px;
-$--switch-height:             20px;
-$--switch-button-size:        16px;
+/*Tooltip--------------------------*/
+$--tooltip-font-size:                      $font-sm;            //12px;
+$--tooltip-arrow-size:                     6px;
+$--tooltip-padding:                        10px;
 
-/* Dialog -------------------------- */
-$--dialog-title-font-size: $font-lg; // 18px;
-$--dialog-font-size:       $font-md; // 14px;
-$--dialog-line-height:     24px;
-$--dialog-padding-primary: 15px;
+/*Tag--------------------------*/
+$--tag-padding:                            0 10px;
+$--tag-font-size:                          $font-sm;            //12px;
+$--tag-border-radius:                      $radius;             //4px;
 
-/* Pagination -------------------------- */
-$--pagination-font-size:     $font-sm; // 13px;
-$--pagination-border-radius: 3px;
-$--pagination-button-width:  35.5px;
-$--pagination-button-height: 28px;
+/*Badge--------------------------*/
+$--badge-radius:                           50%;                 //10px;
+$--badge-font-size:                        $font-sm;            //12px;
+$--badge-padding:                          6px;
+$--badge-size:                             18px;
 
-/* Popover -------------------------- */
-$--popover-font-size:       $font-md; // 14px;
-$--popover-arrow-size:      6px;
-$--popover-padding:         12px;
-$--popover-padding-large:   18px 20px;
-$--popover-title-font-size: $font-lg; // 16px;
+/*Card--------------------------*/
+$--card-border-radius:                     $radius;             //4px;
+$--card-padding:                           20px;
 
-/* Tooltip -------------------------- */
-$--tooltip-font-size:  $font-sm; // 12px;
-$--tooltip-arrow-size: 6px;
-$--tooltip-padding:    10px;
+/*Slider--------------------------*/
+$--slider-margin:                          16px 0;
+$--slider-border-radius:                   $radius - 1px;       //3px;
+$--slider-height:                          6px;
+$--slider-button-size:                     16px;
+$--slider-button-wrapper-size:             36px;
+$--slider-button-wrapper-offset:           -15px;
 
-/* Tag -------------------------- */
-$--tag-padding:       0 10px;
-$--tag-font-size:     $font-sm; // 12px;
-$--tag-border-radius: 4px;
+/*Steps--------------------------*/
+$--steps-border-radius:                    $radius;             //4px;
+$--steps-padding:                          20px;
 
-/* Badge -------------------------- */
-$--badge-radius:    10px;
-$--badge-font-size: $font-sm; // 12px;
-$--badge-padding:   6px;
-$--badge-size:      18px;
+/*Rate--------------------------*/
+$--rate-height:                            20px;
+$--rate-font-size:                         $font-md;            //14px;
+$--rate-icon-size:                         18px;
+$--rate-icon-margin:                       6px;
 
-/* Card -------------------------- */
-$--card-border-radius: 4px;
-$--card-padding:       20px;
+/*Loading--------------------------*/
+$--loading-spinner-size:                   42px;
+$--loading-fullscreen-spinner-size:        50px;
 
-/* Slider -------------------------- */
-$--slider-margin:                16px 0;
-$--slider-border-radius:         3px;
-$--slider-height:                6px;
-$--slider-button-size:           16px;
-$--slider-button-wrapper-size:   36px;
-$--slider-button-wrapper-offset: -15px;
+/*Collapse--------------------------*/
+$--collapse-header-height:                 48px;
+$--collapse-header-padding:                20px;
+$--collapse-header-size:                   13px;
+$--collapse-content-size:                  13px;
 
-/* Steps -------------------------- */
-$--steps-border-radius: 4px;
-$--steps-padding:       20px;
 
-/* Rate -------------------------- */
-$--rate-height:      20px;
-$--rate-font-size:   $font-md; // 14px;
-$--rate-icon-size:   18px;
-$--rate-icon-margin: 6px;
 
-/* Loading -------------------------- */
-$--loading-spinner-size:            42px;
-$--loading-fullscreen-spinner-size: 50px;
 
-/* Collapse -------------------------- */
-$--collapse-header-height:  48px;
-$--collapse-header-padding: 20px;
-$--collapse-header-size:    13px;
-$--collapse-content-size:   13px;
+/*Alert--------------------------*/
+$--alert-padding:                          $md $lg;             //8px 16px;
+$--alert-border-radius:                    $radius;             //4px;
+$--alert-title-font-size:                  $font-md;            //13px;
+$--alert-description-font-size:            $font-md;            //12px;
+$--alert-close-font-size:                  $font-md;            //12px;
+$--alert-close-customed-font-size:         $font-md;            //13px;
+$--alert-icon-size:                        $font-lg;            //16px;
+$--alert-icon-large-size:                  $font-xl;            //28px;
+
+/*MessageBox--------------------------*/
+$--msgbox-width:                           $width - $md - $md;  //420px;
+$--msgbox-border-radius:                   $radius;             //4px;
+$--msgbox-font-size:                       $font-lg;            //18px;
+$--msgbox-content-font-size:               $font-md;            //14px;
+$--msgbox-error-font-size:                 $font-sm;            //12px;
+$--msgbox-padding-primary:                 $lg;                 //15px;
+
+/*Message--------------------------*/
+$--message-min-width:                      $width - $md - $md;  //380px;
+$--message-padding:                        $lg $lg $lg $lg;     //15px 15px 15px 20px;
+$--message-close-size:                     $font-lg;            //16px;
+
+/*Notification--------------------------*/
+$--notification-width:                     $width - $lg - $lg - $md; //330px;
+$--notification-padding:                   $lg ($lg + $md) $lg $lg; //14px 26px 14px 13px;
+$--notification-radius:                    $radius * 2;         //8px;
+$--notification-icon-size:                 $font-lg;            //24px;
+$--notification-close-font-size:           $font-lg;            //16px;
+$--notification-group-margin:              $md;                 //13px;
+$--notification-font-size:                 $font-md;            //14px;
+$--notification-title-font-size:           $font-lg;            //16px;

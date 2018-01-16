@@ -45,12 +45,12 @@
 }
 .el-input-number__increase {
   right: 1px;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
   border-left: 1px solid #ccc;
 }
 .el-input-number__decrease {
   left: 1px;
-  border-radius: 4px 0 0 4px;
+  border-radius: 3px 0 0 3px;
   border-right: 1px solid #ccc;
 }
 .el-input-number.is-disabled .el-input-number__decrease,
@@ -130,7 +130,7 @@
   line-height: 19px;
 }
 .el-input-number.is-controls-right .el-input-number__increase {
-  border-radius: 0 4px 0 0;
+  border-radius: 0 3px 0 0;
   border-bottom: 1px solid #ccc;
 }
 .el-input-number.is-controls-right .el-input-number__decrease {
@@ -140,7 +140,7 @@
   left: auto;
   border-right: none;
   border-left: 1px solid #ccc;
-  border-radius: 0 0 4px;
+  border-radius: 0 0 3px;
 }
 .el-input-number.is-controls-right[class*="medium"] [class*="decrease"],
 .el-input-number.is-controls-right[class*="medium"] [class*="increase"] {

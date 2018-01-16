@@ -5,7 +5,7 @@
 }
 .el-badge__content {
   background-color: #e60000;
-  border-radius: 10px;
+  border-radius: 50%;
   color: #fff;
   display: inline-block;
   font-size: 11px;

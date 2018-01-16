@@ -52,7 +52,7 @@
   width: 100%;
   padding: 8px 16px;
   margin: 0;
-  border-radius: 4px;
+  border-radius: 3px;
   position: relative;
   background-color: #fff;
   overflow: hidden;
@@ -101,8 +101,8 @@
   width: 16px;
 }
 .el-alert__icon.is-big {
-  font-size: 28px;
-  width: 28px;
+  font-size: 20px;
+  width: 20px;
 }
 .el-alert__title {
   font-size: 13px;
@@ -140,7 +140,7 @@
 }
 .el-autocomplete-suggestion {
   margin: 5px 0;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-autocomplete-suggestion.el-popper .popper__arrow {
   left: 24px !important;
@@ -152,7 +152,7 @@
   overflow: auto;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-autocomplete-suggestion__list {
   margin: 0;
@@ -199,7 +199,7 @@
 }
 .el-badge__content {
   background-color: #e60000;
-  border-radius: 10px;
+  border-radius: 50%;
   color: #fff;
   display: inline-block;
   font-size: 11px;
@@ -284,7 +284,7 @@
   font-weight: 400;
   padding: 12px 20px;
   font-size: 13px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-button + .el-button {
   margin-left: 10px;
@@ -634,12 +634,12 @@
 .el-button--medium {
   padding: 10px 20px;
   font-size: 13px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-button--mini,
 .el-button--small {
   font-size: 11px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .el-button--medium.is-round {
   padding: 10px 20px;
@@ -754,7 +754,7 @@
   border-right-color: rgba(255, 255, 255, 0.5);
 }
 .el-card {
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   background-color: #fff;
   overflow: hidden;
@@ -792,7 +792,7 @@
 }
 .el-checkbox.is-bordered {
   padding: 9px 20px 9px 10px;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   line-height: normal;
   height: 40px;
@@ -809,7 +809,7 @@
 }
 .el-checkbox.is-bordered.el-checkbox--medium {
   padding: 7px 20px 7px 10px;
-  border-radius: 4px;
+  border-radius: 3px;
   height: 36px;
 }
 .el-checkbox.is-bordered.el-checkbox--medium .el-checkbox__label {
@@ -822,7 +822,7 @@
 }
 .el-checkbox.is-bordered.el-checkbox--small {
   padding: 5px 15px 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 32px;
 }
 .el-checkbox.is-bordered.el-checkbox--small .el-checkbox__label {
@@ -839,7 +839,7 @@
 }
 .el-checkbox.is-bordered.el-checkbox--mini {
   padding: 3px 15px 3px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 28px;
 }
 .el-checkbox.is-bordered.el-checkbox--mini .el-checkbox__label {
@@ -1022,14 +1022,14 @@
 }
 .el-checkbox-button:first-child .el-checkbox-button__inner {
   border-left: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
+  border-radius: 3px 0 0 3px;
   box-shadow: none !important;
 }
 .el-checkbox-button.is-focus .el-checkbox-button__inner {
   border-color: #0070bf;
 }
 .el-checkbox-button:last-child .el-checkbox-button__inner {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
 }
 .el-checkbox-button--medium .el-checkbox-button__inner {
   padding: 10px 20px;
@@ -1111,7 +1111,7 @@
   position: relative;
   margin: 0 auto 50px;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   width: 50%;
@@ -1263,7 +1263,7 @@
   margin: 5px 0;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-dropdown-menu__item {
   list-style: none;
@@ -1536,7 +1536,7 @@
 .el-input__inner {
   -webkit-appearance: none;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   color: #222;
   display: inline-block;
@@ -1661,7 +1661,7 @@
   display: table-cell;
   position: relative;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 0 20px;
   width: 1px;
   white-space: nowrap;
@@ -1725,7 +1725,7 @@
   color: #222;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-textarea__inner::-ms-input-placeholder {
   color: #999;
@@ -1799,12 +1799,12 @@
 }
 .el-input-number__increase {
   right: 1px;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
   border-left: 1px solid #ccc;
 }
 .el-input-number__decrease {
   left: 1px;
-  border-radius: 4px 0 0 4px;
+  border-radius: 3px 0 0 3px;
   border-right: 1px solid #ccc;
 }
 .el-input-number.is-disabled .el-input-number__decrease,
@@ -1884,7 +1884,7 @@
   line-height: 19px;
 }
 .el-input-number.is-controls-right .el-input-number__increase {
-  border-radius: 0 4px 0 0;
+  border-radius: 0 3px 0 0;
   border-bottom: 1px solid #ccc;
 }
 .el-input-number.is-controls-right .el-input-number__decrease {
@@ -1894,7 +1894,7 @@
   left: auto;
   border-right: none;
   border-left: 1px solid #ccc;
-  border-radius: 0 0 4px;
+  border-radius: 0 0 3px;
 }
 .el-input-number.is-controls-right[class*="medium"] [class*="decrease"],
 .el-input-number.is-controls-right[class*="medium"] [class*="increase"] {
@@ -2013,11 +2013,11 @@
 }
 .el-message-box {
   display: inline-block;
-  width: 420px;
+  width: 384px;
   padding-bottom: 10px;
   vertical-align: middle;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   font-size: 16px;
   text-align: left;
@@ -2042,7 +2042,7 @@
 }
 .el-message-box__header {
   position: relative;
-  padding: 15px 15px 10px;
+  padding: 16px 16px 10px;
 }
 .el-message-box__title {
   padding-left: 0;
@@ -2053,8 +2053,8 @@
 }
 .el-message-box__headerbtn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 16px;
+  right: 16px;
   padding: 0;
   border: none;
   outline: 0;
@@ -2071,7 +2071,7 @@
 }
 .el-message-box__content {
   position: relative;
-  padding: 10px 15px;
+  padding: 10px 16px;
   color: #222;
   font-size: 13px;
 }
@@ -2157,8 +2157,8 @@
   text-align: center;
 }
 .el-message-box--center .el-message-box__content {
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .msgbox-fade-enter-active {
   animation: msgbox-fade-in 0.3s;
@@ -2187,9 +2187,9 @@
   }
 }
 .el-message {
-  min-width: 380px;
+  min-width: 384px;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 3px;
   border-width: 1px;
   border-style: solid;
   border-color: #ccc;
@@ -2200,7 +2200,7 @@
   background-color: #d9efff;
   transition: opacity 0.3s, transform 0.4s;
   overflow: hidden;
-  padding: 15px 15px 15px 20px;
+  padding: 16px;
   display: flex;
   align-items: center;
 }
@@ -2277,9 +2277,9 @@
 }
 .el-notification {
   display: flex;
-  width: 330px;
-  padding: 14px 26px 14px 13px;
-  border-radius: 8px;
+  width: 360px;
+  padding: 16px 24px 16px 16px;
+  border-radius: 6px;
   box-sizing: border-box;
   border: 1px solid #ccc;
   position: fixed;
@@ -2294,7 +2294,7 @@
   left: 16px;
 }
 .el-notification__group {
-  margin-left: 13px;
+  margin-left: 8px;
 }
 .el-notification__title {
   font-weight: 700;
@@ -2313,9 +2313,9 @@
   margin: 0;
 }
 .el-notification__icon {
-  height: 24px;
-  width: 24px;
-  font-size: 24px;
+  height: 16px;
+  width: 16px;
+  font-size: 16px;
 }
 .el-notification__closeBtn {
   position: absolute;
@@ -2452,7 +2452,7 @@
 }
 .el-pagination .el-select .el-input .el-input__inner {
   padding-right: 25px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 28px;
 }
 .el-pagination button {
@@ -2538,7 +2538,7 @@
   line-height: 18px;
   padding: 0 2px;
   margin: 0 2px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .el-pager,
 .el-pagination.is-background .btn-next,
@@ -2895,7 +2895,7 @@
 }
 .el-radio-button:first-child .el-radio-button__inner {
   border-left: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
+  border-radius: 3px 0 0 3px;
   box-shadow: none !important;
 }
 .el-radio-button:focus:not(.is-focus):not(:active),
@@ -2903,10 +2903,10 @@
   box-shadow: 0 0 2px 2px #0070bf;
 }
 .el-radio-button:last-child .el-radio-button__inner {
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 3px 3px 0;
 }
 .el-radio-button:first-child:last-child .el-radio-button__inner {
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-radio-button--medium .el-radio-button__inner {
   padding: 10px 20px;
@@ -2955,7 +2955,7 @@
 }
 .el-radio.is-bordered {
   padding: 12px 20px 0 10px;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   height: 40px;
@@ -2972,7 +2972,7 @@
 }
 .el-radio--medium.is-bordered {
   padding: 10px 20px 0 10px;
-  border-radius: 4px;
+  border-radius: 3px;
   height: 36px;
 }
 .el-radio--mini.is-bordered .el-radio__label,
@@ -2985,7 +2985,7 @@
 }
 .el-radio--small.is-bordered {
   padding: 8px 15px 0 10px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 32px;
 }
 .el-radio--small.is-bordered .el-radio__inner {
@@ -2994,7 +2994,7 @@
 }
 .el-radio--mini.is-bordered {
   padding: 6px 15px 0 10px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 28px;
 }
 .el-radio--mini.is-bordered .el-radio__inner {
@@ -3295,7 +3295,7 @@
   position: absolute;
   z-index: 1001;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: #fff;
   margin: 5px 0;
 }
@@ -3357,7 +3357,7 @@
   height: 6px;
   margin: 16px 0;
   background-color: #ccc;
-  border-radius: 3px;
+  border-radius: 2px;
   position: relative;
   cursor: pointer;
   vertical-align: middle;
@@ -3393,8 +3393,8 @@
 .el-slider__bar {
   height: 6px;
   background-color: #0070bf;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   position: absolute;
 }
 .el-slider__button-wrapper {
@@ -3515,13 +3515,13 @@
   .el-input-number__decrease {
   width: 18px;
   right: 18px;
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 3px;
 }
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input
   .el-input-number__increase {
   width: 19px;
-  border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 3px;
 }
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input
@@ -3901,7 +3901,7 @@
   height: 20px;
   border: 1px solid #ccc;
   outline: 0;
-  border-radius: 10px;
+  border-radius: 50%;
   box-sizing: border-box;
   background: #ccc;
   transition: border-color 0.3s, background-color 0.3s;
@@ -4431,7 +4431,7 @@
   line-height: 30px;
   font-size: 11px;
   color: #0070bf;
-  border-radius: 4px;
+  border-radius: 3px;
   box-sizing: border-box;
   border: 1px solid #a6daff;
   white-space: nowrap;

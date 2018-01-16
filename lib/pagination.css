@@ -42,7 +42,7 @@
 }
 .el-pagination .el-select .el-input .el-input__inner {
   padding-right: 25px;
-  border-radius: 3px;
+  border-radius: 2px;
   height: 28px;
 }
 .el-pagination button {
@@ -131,7 +131,7 @@
   line-height: 18px;
   padding: 0 2px;
   margin: 0 2px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .el-pager,
 .el-pagination.is-background .btn-next,

@@ -16,7 +16,7 @@
   height: 6px;
   margin: 16px 0;
   background-color: #ccc;
-  border-radius: 3px;
+  border-radius: 2px;
   position: relative;
   cursor: pointer;
   vertical-align: middle;
@@ -52,8 +52,8 @@
 .el-slider__bar {
   height: 6px;
   background-color: #0070bf;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   position: absolute;
 }
 .el-slider__button-wrapper {
@@ -174,13 +174,13 @@
   .el-input-number__decrease {
   width: 18px;
   right: 18px;
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 3px;
 }
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input
   .el-input-number__increase {
   width: 19px;
-  border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 3px;
 }
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input

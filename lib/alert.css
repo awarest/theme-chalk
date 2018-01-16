@@ -3,7 +3,7 @@
   padding: 8px 16px;
   margin: 0;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 3px;
   position: relative;
   background-color: #fff;
   overflow: hidden;
@@ -52,8 +52,8 @@
   width: 16px;
 }
 .el-alert__icon.is-big {
-  font-size: 28px;
-  width: 28px;
+  font-size: 20px;
+  width: 20px;
 }
 .el-alert__title {
   font-size: 13px;

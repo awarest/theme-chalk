@@ -5,7 +5,7 @@
 .el-autocomplete-suggestion {
   margin: 5px 0;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-autocomplete-suggestion.el-popper .popper__arrow {
   left: 24px !important;
@@ -17,7 +17,7 @@
   overflow: auto;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .el-autocomplete-suggestion__list {
   margin: 0;

@@ -25,11 +25,11 @@
 }
 .el-message-box {
   display: inline-block;
-  width: 420px;
+  width: 384px;
   padding-bottom: 10px;
   vertical-align: middle;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 1px solid #ccc;
   font-size: 16px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
@@ -55,7 +55,7 @@
 }
 .el-message-box__header {
   position: relative;
-  padding: 15px 15px 10px;
+  padding: 16px 16px 10px;
 }
 .el-message-box__title {
   padding-left: 0;
@@ -66,8 +66,8 @@
 }
 .el-message-box__headerbtn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 16px;
+  right: 16px;
   padding: 0;
   border: none;
   outline: 0;
@@ -84,7 +84,7 @@
 }
 .el-message-box__content {
   position: relative;
-  padding: 10px 15px;
+  padding: 10px 16px;
   color: #222;
   font-size: 13px;
 }
@@ -170,8 +170,8 @@
   text-align: center;
 }
 .el-message-box--center .el-message-box__content {
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .msgbox-fade-enter-active {
   animation: msgbox-fade-in 0.3s;
