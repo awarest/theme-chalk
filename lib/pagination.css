@@ -2,7 +2,7 @@
 .el-pagination__editor {
   box-sizing: border-box;
   text-align: center;
-  height: 28px;
+  height: 20px;
 }
 .el-pagination {
   white-space: nowrap;
@@ -22,9 +22,9 @@
 .el-pagination span:not([class*="suffix"]) {
   display: inline-block;
   font-size: 11px;
-  min-width: 35.5px;
-  height: 28px;
-  line-height: 28px;
+  min-width: 32px;
+  height: 20px;
+  line-height: 20px;
   vertical-align: top;
   box-sizing: border-box;
 }
@@ -43,7 +43,7 @@
 .el-pagination .el-select .el-input .el-input__inner {
   padding-right: 25px;
   border-radius: 2px;
-  height: 28px;
+  height: 20px;
 }
 .el-pagination button {
   border: none;
@@ -142,7 +142,7 @@
   width: 50px;
 }
 .el-pagination__editor.el-input .el-input__inner {
-  height: 28px;
+  height: 20px;
 }
 .el-pagination__editor .el-input__inner::-webkit-inner-spin-button,
 .el-pagination__editor .el-input__inner::-webkit-outer-spin-button {
@@ -196,8 +196,8 @@
   padding: 0 4px;
   background: #fff;
   font-size: 11px;
-  min-width: 35.5px;
-  line-height: 28px;
+  min-width: 32px;
+  line-height: 20px;
 }
 .el-pager li.btn-quicknext,
 .el-pager li.btn-quickprev {

@@ -49,12 +49,12 @@
   margin: 0;
 }
 .el-dialog__header {
-  padding: 15px 15px 10px;
+  padding: 16px 16px 10px;
 }
 .el-dialog__headerbtn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 16px;
+  right: 16px;
   padding: 0;
   background: 0 0;
   border: none;
@@ -70,18 +70,18 @@
   color: #0070bf;
 }
 .el-dialog__title {
-  line-height: 24px;
+  line-height: 20px;
   font-size: 16px;
   color: #222;
 }
 .el-dialog__body {
   padding: 30px 20px;
   color: #222;
-  line-height: 24px;
+  line-height: 20px;
   font-size: 13px;
 }
 .el-dialog__footer {
-  padding: 10px 15px 15px;
+  padding: 10px 16px 16px;
   text-align: right;
   box-sizing: border-box;
 }
@@ -93,7 +93,7 @@
 }
 .el-dialog--center .el-dialog__body {
   text-align: initial;
-  padding: 25px 27px 30px;
+  padding: 25px 28px 30px;
 }
 .el-dialog--center .el-dialog__footer {
   text-align: inherit;

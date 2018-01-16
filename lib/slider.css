@@ -13,7 +13,7 @@
 }
 .el-slider__runway {
   width: 100%;
-  height: 6px;
+  height: 4px;
   margin: 16px 0;
   background-color: #ccc;
   border-radius: 2px;
@@ -50,18 +50,18 @@
   margin-top: 3px;
 }
 .el-slider__bar {
-  height: 6px;
+  height: 4px;
   background-color: #0070bf;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   position: absolute;
 }
 .el-slider__button-wrapper {
-  height: 36px;
-  width: 36px;
+  height: 32px;
+  width: 32px;
   position: absolute;
   z-index: 1001;
-  top: -15px;
+  top: 15px;
   transform: translateX(-50%);
   background-color: transparent;
   text-align: center;
@@ -111,8 +111,8 @@
 }
 .el-slider__stop {
   position: absolute;
-  height: 6px;
-  width: 6px;
+  height: 4px;
+  width: 4px;
   border-radius: 100%;
   background-color: #fff;
   transform: translateX(-50%);
@@ -121,25 +121,25 @@
   position: relative;
 }
 .el-slider.is-vertical .el-slider__runway {
-  width: 6px;
+  width: 4px;
   height: 100%;
   margin: 0 16px;
 }
 .el-slider.is-vertical .el-slider__bar {
-  width: 6px;
+  width: 4px;
   height: auto;
   border-radius: 0 0 3px 3px;
 }
 .el-slider.is-vertical .el-slider__button-wrapper {
   top: auto;
-  left: -15px;
+  left: 15px;
   transform: translateY(50%);
 }
 .el-slider.is-vertical .el-slider__stop {
   transform: translateY(50%);
 }
 .el-slider.is-vertical.el-slider--with-input {
-  padding-bottom: 58px;
+  padding-bottom: 48px;
 }
 .el-slider.is-vertical.el-slider--with-input .el-slider__input {
   overflow: visible;
@@ -162,7 +162,7 @@
 .el-slider.is-vertical.el-slider--with-input
   .el-slider__input
   .el-input-number__increase {
-  top: 32px;
+  top: 22px;
   margin-top: -1px;
   border: 1px solid #ccc;
   line-height: 20px;

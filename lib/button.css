@@ -16,7 +16,7 @@
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  padding: 12px 20px;
+  padding: 2px 8px;
   font-size: 13px;
   border-radius: 3px;
 }
@@ -366,7 +366,7 @@
   border-color: transparent;
 }
 .el-button--medium {
-  padding: 10px 20px;
+  padding: 2px 8px;
   font-size: 13px;
   border-radius: 3px;
 }
@@ -376,15 +376,13 @@
   border-radius: 2px;
 }
 .el-button--medium.is-round {
-  padding: 10px 20px;
-}
-.el-button--small,
-.el-button--small.is-round {
-  padding: 9px 15px;
+  padding: 2px 8px;
 }
 .el-button--mini,
-.el-button--mini.is-round {
-  padding: 7px 15px;
+.el-button--mini.is-round,
+.el-button--small,
+.el-button--small.is-round {
+  padding: 2px 4px;
 }
 .el-button--text {
   color: #0070bf;

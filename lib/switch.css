@@ -3,8 +3,8 @@
   align-items: center;
   position: relative;
   font-size: 13px;
-  line-height: 20px;
-  height: 20px;
+  line-height: 16px;
+  height: 16px;
   vertical-align: middle;
 }
 .el-switch.is-disabled .el-switch__core,
@@ -19,7 +19,7 @@
 }
 .el-switch__label {
   transition: 0.2s;
-  height: 20px;
+  height: 16px;
   font-size: 13px;
   font-weight: 500;
   color: #222;
@@ -51,8 +51,8 @@
 .el-switch__core {
   margin: 0;
   position: relative;
-  width: 40px;
-  height: 20px;
+  width: 32px;
+  height: 16px;
   border: 1px solid #ccc;
   outline: 0;
   border-radius: 50%;
@@ -66,8 +66,8 @@
   left: 1px;
   border-radius: 100%;
   transition: transform 0.3s;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background-color: #fff;
 }
 .el-switch.is-checked .el-switch__core {

@@ -99,3 +99,6 @@ $border: 1px solid $silver;
 
 // standard border radius
 $radius: 3px;
+
+// standard input height, line height, padding, and border
+$input: $line-md + $xs + $xs + 1px + 1px;

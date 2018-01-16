@@ -8,75 +8,75 @@
   border-style: solid;
 }
 .el-popper .popper__arrow {
-  border-width: 6px;
+  border-width: 4px;
   filter: drop-shadow(0 2px 12px rgba(0, 0, 0, 0.03));
 }
 .el-popper .popper__arrow::after {
   content: " ";
-  border-width: 6px;
+  border-width: 4px;
 }
 .el-popper[x-placement^="top"] {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .el-popper[x-placement^="top"] .popper__arrow {
-  bottom: -6px;
+  bottom: -4px;
   left: 50%;
-  margin-right: 3px;
+  margin-right: 2px;
   border-top-color: #ccc;
   border-bottom-width: 0;
 }
 .el-popper[x-placement^="top"] .popper__arrow::after {
   bottom: 1px;
-  margin-left: -6px;
+  margin-left: -4px;
   border-top-color: #fff;
   border-bottom-width: 0;
 }
 .el-popper[x-placement^="bottom"] {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .el-popper[x-placement^="bottom"] .popper__arrow {
-  top: -6px;
+  top: -4px;
   left: 50%;
-  margin-right: 3px;
+  margin-right: 2px;
   border-top-width: 0;
   border-bottom-color: #ccc;
 }
 .el-popper[x-placement^="bottom"] .popper__arrow::after {
   top: 1px;
-  margin-left: -6px;
+  margin-left: -4px;
   border-top-width: 0;
   border-bottom-color: #fff;
 }
 .el-popper[x-placement^="right"] {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .el-popper[x-placement^="right"] .popper__arrow {
   top: 50%;
-  left: -6px;
-  margin-bottom: 3px;
+  left: -4px;
+  margin-bottom: 2px;
   border-right-color: #ccc;
   border-left-width: 0;
 }
 .el-popper[x-placement^="right"] .popper__arrow::after {
-  bottom: -6px;
+  bottom: -4px;
   left: 1px;
   border-right-color: #fff;
   border-left-width: 0;
 }
 .el-popper[x-placement^="left"] {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 .el-popper[x-placement^="left"] .popper__arrow {
   top: 50%;
-  right: -6px;
-  margin-bottom: 3px;
+  right: -4px;
+  margin-bottom: 2px;
   border-right-width: 0;
   border-left-color: #ccc;
 }
 .el-popper[x-placement^="left"] .popper__arrow::after {
   right: 1px;
-  bottom: -6px;
-  margin-left: -6px;
+  bottom: -4px;
+  margin-left: -4px;
   border-right-width: 0;
   border-left-color: #fff;
 }

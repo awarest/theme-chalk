@@ -4,7 +4,7 @@
   display: inline-block;
 }
 .el-rate {
-  height: 20px;
+  height: 16px;
   line-height: 1;
 }
 .el-rate:active,
@@ -16,8 +16,8 @@
   vertical-align: middle;
 }
 .el-rate__icon {
-  font-size: 18px;
-  margin-right: 6px;
+  font-size: 16px;
+  margin-right: 4px;
   color: #999;
   transition: 0.3s;
 }
