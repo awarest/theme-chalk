@@ -1,10 +1,13 @@
+@import "theme";
 
-/* Colors -------------------------- */
+/**********/
+/* Colors */
+/**********/
 
-$--color-white: $white;
-$--color-black: $black;
+$--color-white: $white; // 000000;
+$--color-black: $black; // ffffff;
 
-$--color-primary: $blue;   // 409EFF; // primary
+$--color-primary: $blue;   // 409eff; // primary
 $--color-success: $green;  // 67c23a; // success
 $--color-warning: $orange; // e6a23c; // warning
 $--color-danger:  $red;    // f56c6c; // danger
@@ -25,11 +28,11 @@ $--color-info-light:    $silver;                // dcdfe6; // light info
 
 $--color-text-primary:       $coal;   // 303133; // 6 - breadcrumb / card / dialog / message-box / step / switch
 $--color-text-regular:       $coal;   // 606266; // 10
-$--color-text-secondary:     $slate;  // 909399; // 4 - select / table - same as info
+$--color-text-secondary:     $slate;  // 909399; // 4 - select / table
 $--color-text-placeholder:   $slate;  // c0c4cc; // 7 - alert / breadcrumb / pagination / radio / select / step / table
 $--font-color-disabled-base: $slate;  // bbbbbb; // 3 - dropdown
-$--disabled-color-base:      $slate;
-$--disabled-border-base:     $silver;
+$--disabled-color-base:      $slate;  // c0c4cc;
+$--disabled-border-base:     $silver; // e4e7ed;
 $--border-color-base:        $silver; // dcdfe6;
 $--border-color-light:       $silver; // e4e7ed;
 $--border-color-lighter:     $silver; // ebeef5;
@@ -68,215 +71,215 @@ $--tag-info-border:    $--color-info-light;
 
 
 /* Checkbox -------------------------- */
-$--checkbox-disabled-input-fill:                 $artic;
-$--checkbox-color:                               $coal;
-$--checkbox-input-fill:                          $white;
-$--checkbox-input-border-color:                  $silver;
-$--checkbox-icon-color:                          $white;
-$--checkbox-disabled-input-border-color:         $silver;
-$--checkbox-disabled-icon-color:                 $slate;
-$--checkbox-disabled-checked-input-fill:         $smoke;
-$--checkbox-disabled-checked-input-border-color: $silver;
-$--checkbox-disabled-checked-icon-color:         $slate;
-$--checkbox-checked-text-color:                  $blue;
-$--checkbox-checked-input-border-color:          $blue;
-$--checkbox-checked-input-fill:                  $blue;
-$--checkbox-checked-icon-color:                  $white;
-$--checkbox-input-border-color-hover:            $blue;
-$--checkbox-button-checked-fill:                 $blue;
-$--checkbox-button-checked-color:                $white;
-$--checkbox-button-checked-border-color:         $blue;
+$--checkbox-disabled-input-fill:                  $artic;
+$--checkbox-color:                                $coal;
+$--checkbox-input-fill:                           $white;
+$--checkbox-input-border-color:                   $silver;
+$--checkbox-icon-color:                           $white;
+$--checkbox-disabled-input-border-color:          $silver;
+$--checkbox-disabled-icon-color:                  $slate;
+$--checkbox-disabled-checked-input-fill:          $smoke;
+$--checkbox-disabled-checked-input-border-color:  $silver;
+$--checkbox-disabled-checked-icon-color:          $slate;
+$--checkbox-checked-text-color:                   $blue;
+$--checkbox-checked-input-border-color:           $blue;
+$--checkbox-checked-input-fill:                   $blue;
+$--checkbox-checked-icon-color:                   $white;
+$--checkbox-input-border-color-hover:             $blue;
+$--checkbox-button-checked-fill:                  $blue;
+$--checkbox-button-checked-color:                 $white;
+$--checkbox-button-checked-border-color:          $blue;
 
 /* Radio -------------------------- */
-$--radio-color:                               $coal;
-$--radio-input-fill:                          $white;
-$--radio-input-border-color:                  $silver;
-$--radio-icon-color:                          $white;
-$--radio-disabled-input-border-color:         $silver;
-$--radio-disabled-input-fill:                 $smoke;
-$--radio-disabled-icon-color:                 $smoke;
-$--radio-disabled-checked-input-border-color: $silver;
-$--radio-disabled-checked-input-fill:         $smoke;
-$--radio-disabled-checked-icon-color:         $slate;
-$--radio-button-disabled-checked-fill:        $smoke;
-$--radio-checked-text-color:                  $blue;
-$--radio-checked-input-border-color:          $blue;
-$--radio-checked-input-fill:                  $white;
-$--radio-checked-icon-color:                  $blue;
-$--radio-input-border-color-hover:            $blue;
-$--radio-button-checked-fill:                 $blue;
-$--radio-button-checked-color:                $white;
-$--radio-button-checked-border-color:         $blue;
+$--radio-color:                                   $coal;
+$--radio-input-fill:                              $white;
+$--radio-input-border-color:                      $silver;
+$--radio-icon-color:                              $white;
+$--radio-disabled-input-border-color:             $silver;
+$--radio-disabled-input-fill:                     $smoke;
+$--radio-disabled-icon-color:                     $smoke;
+$--radio-disabled-checked-input-border-color:     $silver;
+$--radio-disabled-checked-input-fill:             $smoke;
+$--radio-disabled-checked-icon-color:             $slate;
+$--radio-button-disabled-checked-fill:            $smoke;
+$--radio-checked-text-color:                      $blue;
+$--radio-checked-input-border-color:              $blue;
+$--radio-checked-input-fill:                      $white;
+$--radio-checked-icon-color:                      $blue;
+$--radio-input-border-color-hover:                $blue;
+$--radio-button-checked-fill:                     $blue;
+$--radio-button-checked-color:                    $white;
+$--radio-button-checked-border-color:             $blue;
 
 /* Select -------------------------- */
-$--select-dropdown-empty-color:       $slate;
-$--select-border-color-hover:         $slate;
-$--select-disabled-border:            $silver;
-$--select-close-hover-color:          $slate;
-$--select-group-color:                $slate;
-$--select-dropdown-background:        $white;
-$--select-input-color:                $slate;
-$--select-multiple-input-color:       $coal;
-$--select-input-focus-background:     $blue;
-$--select-option-color:               $coal;
-$--select-option-disabled-color:      $slate;
-$--select-option-disabled-background: $white;
-$--select-option-hover-background:    $smoke;
-$--select-option-selected:            $blue;
-$--select-option-selected-hover:      $smoke;
+$--select-dropdown-empty-color:                   $slate;
+$--select-border-color-hover:                     $slate;
+$--select-disabled-border:                        $silver;
+$--select-close-hover-color:                      $slate;
+$--select-group-color:                            $slate;
+$--select-dropdown-background:                    $white;
+$--select-input-color:                            $slate;
+$--select-multiple-input-color:                   $coal;
+$--select-input-focus-background:                 $blue;
+$--select-option-color:                           $coal;
+$--select-option-disabled-color:                  $slate;
+$--select-option-disabled-background:             $white;
+$--select-option-hover-background:                $smoke;
+$--select-option-selected:                        $blue;
+$--select-option-selected-hover:                  $smoke;
 
 /* Alert -------------------------- */
-$--alert-success-color: $mint;
-$--alert-info-color:    $smoke;
-$--alert-warning-color: $peach;
-$--alert-danger-color:  $pink;
+$--alert-success-color:                           $mint;
+$--alert-info-color:                              $smoke;
+$--alert-warning-color:                           $peach;
+$--alert-danger-color:                            $pink;
 
 /* Message -------------------------- */
-$--message-success-color: $green;
-$--message-info-color:    $slate;
-$--message-warning-color: $orange;
-$--message-danger-color:  $red;
+$--message-success-color:                         $green;
+$--message-warning-color:                         $orange;
+$--message-danger-color:                          $red;
+$--message-info-color:                            $slate;
 
 /* Message Box -------------------------- */
-$--msgbox-content-color: $coal;
-$--msgbox-success-color: $green;
-$--msgbox-info-color:    $slate;
-$--msgbox-warning-color: $orange;
-$--msgbox-danger-color:  $red;
+$--msgbox-content-color:                          $coal;
+$--msgbox-success-color:                          $green;
+$--msgbox-warning-color:                          $orange;
+$--msgbox-danger-color:                           $red;
+$--msgbox-info-color:                             $slate;
 
 /* Message -------------------------- */
-$--message-background-color:  $artic;
-$--message-content-color:     $coal;
-$--message-close-color:       $slate;
-$--message-close-hover-color: $slate;
+$--message-background-color:                      $artic;
+$--message-content-color:                         $coal;
+$--message-close-color:                           $slate;
+$--message-close-hover-color:                     $slate;
 
 /* Notification -------------------------- */
-$--notification-border-color:      $silver;
-$--notification-color:             $coal;
-$--notification-title-color:       $coal;
-$--notification-close-color:       $slate;
-$--notification-close-hover-color: $coal;
+$--notification-border-color:                     $silver;
+$--notification-color:                            $coal;
+$--notification-title-color:                      $coal;
+$--notification-close-color:                      $slate;
+$--notification-close-hover-color:                $coal;
 
-$--notification-success-color: $green;
-$--notification-info-color:    $slate;
-$--notification-warning-color: $orange;
-$--notification-danger-color:  $red;
+$--notification-success-color:                    $green;
+$--notification-warning-color:                    $orange;
+$--notification-danger-color:                     $red;
+$--notification-info-color:                       $slate;
 
 /* Input -------------------------- */
-$--input-color:                      $coal;
-$--input-border-color:               $silver;
-$--input-border-color-hover:         $slate;
-$--input-fill:                       $white;
-$--input-fill-disabled:              $smoke;
-$--input-color-disabled:             $slate;
-$--input-icon-color:                 $slate;
-$--input-placeholder-color:          $slate;
-$--input-hover-border:               $slate;
-$--input-clear-hover-color:          $slate;
-$--input-focus-border:               $blue;
-$--input-focus-fill:                 $white;
-$--input-disabled-fill:              $smoke;
-$--input-disabled-border:            $silver;
-$--input-disabled-color:             $slate;
-$--input-disabled-placeholder-color: $slate;
+$--input-color:                                   $coal;
+$--input-border-color:                            $silver;
+$--input-border-color-hover:                      $slate;
+$--input-fill:                                    $white;
+$--input-fill-disabled:                           $smoke;
+$--input-color-disabled:                          $slate;
+$--input-icon-color:                              $slate;
+$--input-placeholder-color:                       $slate;
+$--input-hover-border:                            $slate;
+$--input-clear-hover-color:                       $slate;
+$--input-focus-border:                            $blue;
+$--input-focus-fill:                              $white;
+$--input-disabled-fill:                           $smoke;
+$--input-disabled-border:                         $silver;
+$--input-disabled-color:                          $slate;
+$--input-disabled-placeholder-color:              $slate;
 
 /* Button -------------------------- */
-$--button-primary-border: $blue;
-$--button-success-border: $green;
-$--button-warning-border: $orange;
-$--button-danger-border:  $red;
-$--button-info-border:    $slate;
-$--button-default-border:  $silver;
-$--button-disabled-border: $silver;
+$--button-primary-border:                         $blue;
+$--button-success-border:                         $green;
+$--button-warning-border:                         $orange;
+$--button-danger-border:                          $red;
+$--button-info-border:                            $slate;
+$--button-default-border:                         $silver;
+$--button-disabled-border:                        $silver;
 
-$--button-primary-fill: $blue;
-$--button-success-fill: $green;
-$--button-warning-fill: $orange;
-$--button-danger-fill:  $red;
-$--button-info-fill:    $slate;
-$--button-default-fill:  $white;
-$--button-disabled-fill: $white;
+$--button-primary-fill:                           $blue;
+$--button-success-fill:                           $green;
+$--button-warning-fill:                           $orange;
+$--button-danger-fill:                            $red;
+$--button-info-fill:                              $slate;
+$--button-default-fill:                           $white;
+$--button-disabled-fill:                          $white;
 
-$--button-primary-color: $white;
-$--button-success-color: $white;
-$--button-warning-color: $white;
-$--button-danger-color:  $white;
-$--button-info-color:    $white;
-$--button-default-color:  $coal;
-$--button-disabled-color: $slate;
+$--button-primary-color:                          $white;
+$--button-success-color:                          $white;
+$--button-warning-color:                          $white;
+$--button-danger-color:                           $white;
+$--button-info-color:                             $white;
+$--button-default-color:                          $coal;
+$--button-disabled-color:                         $slate;
 
 /* Switch -------------------------- */
-$--switch-on-color:            $blue;
-$--switch-off-color:           $silver;
-$--switch-disabled-color:      $silver;
-$--switch-disabled-text-color: $slate;
+$--switch-on-color:                               $blue;
+$--switch-off-color:                              $silver;
+$--switch-disabled-color:                         $silver;
+$--switch-disabled-text-color:                    $slate;
 
 /* Table -------------------------- */
-$--table-text-color:             $coal;
-$--table-header-color:           $slate;
-$--table-row-hover-background:   $smoke;
-$--table-current-row-background: $artic;
-$--table-header-background:      $white;
-$--table-footer-background:      $slate;
+$--table-text-color:                              $coal;
+$--table-header-color:                            $slate;
+$--table-row-hover-background:                    $smoke;
+$--table-current-row-background:                  $artic;
+$--table-header-background:                       $white;
+$--table-footer-background:                       $slate;
 
 /* Pagination -------------------------- */
-$--pagination-fill:                  $white;
-$--pagination-color:                 $coal;
-$--pagination-button-color:          $coal;
-$--pagination-button-disabled-color: $slate;
-$--pagination-button-disabled-fill:  $white;
-$--pagination-hover-fill:            $blue;
-$--pagination-hover-color:           $white;
+$--pagination-fill:                               $white;
+$--pagination-color:                              $coal;
+$--pagination-button-color:                       $coal;
+$--pagination-button-disabled-color:              $slate;
+$--pagination-button-disabled-fill:               $white;
+$--pagination-hover-fill:                         $blue;
+$--pagination-hover-color:                        $white;
 
 /* Popover -------------------------- */
-$--popover-fill:         $white;
-$--popover-border-color: $silver;
-$--popover-title-color:  $coal;
+$--popover-fill:                                  $white;
+$--popover-border-color:                          $silver;
+$--popover-title-color:                           $coal;
 
 /* Tooltip -------------------------- */
-$--tooltip-fill:         $coal;
-$--tooltip-color:        $white;
-$--tooltip-border-color: $coal;
+$--tooltip-fill:                                  $coal;
+$--tooltip-color:                                 $white;
+$--tooltip-border-color:                          $coal;
 
 /* Tag -------------------------- */
-$--tag-color:         $blue;
-$--tag-success-color: $green;
-$--tag-warning-color: $orange;
-$--tag-danger-color:  $red;
-$--tag-info-color:    $slate;
+$--tag-color:                                     $blue;
+$--tag-success-color:                             $green;
+$--tag-warning-color:                             $orange;
+$--tag-danger-color:                              $red;
+$--tag-info-color:                                $slate;
 
-$--tag-fill:         $artic;
-$--tag-success-fill: $mint;
-$--tag-warning-fill: $peach;
-$--tag-danger-fill:  $pink;
-$--tag-info-fill:    $smoke;
+$--tag-fill:                                      $artic;
+$--tag-success-fill:                              $mint;
+$--tag-warning-fill:                              $peach;
+$--tag-danger-fill:                               $pink;
+$--tag-info-fill:                                 $smoke;
 
 /* Dropdown -------------------------- */
-$--dropdown-menuItem-hover-fill:  $artic;
-$--dropdown-menuItem-hover-color: $blue;
+$--dropdown-menuItem-hover-fill:                  $artic;
+$--dropdown-menuItem-hover-color:                 $blue;
 
 /* Badge -------------------------- */
-$--badge-fill: $red;
+$--badge-fill:                                    $red;
 
 /* Card --------------------------*/
-$--card-border-color: $silver;
+$--card-border-color:                             $silver;
 
 /* Slider --------------------------*/
-$--slider-main-background-color:   $blue;
-$--slider-runway-background-color: $silver;
-$--slider-stop-background-color:   $white;
-$--slider-disable-color:           $slate;
+$--slider-main-background-color:                  $blue;
+$--slider-runway-background-color:                $silver;
+$--slider-stop-background-color:                  $white;
+$--slider-disable-color:                          $slate;
 
 /* Rate --------------------------*/
-$--rate-icon-color: $slate;
+$--rate-icon-color:                               $slate;
 
 /* Scrollbar --------------------------*/
-$--scrollbar-background-color:       $silver;
-$--scrollbar-hover-background-color: $slate;
+$--scrollbar-background-color:                    $silver;
+$--scrollbar-hover-background-color:              $slate;
 
 /* Collapse --------------------------*/
-$--collapse-border-color:  $silver;
-$--collapse-header-fill:   $white;
-$--collapse-header-color:  $coal;
-$--collapse-content-fill:  $white;
-$--collapse-content-color: $coal;
+$--collapse-border-color:                         $silver;
+$--collapse-header-fill:                          $white;
+$--collapse-header-color:                         $coal;
+$--collapse-content-fill:                         $white;
+$--collapse-content-color:                        $coal;

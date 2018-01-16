@@ -17,24 +17,22 @@ $--color-transition-base:  color        0.2s  cubic-bezier(0.645, 0.045, 0.355, 
 $--border-width-base: 1px;
 $--border-style-base: solid;
 
-$--border-base: $--border-width-base $--border-style-base $--border-color-base;
+$--border-base: $--border-width-base $--border-style-base $silver; // dcdfe6;
 
 $--checkbox-input-border:  $--border-base;
 $--radio-input-border:     $--border-base;
 $--input-border:           $--border-base;
-
-$--select-dropdown-border: $--border-width-base $--border-style-base $--border-color-light;
-$--table-border:           $--border-width-base $--border-style-base $--border-color-lighter;
+$--select-dropdown-border: $--border-base; // e4e7ed;
+$--table-border:           $--border-base; // ebeef5;
 
 
 /* Box-shadow -------------------------- */
-$--box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+$--message-shadow:         0 2px 4px    rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+$--table-fixed-box-shadow: 0 0   10px   rgba(0, 0, 0, .12);
+$--dialog-box-shadow:      0 1px 3px    rgba(0, 0, 0, 0.3);
+$--box-shadow-light:       0 2px 12px 0 rgba(0, 0, 0, 0.1);
 
 $--select-dropdown-shadow:   $--box-shadow-light;
 $--notification-shadow:      $--box-shadow-light;
 $--dropdown-menu-box-shadow: $--box-shadow-light;
-
-$--dialog-box-shadow:      0 1px 3px  rgba(0, 0, 0, 0.3);
-$--table-fixed-box-shadow: 0 0   10px rgba(0, 0, 0, .12);
-$--message-shadow:         0 2px 4px  rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
 

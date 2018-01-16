@@ -17,12 +17,19 @@ $silver: #cccccc; // borders / lines
 $slate:  #999999; // placeholders / highlighted borders
 
 // status/state colors
-$artic:    #d9efff; $blue:   #0070bf; // primary
-$mint:     #ecffd9; $green:  #60bf00; // success
-$peach:    #ffecd9; $orange: #ff7f00; // warning
-$pink:     #ffd9d9; $red:    #e60000; // danger
-$lavender: #ecd9ff; $purple: #e670bf; // info
-$beige:    #ffffd9; $yellow: #e6bf00; // notice
+$blue:   #0070bf; // primary
+$green:  #60bf00; // success
+$orange: #ff7f00; // warning
+$red:    #e60000; // danger
+$purple: #e670bf; // info
+$yellow: #e6bf00; // notice
+
+$artic:    #d9efff; // light primary
+$mint:     #ecffd9; // light success
+$peach:    #ffecd9; // light warning
+$pink:     #ffd9d9; // light danger
+$lavender: #ecd9ff; // light info
+$beige:    #ffffd9; // light notice
 
 
 // reusable percentages for altering colors
