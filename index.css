@@ -164,7 +164,7 @@
   line-height: 34px;
   cursor: pointer;
   color: #222;
-  font-size: 14px;
+  font-size: 13px;
   list-style: none;
   white-space: nowrap;
   overflow: hidden;
@@ -779,7 +779,7 @@
 .el-checkbox {
   color: #222;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
   user-select: none;
 }
@@ -1218,7 +1218,7 @@
   display: inline-block;
   position: relative;
   color: #222;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-dropdown .el-button-group {
   display: block;
@@ -1269,7 +1269,7 @@
   line-height: 36px;
   padding: 0 20px;
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   color: #222;
   cursor: pointer;
   outline: 0;
@@ -1481,7 +1481,7 @@
   display: inline-block;
 }
 .el-input {
-  font-size: 14px;
+  font-size: 13px;
   width: 100%;
 }
 .el-input::-webkit-scrollbar {
@@ -1714,7 +1714,7 @@
   display: inline-block;
   width: 100%;
   vertical-align: bottom;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-textarea__inner {
   display: block;
@@ -2934,10 +2934,6 @@
   padding: 7px 15px;
 }
 .el-radio,
-.el-radio--medium.is-bordered .el-radio__label {
-  font-size: 14px;
-}
-.el-radio,
 .el-radio__input {
   white-space: nowrap;
   line-height: 1;
@@ -2953,6 +2949,7 @@
   color: #222;
   font-weight: 500;
   cursor: pointer;
+  font-size: 13px;
 }
 .el-radio.is-bordered {
   padding: 12px 20px 0 10px;
@@ -2975,6 +2972,9 @@
   padding: 10px 20px 0 10px;
   border-radius: 4px;
   height: 36px;
+}
+.el-radio--medium.is-bordered .el-radio__label {
+  font-size: 14px;
 }
 .el-radio--mini.is-bordered .el-radio__label,
 .el-radio--small.is-bordered .el-radio__label {
@@ -3962,7 +3962,7 @@
   line-height: 36px;
   padding: 0 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-table-filter__list-item:hover {
   background-color: #d9efff;
@@ -3984,7 +3984,7 @@
   border: none;
   color: #222;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 11px;
   padding: 0 3px;
 }
 .el-table-filter__bottom button:hover {

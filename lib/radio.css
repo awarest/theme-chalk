@@ -1,9 +1,5 @@
 @charset "UTF-8";
 .el-radio,
-.el-radio--medium.is-bordered .el-radio__label {
-  font-size: 14px;
-}
-.el-radio,
 .el-radio__input {
   white-space: nowrap;
   line-height: 1;
@@ -19,6 +15,7 @@
   color: #222;
   font-weight: 500;
   cursor: pointer;
+  font-size: 13px;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -44,6 +41,9 @@
   padding: 10px 20px 0 10px;
   border-radius: 4px;
   height: 36px;
+}
+.el-radio--medium.is-bordered .el-radio__label {
+  font-size: 14px;
 }
 .el-radio--mini.is-bordered .el-radio__label,
 .el-radio--small.is-bordered .el-radio__label {

@@ -1,5 +1,9 @@
 @import "theme";
 
+/* Font -------------------------- */
+$--font-size-base:  $font-md;
+$--font-size-small: $font-sm; // only used in table-column filters
+
 
 /* Checkbox -------------------------- */
 $--checkbox-font-size:                    14px;

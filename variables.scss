@@ -37,14 +37,9 @@ $--dropdown-menu-box-shadow: $--box-shadow-light;
 
 
 /* Border Radius -------------------------- */
-$--border-radius-base:   $radius;
-$--border-radius-small:  $radius; // only used in dialog
 $--border-radius-circle: 100%;    // used in select / slider / switch
-
-
-/* Font -------------------------- */
-$--font-size-base:  14px;
-$--font-size-small: 13px; // only used in table-column
+$--border-radius-small:  $radius; // only used in dialog
+$--border-radius-base:   $radius;
 
 
 /* z-index -------------------------- */

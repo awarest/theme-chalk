@@ -20,7 +20,7 @@
   line-height: 36px;
   padding: 0 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-table-filter__list-item:hover {
   background-color: #d9efff;
@@ -42,7 +42,7 @@
   border: none;
   color: #222;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 11px;
   padding: 0 3px;
 }
 .el-table-filter__bottom button:hover {

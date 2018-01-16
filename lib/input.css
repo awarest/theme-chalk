@@ -1,6 +1,6 @@
 .el-input {
   position: relative;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
   width: 100%;
 }
@@ -231,7 +231,7 @@
   display: inline-block;
   width: 100%;
   vertical-align: bottom;
-  font-size: 14px;
+  font-size: 13px;
 }
 .el-textarea__inner {
   display: block;
