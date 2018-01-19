@@ -2,7 +2,7 @@
 @import "mixins/utils";
 // @import "./input-number";
 // @import "./tooltip";
-@import "variables";
+@import "app/variables";
 
 @include b(slider) {
   @include utils-clearfix;

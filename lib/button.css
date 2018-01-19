@@ -382,7 +382,7 @@
 .el-button--mini.is-round,
 .el-button--small,
 .el-button--small.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-button--text {
   color: #0070bf;

@@ -1,7 +1,7 @@
 @import "mixins/mixins";
 // @import "./checkbox";
 // @import "./tag";
-@import "variables";
+@import "app/variables";
 
 @include b(table-column) {
   @include m(selection) {

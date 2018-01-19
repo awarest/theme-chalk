@@ -1,5 +1,5 @@
 @import "mixins/mixins";
-@import "variables";
+@import "app/variables";
 
 @include b(collapse) {
   border-top: 1px solid $--collapse-border-color;

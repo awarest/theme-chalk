@@ -274,20 +274,20 @@
   border-radius: 0;
 }
 .el-checkbox-button--small .el-checkbox-button__inner {
-  padding: 2px 4px;
+  padding: 0 4px;
   font-size: 11px;
   border-radius: 0;
 }
 .el-checkbox-button--small .el-checkbox-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-checkbox-button--mini .el-checkbox-button__inner {
-  padding: 2px 4px;
+  padding: 0 4px;
   font-size: 11px;
   border-radius: 0;
 }
 .el-checkbox-button--mini .el-checkbox-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-checkbox-group {
   font-size: 0;

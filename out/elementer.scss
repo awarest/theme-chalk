@@ -648,7 +648,7 @@
 .el-button--mini.is-round,
 .el-button--small,
 .el-button--small.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-button--text {
   color: #0070bf;
@@ -1039,13 +1039,13 @@
 .el-checkbox-button--small .el-checkbox-button__inner {
   font-size: 11px;
   border-radius: 0;
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-checkbox-button--small .el-checkbox-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-checkbox-button--mini .el-checkbox-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-checkbox-group {
   font-size: 0;
@@ -2901,13 +2901,13 @@
 .el-radio-button--small .el-radio-button__inner {
   font-size: 11px;
   border-radius: 0;
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-radio-button--small .el-radio-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-radio-button--mini .el-radio-button__inner.is-round {
-  padding: 2px 4px;
+  padding: 0 4px;
 }
 .el-radio,
 .el-radio--medium.is-bordered .el-radio__label {

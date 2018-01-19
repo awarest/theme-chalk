@@ -65,8 +65,10 @@ $--input-width:                            100%;                     //140px;
 $--input-height:                           $input;                   //40px;
 $--input-border-radius:                    $radius;                  //4px;
 $--input-max-width:                        100%;                     //314px
+
 $--input-medium-font-size:                 $font-md;                 //14px;
 $--input-medium-height:                    $input;                   //36px;
+
 $--input-small-font-size:                  $font-sm;                 //13px;
 $--input-small-height:                     $input - $sm;             //32px;
 $--input-mini-font-size:                   $font-sm;                 //12px;
@@ -79,22 +81,23 @@ $--group-title-font-size:                  $font-md;                 //14px;
 $--group-title-width:                      $xl * 2;                  //66px;
 
 /*Button--------------------------*/
-$--button-font-size:                       $font-md;                 //14px;
 $--button-font-weight:                     $weight-normal;           //500;
+$--button-font-size:                       $font-md;                 //14px;
+$--button-medium-font-size:                $font-md;                 //14px;
+$--button-small-font-size:                 $font-sm;                 //12px;
+$--button-mini-font-size:                  $font-sm;                 //12px;
 $--button-border-radius:                   $radius;                  //4px;
+$--button-medium-border-radius:            $radius;                  //4px;
+$--button-small-border-radius:             $radius - 1px;            //3px;
+$--button-mini-border-radius:              $radius - 1px;            //3px;
+// for these to make sense, the line height must be unset later
 $--button-padding-vertical:                $xs;                      //12px;
 $--button-padding-horizontal:              $md;                      //20px;
-$--button-medium-font-size:                $font-md;                 //14px;
-$--button-medium-border-radius:            $radius;                  //4px;
 $--button-medium-padding-vertical:         $xs;                      //10px;
 $--button-medium-padding-horizontal:       $md;                      //20px;
-$--button-small-font-size:                 $font-sm;                 //12px;
-$--button-small-border-radius:             $radius - 1px;            //3px;
-$--button-small-padding-vertical:          $xs;                      //9px;
+$--button-small-padding-vertical:          $no;                      //9px;
 $--button-small-padding-horizontal:        $sm;                      //15px;
-$--button-mini-font-size:                  $font-sm;                 //12px;
-$--button-mini-border-radius:              $radius - 1px;            //3px;
-$--button-mini-padding-vertical:           $xs;                      //7px;
+$--button-mini-padding-vertical:           $no;                      //7px;
 $--button-mini-padding-horizontal:         $sm;                      //15px;
 
 /*Switch--------------------------*/

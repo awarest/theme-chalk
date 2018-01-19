@@ -1,5 +1,5 @@
 @import "mixins/mixins";
-@import "variables";
+@import "app/variables";
 // @import "./popper";
 
 @include b(popover) {
