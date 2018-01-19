@@ -2,7 +2,7 @@
 // @import "./checkbox";
 // @import "./tag";
 // @import "./tooltip";
-@import "app/variables";
+@import "common/var";
 
 @include b(table) {
   position: relative;
