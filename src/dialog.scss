@@ -1,7 +1,7 @@
 @import "mixins/mixins";
 @import "mixins/utils";
 @import "common/var";
-// @import "common/popup";
+@import "common/popup";
 
 // replaces the import of "popup"
 .v-modal-enter { animation: v-modal-in  .2s ease;          }
