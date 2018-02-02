@@ -6,21 +6,9 @@
   -ms-user-select: none;
   white-space: nowrap;
 }
-.el-autocomplete-suggestion,
-.el-card {
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-}
-.el-autocomplete-suggestion.is-loading .el-icon-loading,
-.el-badge,
-.el-button-group,
-.el-checkbox-button__inner,
-.el-checkbox__input {
-  vertical-align: middle;
-}
 .el-alert,
 .el-button,
 .el-card__header,
-.el-checkbox.is-bordered,
 .el-checkbox__inner {
   box-sizing: border-box;
 }
@@ -124,11 +112,6 @@
   right: 15px;
   cursor: pointer;
 }
-.el-autocomplete,
-.el-badge {
-  position: relative;
-  display: inline-block;
-}
 .el-alert__closebtn.is-customed {
   font-style: normal;
   font-size: 13px;
@@ -138,64 +121,10 @@
 .el-alert-fade-leave-active {
   opacity: 0;
 }
-.el-autocomplete-suggestion {
-  margin: 5px 0;
-  border-radius: 3px;
-}
-.el-autocomplete-suggestion.el-popper .popper__arrow {
-  left: 24px !important;
-}
-.el-autocomplete-suggestion__wrap {
-  max-height: 280px;
-  padding: 10px 0;
-  box-sizing: border-box;
-  overflow: auto;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-.el-autocomplete-suggestion__list {
-  margin: 0;
-  padding: 0;
-}
-.el-autocomplete-suggestion li {
-  padding: 0 20px;
-  margin: 0;
-  line-height: 34px;
-  cursor: pointer;
-  color: #222;
-  font-size: 13px;
-  list-style: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.el-autocomplete-suggestion li.highlighted,
-.el-autocomplete-suggestion li:hover {
-  background-color: #f2f2f2;
-}
-.el-autocomplete-suggestion li.divider {
-  margin-top: 6px;
-  border-top: 1px solid #000;
-}
-.el-autocomplete-suggestion li.divider:last-child {
-  margin-bottom: -6px;
-}
-.el-autocomplete-suggestion.is-loading li {
-  text-align: center;
-  height: 100px;
-  line-height: 100px;
-  font-size: 20px;
-  color: #999;
-}
-.el-autocomplete-suggestion.is-loading li::after {
-  display: inline-block;
-  content: "";
-  height: 100%;
+.el-badge {
+  position: relative;
   vertical-align: middle;
-}
-.el-autocomplete-suggestion.is-loading li:hover {
-  background-color: #fff;
+  display: inline-block;
 }
 .el-badge__content {
   background-color: #e60000;
@@ -668,6 +597,7 @@
 }
 .el-button-group {
   display: inline-block;
+  vertical-align: middle;
 }
 .el-button-group::after,
 .el-button-group::before {
@@ -756,6 +686,7 @@
   border: 1px solid #ccc;
   background-color: #fff;
   overflow: hidden;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   color: #222;
 }
 .el-card__header {
@@ -773,6 +704,7 @@
 .el-checkbox-button__inner,
 .el-checkbox__input {
   white-space: nowrap;
+  vertical-align: middle;
   outline: 0;
 }
 .el-checkbox {
@@ -792,6 +724,7 @@
   padding: 8px 16px 8px 8px;
   border-radius: 3px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
   line-height: normal;
   height: 26px;
 }
