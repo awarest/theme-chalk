@@ -185,7 +185,7 @@ $--alert-icon-size:                        $font-lg;                 //16px;
 $--alert-icon-large-size:                  $font-xl;                 //28px;
 
 /*MessageBox--------------------------*/
-$--msgbox-width:                           $width - $md - $md;       //420px;
+$--msgbox-width:                           $width - 1rem;            //420px;
 $--msgbox-border-radius:                   $radius;                  //4px;
 $--msgbox-font-size:                       $font-lg;                 //18px;
 $--msgbox-content-font-size:               $font-md;                 //14px;
@@ -193,12 +193,12 @@ $--msgbox-error-font-size:                 $font-sm;                 //12px;
 $--msgbox-padding-primary:                 $lg;                      //15px;
 
 /*Message--------------------------*/
-$--message-min-width:                      $width - $md - $md;       //380px;
+$--message-min-width:                      $width - 1rem;            //380px;
 $--message-padding:                        $lg $lg $lg $lg;          //15px 15px 15px 20px;
 $--message-close-size:                     $font-lg;                 //16px;
 
 /*Notification--------------------------*/
-$--notification-width:                     $width - $lg - $lg - $md; //330px;
+$--notification-width:                     $width - 2.5rem;          //330px;
 $--notification-padding:                   $lg ($lg + $md) $lg $lg;  //14px 26px 14px 13px;
 $--notification-radius:                    $radius * 2;              //8px;
 $--notification-icon-size:                 $font-lg;                 //24px;

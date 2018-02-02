@@ -1996,7 +1996,7 @@
 }
 .el-message-box {
   display: inline-block;
-  width: 384px;
+  width: 24rem;
   padding-bottom: 10px;
   vertical-align: middle;
   background-color: #fff;
@@ -2170,7 +2170,7 @@
   }
 }
 .el-message {
-  min-width: 384px;
+  min-width: 24rem;
   box-sizing: border-box;
   border-radius: 3px;
   border-width: 1px;
@@ -2260,7 +2260,7 @@
 }
 .el-notification {
   display: flex;
-  width: 360px;
+  width: 22.5rem;
   padding: 16px 24px 16px 16px;
   border-radius: 6px;
   box-sizing: border-box;

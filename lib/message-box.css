@@ -25,7 +25,7 @@
 }
 .el-message-box {
   display: inline-block;
-  width: 384px;
+  width: 24rem;
   padding-bottom: 10px;
   vertical-align: middle;
   background-color: #fff;

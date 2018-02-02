@@ -3,7 +3,7 @@
   outline-width: 0;
 }
 .el-message {
-  min-width: 384px;
+  min-width: 24rem;
   box-sizing: border-box;
   border-radius: 3px;
   border-width: 1px;
